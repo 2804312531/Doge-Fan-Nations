@@ -17,8 +17,7 @@
 	{
 		"name": "Cowardly Bunch",
 		"uniques": [
-			"[+5]% Strength <when defending> <for [Land] units>",
-			"[-5]% Strength <when attacking> <for [Land] units>",
+			"[-10]% Strength <when attacking> <for [Melee] units>",
 			"Withdraws before melee combat <with [25]% chance> <for [Land] units>"
 		]
 	},
@@ -28,8 +27,10 @@
 			"Gain control over [all] tiles in a [0]-tile radius <in [Mycelium] tiles> <upon turn end>",
 			"Gain control over [all] tiles in a [0]-tile radius <in [Mycelium] tiles> <for [0] movement> <after which this unit is consumed>"
 			"Double movement in [Mycelium]",
-			"[+25]% Strength <in [Mycelium] tiles>",
-			"[-33]% Strength <in tiles without [City center]> <in tiles without [Mycelium]>",
+			"[+15]% Strength <in [Mycelium] tiles> <for [Melee] units>",
+			"[+15]% Strength <when defending> <in [Mycelium] tiles> <for [Ranged] units>",
+			"[-15]% Strength <in tiles without [City center]> <in tiles without [Mycelium]> <for [Melee] units>",
+			"[-15]% Strength <when defending> <in tiles without [City center]> <in tiles without [Mycelium]> <for [Ranged] units>",
 			/*"[This Unit] takes [5] damage <in [All] tiles> <upon turn end>",*/
 			"[This Unit] heals [5] HP <in [Mycelium] tiles> <upon turn end>",
 			"[This Unit] takes [5] damage <in tiles without [City center]> <in tiles without [Mycelium]> <with [0] to [0] neighboring [City center] tiles> <with [0] to [0] neighboring [Mycelium] tiles> <upon ending a turn in a [All] tile>"

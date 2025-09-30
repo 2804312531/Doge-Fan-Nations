@@ -13,7 +13,7 @@
                 ]
             },
             {
-                "text": "燃基米",
+                "text": "Kindled Offering to the Sun",
                 "uniques": [
                     "Play [chimes] sound",
                     "[+1 Faith] per [1] population [in all cities] <for [1] turns>",
@@ -26,32 +26,32 @@
         ]
     },
     {
-        "name": "Legacy Choice",
-        "text": "卡西乌斯•诺克斯的先人死后将遗物分给各子嗣 他选择了...",
+        "name": "Heirlooms Choice",
+        "text": "Cassius Knox's grandfather distributed the heirlooms among his descendants after his death... and Cassius chose...",
         "choices": [
             {
-                "text": "金钱",
+                "text": "A sum of wealth",
                 "uniques": [
                     "Play [chimes] sound",
                     "Gain [50]-[100] [Gold] <(modified by game speed)>"
                 ]
             },
             {
-                "text": "家史",
+                "text": "The Bloodline's History",
                 "uniques": [
                     "Play [chimes] sound",
                     "Gain [20] [Culture] <(modified by game speed)>"
                 ]
             },
             {
-                "text": "工艺",
+                "text": "Old Craft",
                 "uniques": [
                     "Play [chimes] sound",
                     "[1] free random researchable Tech(s) from the [Ancient era]"
                 ]
             },
             {
-                "text": "圣像",
+                "text": "Effigy",
                 "uniques": [
                     "Play [chimes] sound",
                     "Gain enough Faith for a Pantheon"
@@ -61,14 +61,14 @@
     },
     {
         "name": "The Progenitor awakens.",
-        "text": "卡西乌斯•诺克斯的先人再度降临人间",
+        "text": "The Progenitor awakens.",
         "choices": [
             {
                 "text": "The Progenitor awakens.",
                 "uniques": [
                     "Play [chimes] sound",
                     "Free [Progenitor] appears",
-                    "Triggers the following global alert: [古老的力量已降临人间! 人们能击败他吗?]"
+                    "Triggers the following global alert: [Can he be defeated once more by mortal hands?]"
                 ]
             }
         ]

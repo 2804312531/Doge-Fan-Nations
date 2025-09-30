@@ -234,7 +234,7 @@
 			"[+25]% [Science] <in [Puppeted] cities> <after adopting [Monarchy]>",
 			"[+25]% [Culture] <in [Puppeted] cities> <after adopting [Monarchy]>",
 			"Triggers a [The Progenitor awakens.] event <after adopting [Tradition Complete]>",
-			"Triggers a [Legacy Choice] event <when above [0] [Turn]> <when below [2] [Turn]> <upon turn end>"
+			"Triggers a [Heirlooms Choice] event <when above [0] [Turn]> <when below [2] [Turn]> <upon turn end>"
 		],
 		"cities": [
 			"Helframoros",

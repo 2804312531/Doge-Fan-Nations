@@ -31,8 +31,7 @@
 			"Can be built outside your borders",
 			"Gain control over [all] tiles in a [0]-tile radius",
 			"Adjacent enemy units ending their turn take [5] damage <for [Vulpine] Civilizations>",
-			"[-99 Production, -99 Food, -99 Gold, -99 Science, -99 Culture, -99 Faith] <for [non-[Vulpine]] Civilizations>",
-			"Costs [1] [Gold] per turn"
+			"[-99 Production, -99 Food, -99 Gold, -99 Science, -99 Culture, -99 Faith] <for [non-[Vulpine]] Civilizations>"
 		],
 		"shortcutKey": "S"
 	},
