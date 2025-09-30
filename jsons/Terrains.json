@@ -1,0 +1,25 @@
+[
+	{
+		"name": "Mycelium",
+		"type": "TerrainFeature",
+		"food": 1,
+		"production": 1,
+		"movementCost": 2,
+		"overrideStats": true,
+		"unbuildable": false,
+		"defenceBonus": 0.25,
+		"occursOn": [
+			"Tundra",
+			"Plains",
+			"Grassland",
+			"Hill"
+		],
+		"uniques": [
+			"Rough terrain",
+			"Vegetation",
+			"Blocks line-of-sight from tiles at same elevation",
+			"[0]% Chance to be destroyed by nukes",
+			"Must be adjacent to [99] to [99] [Fountain of Youth] tiles"
+		]
+	}
+]

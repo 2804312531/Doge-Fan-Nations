@@ -1,0 +1,248 @@
+[
+	{
+		"name": "Vulpine",
+		"leaderName": "Buddy",
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Domination",
+		"personality": "入机",
+		"favoredReligion": "Taoism",
+		"outerColor": [
+			223,
+			131,
+			68
+		],
+		"innerColor": [
+			255,
+			255,
+			255
+		],
+		"uniqueName": "Your Old Buddy",
+		"uniques": [
+			"[{Military} {Land}] units gain the [Sit] promotion"
+		],
+		"cities": [
+			"Aurora",
+			"Silverbridge",
+			"Northwood",
+			"Redfield",
+			"Glenmore",
+			"Fellsworth",
+			"Cinderford",
+			"Pinecrest",
+			"Foxcross",
+			"Riverside",
+			"Highcliff",
+			"Amberwood",
+			"Swiftwater",
+			"Copperhill",
+			"Ashford"
+		],
+		"spyNames": [
+			"Russet",
+			"Corvin",
+			"Silas",
+			"Pyrrhus",
+			"Stellan",
+			"Lysander",
+			"Sienna",
+			"Lyra",
+			"Faye",
+			"Vesper",
+			"Sage",
+			"Briar",
+			"Shade",
+			"Riddle",
+			"Wraith",
+			"Cipher"
+		]
+	},
+	{
+		"name": "Wanpasha",
+		"leaderName": "The King of Ten Thousand Kings",
+		"preferredVictoryType": "Domination",
+		"personality": "入机",
+		"outerColor": [
+			178,
+			28,
+			82
+		],
+		"innerColor": [
+			255,
+			204,
+			0
+		],
+		"uniqueName": "A Myriad Halls and Palaces",
+		"uniques": [
+			"[+2 Culture] from all [Palace] buildings"
+		],
+		"cities": [
+			"Morning Radiance",
+			"Ethereal Dream",
+			"Auspicious Mist",
+			"Condensed Fragrance",
+			"Wandering Clouds",
+			"Stellar Haze",
+			"Lunar Haze",
+			"Snowfall Melody",
+			"Phoenix Plume",
+			"Dragon Spire",
+			"Cloud Peak",
+			"Azure Heights",
+			"Gemstone Light",
+			"Frost Bloom",
+			"Rainbow Abyss",
+			"Verdant Ridge",
+			"Penglai",
+			"Celestial Pivot",
+			"Soaring Breeze",
+			"Cerulean Expanse"
+		]
+	},
+	{
+		"name": "Atlantis",
+		"leaderName": "Atlas",
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		"personality": "入机",
+		"outerColor": [
+			0,
+			48,
+			90
+		],
+		"innerColor": [
+			212,
+			175,
+			55
+		],
+		"uniqueName": "The Lost People",
+		"uniques": [
+			"[+10]% Strength",
+			"[-10]% Strength <when fighting units from a Civilization with more Cities than you>",
+			"[+1 Production, +1 Science] from [Atoll] tiles [in this city]"
+		],
+		"cities": [
+			"Poseidonis",
+			"Critias",
+			"Atlantis",
+			"Elysium",
+			"Cyclope",
+			"Thalassa",
+			"Halon",
+			"Actus",
+			"Oreichia",
+			"Heliopolis-Sothis",
+			"Nemesis",
+			"Oneiros"
+		]
+	},
+	{
+		"name": "Rimeweave",
+		"leaderName": "U-Ring Fungus",
+		"startBias": [
+			"Jungle"
+		],
+		"preferredVictoryType": "Domination",
+		"personality": "入机",
+		"outerColor": [
+			74,
+			0,
+			117
+		],
+		"innerColor": [
+			229,
+			228,
+			223
+		],
+		"uniqueName": "Veindead Edict",
+		"uniques": [
+			"[All] units gain the [Rimescar] promotion",
+			"[+2147483647]% Culture cost of natural border growth [in this city]",
+			"[+2147483647]% Gold cost of acquiring tiles [in this city]",
+			"[+1 Happiness] from [Mycelium] tiles [in all cities]",
+			"[25]% of excess happiness converted to [Science]",
+			"[25]% of excess happiness converted to [Culture]",
+			/*"Gain a free [主脑] [in all cities]"*/
+			"Comment [A wind laden with spores sweeps through the veins of the world's dreams, weaving silence into an eternal dynasty.]"
+		],
+		"cities": [
+			"Heartspore",
+			"Crystframe",
+			"Spore-root",
+			"Hushdream",
+			"Rimeweave",
+			"Everdream",
+			"Paledeep",
+			"Marrow-node",
+			"Bloomspire",
+			"Sporewood"
+		]
+	},
+	{
+		"name": "The Meow",
+		"leaderName": "Elder Cat",
+		"startBias": [
+			"Forest"
+		],
+		"preferredVictoryType": "Domination",
+		"personality": "入机",
+		"outerColor": [
+			190,
+			130,
+			100
+		],
+		"innerColor": [
+			255,
+			255,
+			255
+		],
+		"uniqueName": "Praise the Sun",
+		"uniques": [
+			"[All] units gain the [Kitling] promotion",
+			"[+1]% [Production] <for every [6] [Karma]>",
+			"Triggers a [Praise the Sun] event <every [11] turns> <upon turn end>"
+		],
+		"cities": [
+			"Catnip Grove",
+			"Tri-Fish Creek",
+			"Cat's Eye Geode",
+			"Silverglow"
+		]
+	},
+	{
+		"name": "The Kindred",
+		"leaderName": "Cassius Knox",
+		"startBias": [
+			"Forest"
+		],
+		"preferredVictoryType": "Domination",
+		"personality": "入机",
+		"outerColor": [
+			94,
+			9,
+			19
+		],
+		"innerColor": [
+			255,
+			255,
+			255
+		],
+		"uniqueName": "Crimson Suzerainty",
+		"uniques": [
+			"[Sword] units gain the [Bloodline] promotion",
+			"May buy items in puppet cities",
+			"May not annex cities",
+			"[+25]% [Science] <in [Puppeted] cities> <after adopting [Monarchy]>",
+			"[+25]% [Culture] <in [Puppeted] cities> <after adopting [Monarchy]>",
+			"Triggers a [The Progenitor awakens.] event <after adopting [Tradition Complete]>",
+			"Triggers a [Legacy Choice] event <when above [0] [Turn]> <when below [2] [Turn]> <upon turn end>"
+		],
+		"cities": [
+			"Helframoros",
+			"Harjalrunes",
+			"Rikegaz",
+			"Sliuhalles",
+			"Svatabegs",
+			"Brodzwih"
+		]
+	}
+]

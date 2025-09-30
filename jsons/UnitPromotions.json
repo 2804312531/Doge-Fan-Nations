@@ -1,0 +1,75 @@
+[
+	{
+		"name": "Sit",
+		"uniques": [
+			"Can instantly construct a [Fox] improvement <[1] times> <after which this unit is consumed>",
+			"May Paradrop to [Fox] tiles up to [3] tiles away <in [all] tiles>",
+			"[+10]% Strength <when defending> <in [Fox] tiles>",
+			"[This Unit] heals [5] HP <in [Fox] tiles> <upon turn end>"
+		]
+	},
+	{
+		"name": "Banner of the King of Kings",
+		"uniques": [
+			"[+25]% Strength <when adjacent to a [Military] unit>"
+		]
+	},
+	{
+		"name": "Cowardly Bunch",
+		"uniques": [
+			"[+5]% Strength <when defending> <for [Land] units>",
+			"[-5]% Strength <when attacking> <for [Land] units>",
+			"Withdraws before melee combat <with [25]% chance> <for [Land] units>"
+		]
+	},
+	{
+        "name": "Rimescar",
+	    "uniques": [
+			"Gain control over [all] tiles in a [0]-tile radius <in [Mycelium] tiles> <upon turn end>",
+			"Gain control over [all] tiles in a [0]-tile radius <in [Mycelium] tiles> <for [0] movement> <after which this unit is consumed>"
+			"Double movement in [Mycelium]",
+			"[+25]% Strength <in [Mycelium] tiles>",
+			"[-33]% Strength <in tiles without [City center]> <in tiles without [Mycelium]>",
+			/*"[This Unit] takes [5] damage <in [All] tiles> <upon turn end>",*/
+			"[This Unit] heals [5] HP <in [Mycelium] tiles> <upon turn end>",
+			"[This Unit] takes [5] damage <in tiles without [City center]> <in tiles without [Mycelium]> <with [0] to [0] neighboring [City center] tiles> <with [0] to [0] neighboring [Mycelium] tiles> <upon ending a turn in a [All] tile>"
+			/*"Turn this tile into a [Mycelium] tile <upon being defeated>"*/
+		]
+	},
+	{
+        "name": "Kitling",
+	    "uniques": [
+			"[Target Unit] gains the [Warrior of Sunlight] status for [1] turn(s) <for [0] movement> <when above [23] [Catnip]>",
+			"Instantly provides [1] [Karma] <upon being defeated>"
+		]
+	},
+	{
+        "name": "Warrior of Sunlight",
+	    "uniques": [
+			"[1] additional attacks per turn",
+			"Instantly consumes [24] [Catnip]"
+		]
+	},
+	{
+        "name": "Flustered",
+	    "uniques": [
+			"[-1] Movement"
+		]
+	},
+	{
+        "name": "Bloodline",
+	    "uniques": [
+			"[+25]% Strength",
+			"Heals [25] damage if it kills a unit",
+			"Can transform to [Bat] <for [0] movement>"
+		]
+	},
+	{
+        "name": "Pureblood",
+	    "uniques": [
+			"[+25]% Strength",
+			"Comment [100％ Capture Military]",
+			"Unit will heal every turn, even if it performs an action"
+		]
+	}
+]

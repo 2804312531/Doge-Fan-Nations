@@ -1,0 +1,247 @@
+[
+	{
+		"name": "Petty King",
+		"uniqueTo": "Wanpasha",
+		"cost": 400,
+		"uniques": [
+			"Gain a free [Palace] [in this city]",
+			"Empire enters golden age",
+			"Destroyed when the city is captured",
+			"Unbuildable <in cities with a [Palace]>",
+			"Unsellable"
+		]
+	},
+/*	{
+		"name": "主脑",
+		"uniqueTo": "霜络",
+		"cost": 1,
+		"uniques": [
+			"Destroyed when the city is captured",
+			"[1] free [晶霜] units appear <every [1] turns> <upon turn end>",
+			"Unbuildable",
+			"Unsellable"
+		]
+	},*/
+	{
+		"name": "Enable the Embrace",
+		"uniqueTo": "The Kindred",
+		"cost": 0,
+		"uniques": [
+			"Play [chimes] sound",
+			"Provides [1] [Enable the Embrace]",
+			"Triggers the following global alert: [[The Kindred]is expanding its military!]",
+			"Can only be built <in [Capital] cities>",
+			"Destroyed when the city is captured",
+			"Remove [Disable the Embrace] [in this city]",
+		]
+	},
+	{
+		"name": "Disable the Embrace",
+		"uniqueTo": "The Kindred",
+		"cost": 0,
+		"uniques": [
+			"Play [chimes] sound",
+			"Triggers the following global alert: [[The Kindred]has halted its military expansion!]",
+			"Can only be built <in [Capital] cities>",
+			"Destroyed when the city is captured",
+			"Remove [Enable the Embrace] [in this city]",
+		]
+	},
+	{
+		"name": "The Embrace - Bat",
+		"uniqueTo": "The Kindred",
+		"cost": 0,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": [
+			"Play [chimes] sound",
+			"[1] free [Bat] units appear",
+			"[-1] population [in this city]",
+			"Remove [The Embrace - Bat] [in this city]",
+			"Requires at least [3] population",
+			"Only available <when above [0] [Enable the Embrace]>"
+		]
+	},
+	{
+		"name": "The Embrace - Warrior I",
+		"uniqueTo": "The Kindred",
+		"cost": 0,
+		"obsoleteTech": "Metal Casting",
+		"uniques": [
+			"Play [chimes] sound",
+			"[1] free [Warrior] units appear",
+			"[-1] population [in this city]",
+			"Remove [The Embrace - Warrior I] [in this city]",
+			"Requires at least [4] population",
+			"Only available <when above [0] [Enable the Embrace]>"
+		]
+	},
+	{
+		"name": "The Embrace - Warrior II",
+		"uniqueTo": "The Kindred",
+		"cost": 0,
+		"obsoleteTech": "Metal Casting",
+		"uniques": [
+			"Play [chimes] sound",
+			"[1] free [Warrior] units appear",
+			"[-2] population [in this city]",
+			"Remove [The Embrace - Warrior II] [in this city]",
+			"Requires at least [3] population",
+			"Only available <when above [0] [Enable the Embrace]>"
+		]
+	},
+	{
+		"name": "The Embrace - Spearman I",
+		"uniqueTo": "The Kindred",
+		"cost": 0,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"uniques": [
+			"Play [chimes] sound",
+			"[1] free [Spearman] units appear",
+			"[-1] population [in this city]",
+			"Remove [The Embrace - Spearman I] [in this city]",
+			"Requires at least [5] population",
+			"Only available <when above [0] [Enable the Embrace]>"
+		]
+	},
+	{
+		"name": "The Embrace - Spearman II",
+		"uniqueTo": "The Kindred",
+		"cost": 0,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"uniques": [
+			"Play [chimes] sound",
+			"[1] free [Spearman] units appear",
+			"[-2] population [in this city]",
+			"Remove [The Embrace - Spearman II] [in this city]",
+			"Requires at least [4] population",
+			"Only available <when above [0] [Enable the Embrace]>"
+		]
+	},
+	{
+		"name": "The Embrace - Swordsman I",
+		"uniqueTo": "The Kindred",
+		"cost": 0,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Steel",
+		"uniques": [
+			"Play [chimes] sound",
+			"[1] free [Swordsman] units appear",
+			"[-1] population [in this city]",
+			"Remove [The Embrace - Swordsman I] [in this city]",
+			"Requires at least [6] population",
+			"Only available <when above [0] [Iron]>",
+			"Only available <when above [0] [Enable the Embrace]>"
+		]
+	},
+	{
+		"name": "The Embrace - Swordsman II",
+		"uniqueTo": "The Kindred",
+		"cost": 0,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Steel",
+		"uniques": [
+			"Play [chimes] sound",
+			"[1] free [Swordsman] units appear",
+			"[-2] population [in this city]",
+			"Remove [The Embrace - Swordsman II] [in this city]",
+			"Requires at least [4] population",
+			"Only available <when above [0] [Iron]>",
+			"Only available <when above [0] [Enable the Embrace]>"
+		]
+	},
+	{
+		"name": "The Embrace - Pikeman I",
+		"uniqueTo": "The Kindred",
+		"cost": 0,
+		"requiredTech": "Civil Service",
+		"obsoleteTech": "Metallurgy",
+		"uniques": [
+			"Play [chimes] sound",
+			"[1] free [Pikeman] units appear",
+			"[-1] population [in this city]",
+			"Remove [The Embrace - Pikeman I] [in this city]",
+			"Requires at least [7] population",
+			"Only available <when above [0] [Enable the Embrace]>"
+		]
+	},
+	{
+		"name": "The Embrace - Pikeman II",
+		"uniqueTo": "The Kindred",
+		"cost": 0,
+		"requiredTech": "Civil Service",
+		"obsoleteTech": "Metallurgy",
+		"uniques": [
+			"Play [chimes] sound",
+			"[1] free [Pikeman] units appear",
+			"[-2] population [in this city]",
+			"Remove [The Embrace - Pikeman II] [in this city]",
+			"Requires at least [5] population",
+			"Only available <when above [0] [Enable the Embrace]>"
+		]
+	},
+	{
+		"name": "The Embrace - Pikeman III",
+		"uniqueTo": "The Kindred",
+		"cost": 0,
+		"requiredTech": "Civil Service",
+		"obsoleteTech": "Metallurgy",
+		"uniques": [
+			"Play [chimes] sound",
+			"[1] free [Pikeman] units appear",
+			"[-3] population [in this city]",
+			"Remove [The Embrace - Pikeman III] [in this city]",
+			"Requires at least [4] population",
+			"Only available <when above [0] [Enable the Embrace]>"
+		]
+	},
+	{
+		"name": "The Embrace - Longswordsman I",
+		"uniqueTo": "The Kindred",
+		"cost": 0,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Gunpowder",
+		"uniques": [
+			"Play [chimes] sound",
+			"[1] free [Longswordsman] units appear",
+			"[-1] population [in this city]",
+			"Remove [The Embrace - Longswordsman I] [in this city]",
+			"Requires at least [9] population",
+			"Only available <when above [0] [Iron]>",
+			"Only available <when above [0] [Enable the Embrace]>"
+		]
+	},
+	{
+		"name": "The Embrace - Longswordsman II",
+		"uniqueTo": "The Kindred",
+		"cost": 0,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Gunpowder",
+		"uniques": [
+			"Play [chimes] sound",
+			"[1] free [Longswordsman] units appear",
+			"[-2] population [in this city]",
+			"Remove [The Embrace - Longswordsman II] [in this city]",
+			"Requires at least [6] population",
+			"Only available <when above [0] [Iron]>",
+			"Only available <when above [0] [Enable the Embrace]>"
+		]
+	},
+	{
+		"name": "The Embrace - Longswordsman III",
+		"uniqueTo": "The Kindred",
+		"cost": 0,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Gunpowder",
+		"uniques": [
+			"Play [chimes] sound",
+			"[1] free [Longswordsman] units appear",
+			"[-3] population [in this city]",
+			"Remove [The Embrace - Longswordsman III] [in this city]",
+			"Requires at least [5] population",
+			"Only available <when above [0] [Iron]>",
+			"Only available <when above [0] [Enable the Embrace]>"
+		]
+	}
+]

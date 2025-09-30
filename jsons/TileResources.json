@@ -1,0 +1,33 @@
+[
+	{
+		"name": "Turn",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Catnip",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Karma",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Enable the Embrace",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Cannot be traded"
+		]
+	}
+]

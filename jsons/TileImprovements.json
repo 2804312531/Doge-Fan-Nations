@@ -1,0 +1,88 @@
+[
+	{
+		"name": "Auto-Berry Mine",
+		"replaces": "Farm",
+		"uniqueTo": "Vulpine",
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Flood plains"
+		],
+		"food": 1,
+		"turnsToBuild": 4,
+		"techRequired": "Agriculture",
+		"uniques": [
+			"Can also be built on tiles adjacent to fresh water",
+			"[+1 Food] <after discovering [Construction]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "B"
+	},
+	{
+		"name": "Fox",
+		"uniqueTo": "Vulpine",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"uniques": [
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"Can be built outside your borders",
+			"Gain control over [all] tiles in a [0]-tile radius",
+			"Adjacent enemy units ending their turn take [5] damage <for [Vulpine] Civilizations>",
+			"[-99 Production, -99 Food, -99 Gold, -99 Science, -99 Culture, -99 Faith] <for [non-[Vulpine]] Civilizations>",
+			"Costs [1] [Gold] per turn"
+		],
+		"shortcutKey": "S"
+	},
+	{
+		"name": "Crystallacta Plantation",
+		"uniqueTo": "Rimeweave",
+		"terrainsCanBeBuiltOn": [
+			"Mycelium"
+		],
+		"science": 1,
+		"faith": 1,
+		"turnsToBuild": 6,
+		"techRequired": "Calendar",
+		"uniques": [
+			"[+1 Science] <after discovering [Scientific Theory]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Catnip Field",
+		"replaces": "Farm",
+		"uniqueTo": "The Meow",
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Flood plains"
+		],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Agriculture",
+		"uniques": [
+			"Provides [1] [Catnip]",
+			"Provides [1] [Catnip] <during a Golden Age>",
+			"Can also be built on tiles adjacent to fresh water",
+			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+			"Pillaging this improvement yields approximately [+18 Gold]"
+		],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Remove Mycelium",
+		"turnsToBuild": 7,
+		"techRequired": "Bronze Working",
+		"uniques": [
+			"Can be built outside your borders",
+			"Excluded from map editor"
+		],
+		"shortcutKey": "X"
+	}
+]
