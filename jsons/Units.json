@@ -6,8 +6,9 @@
 		"cost": 106,
 		"uniques": [
 			"Founds a new city <by consuming this unit> <for [non-[Rimeweave]] Civilizations>",
-			"Founds a new city <when number of [[in capital] Cities] is less than [1]>",
-			"Founds a new city <by consuming this unit> <with [1] to [6] neighboring [Mycelium] tiles>",
+			"Founds a new city <if [Palace] is not constructed>",
+			"Founds a new city <by consuming this unit> <with [1] to [6] neighboring [Mycelium] tiles> <for [AI player] Civilizations> <hidden from users>",
+			"Founds a new city <by consuming this unit> <for [AI player] Civilizations> <hidden from users>",
 			"Excess Food converted to Production when under construction",
 			"Requires at least [2] population",
 		],
@@ -21,7 +22,7 @@
 		"movement": 2,
 		"cost": 106,
 		"uniques": [
-			"Founds a new city <by consuming this unit> <when number of [[in capital] Cities] is less than [1]>",
+			"Founds a new city <by consuming this unit> <if [Palace] is not constructed>",
 			"Founds a new puppet city <by consuming this unit>",
 			"Excess Food converted to Production when under construction",
 			"Requires at least [2] population"
@@ -94,6 +95,9 @@
 		"uniques": [
 			"Turn this tile into a [Mycelium] tile <for [0] movement> <[2] times> <after which this unit is consumed> <with [1] to [6] neighboring [City center] tiles> <in [Land] tiles>",
 			"Turn this tile into a [Mycelium] tile <for [0] movement> <[2] times> <after which this unit is consumed> <with [1] to [6] neighboring [Mycelium] tiles> <in [Land] tiles>",
+			"Turn this tile into a [Mycelium] tile <in [Land] tiles> <upon turn end> <for [AI player] Civilizations> <hidden from users>",
+			"Founds a new city <by consuming this unit> <for [AI player] Civilizations> <hidden from users>",
+			"[-100]% maintenance costs <for [AI player] Civilizations> <hidden from users>",
 			/*"[Target Unit] gains the [Mode1] promotion <[1] times> <if it hasn't used other actions yet>",
 			"[Target Unit] gains the [Mode2] promotion <[1] times> <if it hasn't used other actions yet>",*/
 			"Uncapturable"

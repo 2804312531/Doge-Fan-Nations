@@ -4,268 +4,296 @@ size: 2048, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+BuildingIcons/Arms Forge
+  rotate: false
+  xy: 1588, 640
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Enable the Embrace
   rotate: false
-  xy: 532, 176
+  xy: 532, 220
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 ResourceIcons/Enable the Embrace
   rotate: false
-  xy: 532, 176
+  xy: 532, 220
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 BuildingIcons/Petty King
   rotate: false
-  xy: 1852, 895
+  xy: 1588, 567
   size: 83, 65
   orig: 83, 65
   offset: 0, 0
   index: -1
 ImprovementIcons/Auto-Berry Mine
   rotate: false
-  xy: 4, 440
+  xy: 4, 484
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 ImprovementIcons/Fox
   rotate: false
-  xy: 796, 440
+  xy: 796, 484
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
+ImprovementIcons/High Fort
+  rotate: false
+  xy: 1852, 904
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Remove Mycelium
   rotate: false
-  xy: 1588, 596
+  xy: 112, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Aishira
+  rotate: false
+  xy: 4, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Atlantis
   rotate: false
-  xy: 4, 704
+  xy: 4, 748
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitIcons/Tridentman
   rotate: false
-  xy: 4, 704
+  xy: 4, 748
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 NationIcons/The Kindred
   rotate: false
-  xy: 1060, 176
+  xy: 1060, 220
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitIcons/The Kindred and The Herd
   rotate: false
-  xy: 1060, 176
+  xy: 1060, 220
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 NationIcons/The Meow
   rotate: false
-  xy: 1324, 440
+  xy: 1324, 484
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 NationIcons/Vulpine
   rotate: false
-  xy: 1324, 176
+  xy: 1324, 220
   size: 170, 256
   orig: 170, 256
   offset: 0, 0
   index: -1
 NationIcons/Wanpasha
   rotate: false
-  xy: 1588, 704
+  xy: 1588, 748
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 ResourceIcons/Catnip
   rotate: false
-  xy: 532, 704
+  xy: 532, 748
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 ImprovementIcons/Catnip Field
   rotate: false
-  xy: 532, 704
+  xy: 532, 748
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 ResourceIcons/Karma
   rotate: false
-  xy: 4, 68
+  xy: 4, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Turn
   rotate: false
-  xy: 1588, 538
+  xy: 112, 54
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Bat
   rotate: false
-  xy: 268, 704
+  xy: 268, 748
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitIcons/Bat
   rotate: false
-  xy: 268, 704
+  xy: 268, 748
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Cettle
   rotate: false
-  xy: 532, 440
+  xy: 532, 484
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitIcons/Cettle
   rotate: false
-  xy: 532, 440
+  xy: 532, 484
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Progenitor
   rotate: false
-  xy: 1060, 704
+  xy: 1060, 748
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Auto-Berry Mine
   rotate: false
-  xy: 1502, 376
+  xy: 1502, 420
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Fox
   rotate: false
-  xy: 1502, 376
+  xy: 1502, 420
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Grassland+Hill+Mycelium
   rotate: false
-  xy: 4, 4
+  xy: 1696, 684
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Plains+Hill+Mycelium
   rotate: false
-  xy: 4, 4
+  xy: 1696, 684
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Tundra+Hill+Mycelium
   rotate: false
-  xy: 4, 4
+  xy: 1696, 684
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/High Fort
+  rotate: false
+  xy: 1852, 840
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Mycelium
   rotate: false
-  xy: 112, 112
+  xy: 1960, 948
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 UnitIcons/Blooded Marshal
   rotate: false
-  xy: 4, 176
+  xy: 4, 220
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitIcons/Ceremonial Chariot
   rotate: false
-  xy: 268, 176
+  xy: 268, 220
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitIcons/Crystallacta
   rotate: false
-  xy: 796, 704
+  xy: 796, 748
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 ImprovementIcons/Crystallacta Plantation
   rotate: false
-  xy: 796, 704
+  xy: 796, 748
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 NationIcons/Rimeweave
   rotate: false
-  xy: 796, 704
+  xy: 796, 748
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Crystallacta Plantation
   rotate: false
-  xy: 796, 704
+  xy: 796, 748
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitIcons/Progenitor
   rotate: false
-  xy: 796, 176
+  xy: 796, 220
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitIcons/Sponger
   rotate: false
-  xy: 1324, 704
+  xy: 1324, 748
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Bloodline
   rotate: false
-  xy: 268, 440
+  xy: 268, 484
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Sit
   rotate: false
-  xy: 1060, 440
+  xy: 1060, 484
   size: 256, 256
   orig: 256, 256
   offset: 0, 0

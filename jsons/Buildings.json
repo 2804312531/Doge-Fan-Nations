@@ -11,17 +11,17 @@
 			"Unsellable"
 		]
 	},
-/*	{
-		"name": "主脑",
-		"uniqueTo": "霜络",
+	{
+		"name": "Mastermind",
+		"uniqueTo": "Rimeweave",
 		"cost": 1,
 		"uniques": [
 			"Destroyed when the city is captured",
-			"[1] free [晶霜] units appear <every [1] turns> <upon turn end>",
-			"Unbuildable",
+			"[1] free [Crystallacta] units appear <every [1] turns> <upon turn end>",
+			"Unbuildable <for [Human player] Civilizations> <hidden from users>",
 			"Unsellable"
 		]
-	},*/
+	},
 	{
 		"name": "Enable the Embrace",
 		"uniqueTo": "The Kindred",
@@ -242,6 +242,20 @@
 			"Requires at least [5] population",
 			"Only available <when above [0] [Iron]>",
 			"Only available <when above [0] [Enable the Embrace]>"
+		]
+	},
+	{
+		"name": "Arms Forge",
+		"replaces": "Forge",
+		"uniqueTo": "Aishira",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Iron"],
+		"requiredTech": "Metal Casting",
+		"uniques": [
+			"All newly-trained [Land] units [in this city] receive the [Plated Armor, Bodkin Points] promotion"
+			"[+25]% Production when constructing [Land] units [in this city]",
+			"[+1 Production] from [Iron] tiles [in this city]"
 		]
 	}
 ]

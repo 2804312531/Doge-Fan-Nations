@@ -3,5 +3,9 @@
     "uniques": [
         "Provides [1] [Turn]",
         "When defeating a [Military] unit, earn [0] Gold and recruit it <for units with [Pureblood]>"
+    ],
+    "unitUniques": [
+        "[Target Unit] gains the [High] promotion <for [1] movement> <in [High Fort] tiles> <for units without [High]>",
+        "[Target Unit] loses the [High] promotion <for [1] movement> <for units with [High]>"
     ]
 }
