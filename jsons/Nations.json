@@ -18,7 +18,9 @@
 		],
 		"uniqueName": "Your Old Buddy",
 		"uniques": [
-			"[{Military} {Land}] units gain the [Sit] promotion"
+			"[+1] Movement <for [Military] units> <when stacked with a [Civilian] unit>",
+			"[+1] Movement <for [Civilian] units> <when stacked with a [Military] unit>",
+			"[All] units gain the [Sit] promotion"
 		],
 		"cities": [
 			"Aurora",
@@ -38,6 +40,7 @@
 			"Ashford"
 		],
 		"spyNames": [
+			"Buddy",
 			"Russet",
 			"Corvin",
 			"Silas",
@@ -73,7 +76,7 @@
 		],
 		"uniqueName": "A Myriad Halls and Palaces",
 		"uniques": [
-			"[+2 Culture] from all [Palace] buildings"
+			"[+2 Culture, +2 Gold] from all [Palace] buildings"
 		],
 		"cities": [
 			"Morning Radiance",
@@ -118,6 +121,7 @@
 		"uniques": [
 			"[+10]% Strength",
 			"[-10]% Strength <when fighting units from a Civilization with more Cities than you>",
+			"[+15]% Production when constructing [Water] units [in all cities]",
 			"[+1 Production, +1 Science] from [Atoll] tiles [in this city]"
 		],
 		"cities": [
@@ -160,7 +164,7 @@
 			"[+2147483647]% Gold cost of acquiring tiles [in this city]",
 			"[+1 Happiness] from [Mycelium] tiles [in all cities]",
 			"[100]% of excess happiness converted to [Science]",
-			"Gain a free [Mastermind] [in all cities] <for [AI player] Civilizations> <hidden from users>"
+			/*"Gain a free [Mastermind] [in all cities] <for [AI player] Civilizations> <hidden from users>"*/
 			"[32767] Unit Supply per city <for [AI player] Civilizations> <hidden from users>",
 			"Comment [A wind laden with spores sweeps through the veins of the world's dreams, weaving silence into an eternal dynasty.]"
 		],
@@ -245,52 +249,6 @@
 			"Brodzwih"
 		]
 	},
-/*	{
-		"name": "The Scions of Creation",
-		"leaderName": "Leader",
-		"startBias": [
-			"Hill"
-		],
-		"preferredVictoryType": "Domination",
-		"personality": "入机",
-		"outerColor": [
-			46,
-			139,
-			87
-		],
-		"innerColor": [
-			158,
-			42,
-			43
-		],
-		"uniqueName": "The Artifice of Creation",
-		"uniques": [
-			"Enables conversion of city production to [Food]",
-			"Production to [Food] conversion in cities changed by [300]%"
-		],
-		"cities": [
-			"Breath-Soil Citadel",
-			"Creation's Crucible",
-			"Pentachrome Capital",
-			"Astromancy Spire",
-			"Clay-Shaping Atelier",
-			"Gritstone Valley",
-			"Cerulean Haze Pass",
-			"Aureate Moss Steppe",
-			"Stone-Flow River",
-			"Rich-Earth Desert",
-			"Cosmos'Order Enclave",
-			"Primordial Matter Plain",
-			"First Principle Keep",
-			"Celestial Craft Haven",
-			"Karmic Weave Bazaar",
-			"Old Kiln Township",
-			"Unquenchable Forge",
-			"First Artisans'Commune",
-			"Viridescent Scepter Hold",
-			"Resonant Bastion"
-		]
-	}*/
 	{
 		"name": "Aishira",
 		"leaderName": "Rex",
@@ -332,6 +290,58 @@
 			"Resonance"
 			"The Flowing Court"
 			"Mirrorlake Deep"
+		]
+	},
+	{
+		"name": "Obitos",
+		"leaderName": "Catalina",
+		"startBias": [
+			"Grassland"
+		],
+		"preferredVictoryType": "Domination",
+		"personality": "入机",
+		"outerColor": [
+			40,
+			40,
+			40
+		],
+		"innerColor": [
+			255,
+			200,
+			50
+		],
+		"uniqueName": "Catalytic Processing",
+		"uniques": [
+			"[All] units gain the [Living Metal Forging] promotion",
+			"[Worker] units gain the [Can build [Catalytic Processing Plant] improvements on tiles] promotion",
+			"[+10]% Production when constructing [All] units [in all cities]"
+		],
+		"cities": [
+			"Catalytic Core",
+			"Ferrum Vitalis",
+			"Animaforge",
+			"Sideros Foundry",
+			"Bio-Chrysopoeia",
+			"Protopolis",
+			"Vitalloy Works",
+			"Metalligaea",
+			"The Iron Cradle",
+			"Flesh-Steel Confluence",
+			"Aetherium",
+			"The Silver Mycelium",
+			"Azoth",
+			"Vital-Spark Nexus",
+			"The Gilded Vat",
+			"Caelum Ferrum",
+			"The Ossuary Spire",
+			"Soma-Crucible",
+			"Argentum Natura",
+			"The Alchemical Heart",
+			"Ignis Vivus",
+			"The Metallic Bloom",
+			"Aurum Lumen",
+			"Viridian Anvil",
+			"The Philosopher's Foundry"
 		]
 	}
 ]

@@ -9,7 +9,6 @@
                     "Play [chimes] sound",
                     "[+1 Faith] per [1] population [in all cities] <for [1] turns>",
                     "Empire enters a [1]-turn Golden Age",
-                    "[+25]% Strength <for [Military] units> <for [1] turns>"
                 ]
             },
             {
@@ -18,9 +17,9 @@
                     "Play [chimes] sound",
                     "[+1 Faith] per [1] population [in all cities] <for [1] turns>",
                     "Empire enters a [1]-turn Golden Age",
-                    "[+15]% Strength <for [Military] units> <for [1] turns>",
                     "[-1] population in a random city",
-                    "Instantly provides [6] [Karma]",
+                    "Instantly provides [12] [Catnip]",
+                    "Instantly provides [6] [Karma]"
                 ]
             }
         ]

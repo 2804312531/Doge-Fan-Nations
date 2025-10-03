@@ -1,14 +1,5 @@
 [
     {
-        "name": "Monument to the Gods",
-        "type": "Pantheon",
-        "uniques": [
-            "[+10]% Production when constructing [All] wonders [in cities following this religion]",
-            "[+10]% Production when constructing [Petty King] buildings [in all cities]",
-            "[+1 Faith] from every [World Wonder]",
-        ]
-    },
-    {
         "name": "Self-preservation",
         "type": "Pantheon",
         "uniques": [

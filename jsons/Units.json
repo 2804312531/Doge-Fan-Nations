@@ -54,14 +54,13 @@
 	{
 		"name": "Sponger",
 		"uniqueTo": "Atlantis",
-		"unitType": "Civilian",
+		"unitType": "Civilian Water",
 		"movement": 2,
-		"cost": 70,
+		"cost": 30,
 		"requiredTech": "Sailing",
 		"uniques": [
-			"Turn this tile into a [Atoll] tile <[1] times> <after which this unit is consumed> <if it hasn't used other actions yet> <in [Coast] tiles>",
-			"Turn this tile into a [Desert] tile <[1] times> <after which this unit is consumed> <if it hasn't used other actions yet> <in [Atoll] tiles>",
-			"May travel on Water tiles without embarking",
+			"Turn this tile into a [Desert] tile <[2] times> <after which this unit is consumed> <if it hasn't used other actions yet> <in [Water] tiles>",
+			/*"May travel on Water tiles without embarking",*/
 			"Uncapturable",
 			"Automation is a primary action"
 		]
@@ -76,13 +75,10 @@
 		"cost": 56,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
-		"promotions": [
-			"Amphibious"
-		],
 		"upgradesTo": "Pikeman",
+		"promotions": ["[Tridentman] ability"],
 		"uniques": [
-			"[+50]% Strength <vs [Mounted] units>",
-			"May travel on Water tiles without embarking"
+			"[+15]% Strength <vs [Mounted] units>"
 		],
 		"attackSound": "metalhit"
 	},
@@ -95,9 +91,6 @@
 		"uniques": [
 			"Turn this tile into a [Mycelium] tile <for [0] movement> <[2] times> <after which this unit is consumed> <with [1] to [6] neighboring [City center] tiles> <in [Land] tiles>",
 			"Turn this tile into a [Mycelium] tile <for [0] movement> <[2] times> <after which this unit is consumed> <with [1] to [6] neighboring [Mycelium] tiles> <in [Land] tiles>",
-			"Turn this tile into a [Mycelium] tile <in [Land] tiles> <upon turn end> <for [AI player] Civilizations> <hidden from users>",
-			"Founds a new city <by consuming this unit> <for [AI player] Civilizations> <hidden from users>",
-			"[-100]% maintenance costs <for [AI player] Civilizations> <hidden from users>",
 			/*"[Target Unit] gains the [Mode1] promotion <[1] times> <if it hasn't used other actions yet>",
 			"[Target Unit] gains the [Mode2] promotion <[1] times> <if it hasn't used other actions yet>",*/
 			"Uncapturable"
@@ -132,7 +125,7 @@
 		"uniques": [
 			"Melee",
 			"[-2147483648]% Strength <when attacking>",
-			"[Target Unit] gains the [Flustered] status for [1] turn(s) <upon damaging a [Military] unit>",
+			"[Target Unit] gains the [Flustered] status for [2] turn(s) <upon damaging a [Military] unit>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"All tiles cost 1 movement",
