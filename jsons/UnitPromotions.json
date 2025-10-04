@@ -62,7 +62,7 @@
         "name": "Warrior of Sunlight",
 	    "uniques": [
 			"[1] additional attacks per turn",
-			"Instantly consumes [12] [Catnip]"
+			"Consumes [12] [Catnip]"
 		]
 	},
 	{
@@ -82,7 +82,11 @@
 	{
         "name": "Pureblood",
 	    "uniques": [
+			"[+15]% Strength bonus for [Military] units within [5] tiles",
 			"[+25]% Strength",
+			"All tiles cost 1 movement",
+			"Ignores Zone of Control",
+			"Can pass through impassable tiles",
 			"Comment [100％ Capture Military]",
 			"Unit will heal every turn, even if it performs an action"
 		]
@@ -98,7 +102,8 @@
 			"Can transform to [Crossbowman] <for [0] movement> <for [Longswordsman] units> <after discovering [Machinery]>",
 			"Can transform to [Longswordsman] <for [0] movement> <for [Crossbowman] units> <after discovering [Steel]> <when above [0] [Iron]>",
 			"Can transform to [Gatling Gun] <for [0] movement> <for [Rifleman] units> <after discovering [Industrialization]>",
-			"Can transform to [Rifleman] <for [0] movement> <for [Gatling Gun] units> <after discovering [Rifling]>"
+			"Can transform to [Rifleman] <for [0] movement> <for [Gatling Gun] units> <after discovering [Rifling]>",
+			"Can build [The Eyrie] improvements on tiles"
 /*			"Can transform to [Archer] <for [1] movement> <for [Warrior] units> <after discovering [Archery]> <in tiles without [Friendly Land]>",
 			"Can transform to [Warrior] <for [1] movement> <for [Archer] units> <in tiles without [Friendly Land]>",
 			"Can transform to [Composite Bowman] <for [1] movement> <for [Swordsman] units> <after discovering [Construction]> <in tiles without [Friendly Land]>",
@@ -146,6 +151,13 @@
 			"[+1] Movement <in [City center] tiles>"
 			"Can move immediately once bought",
 			"[This Unit] heals [5] HP <upon turn end>"
+		]
+	},
+	{
+        "name": "Lithoid",
+	    "uniques": [
+			"[+25]% Strength <when defending>",
+			"[+33]% Strength <vs [Ranged] units> <when defending>"
 		]
 	}
 ]

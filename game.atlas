@@ -6,7 +6,14 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Arms Forge
   rotate: false
-  xy: 1324, 376
+  xy: 1588, 640
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Deep Slate Mine
+  rotate: false
+  xy: 4, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -27,14 +34,14 @@ ResourceIcons/Enable the Embrace
   index: -1
 BuildingIcons/Organic Catalytic Core
   rotate: false
-  xy: 1324, 268
+  xy: 112, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Petty King
   rotate: false
-  xy: 1696, 675
+  xy: 1960, 939
   size: 83, 65
   orig: 83, 65
   offset: 0, 0
@@ -48,7 +55,7 @@ ImprovementIcons/Auto-Berry Mine
   index: -1
 ImprovementIcons/Catalytic Processing Plant
   rotate: false
-  xy: 1588, 640
+  xy: 1852, 904
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -62,14 +69,14 @@ ImprovementIcons/Foxes
   index: -1
 ImprovementIcons/Remove Mycelium
   rotate: false
-  xy: 1432, 376
+  xy: 220, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/The Eyrie
   rotate: false
-  xy: 1588, 532
+  xy: 1588, 424
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -97,42 +104,42 @@ UnitIcons/Tridentman
   index: -1
 NationIcons/Obitos
   rotate: false
-  xy: 112, 112
+  xy: 1852, 796
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Kindred
   rotate: false
-  xy: 1060, 220
+  xy: 1324, 484
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitIcons/The Kindred and The Herd
   rotate: false
-  xy: 1060, 220
+  xy: 1324, 484
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 NationIcons/The Meow
   rotate: false
-  xy: 1324, 484
+  xy: 1588, 748
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 NationIcons/Vulpine
   rotate: false
-  xy: 1324, 228
+  xy: 1804, 708
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 NationIcons/Wanpasha
   rotate: false
-  xy: 1588, 748
+  xy: 1324, 220
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
@@ -153,14 +160,14 @@ ImprovementIcons/Catnip Field
   index: -1
 ResourceIcons/Karma
   rotate: false
-  xy: 1852, 904
+  xy: 112, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Turn
   rotate: false
-  xy: 1696, 617
+  xy: 1696, 518
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -193,58 +200,72 @@ UnitIcons/Cettle
   orig: 256, 256
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Progenitor
+TileSets/AbsoluteUnits/Units/Granite Colossus
   rotate: false
   xy: 1060, 748
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
+UnitIcons/Granite Colossus
+  rotate: false
+  xy: 1060, 748
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Progenitor
+  rotate: false
+  xy: 796, 220
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Auto-Berry Mine
   rotate: false
-  xy: 1852, 840
+  xy: 1696, 576
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Foxes
   rotate: false
-  xy: 1852, 840
+  xy: 1696, 576
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Grassland+Hill+Mycelium
   rotate: false
-  xy: 112, 48
+  xy: 328, 156
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Plains+Hill+Mycelium
   rotate: false
-  xy: 112, 48
+  xy: 328, 156
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Tundra+Hill+Mycelium
   rotate: false
-  xy: 112, 48
+  xy: 328, 156
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Mycelium
   rotate: false
-  xy: 220, 156
+  xy: 1588, 360
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/The Eyrie
   rotate: false
-  xy: 1432, 312
+  xy: 1960, 875
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -293,14 +314,14 @@ TileSets/HexaRealm/Tiles/Crystallacta Plantation
   index: -1
 UnitIcons/Progenitor
   rotate: false
-  xy: 796, 220
+  xy: 1060, 484
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitIcons/Sponger
   rotate: false
-  xy: 1324, 748
+  xy: 1060, 220
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
@@ -314,28 +335,42 @@ UnitPromotionIcons/Bloodline
   index: -1
 UnitPromotionIcons/Can build [Catalytic Processing Plant] improvements on tiles
   rotate: false
-  xy: 1960, 948
+  xy: 220, 48
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Catalytic Processing Plant
   rotate: false
-  xy: 1960, 948
+  xy: 220, 48
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Lithoid
+  rotate: false
+  xy: 1588, 532
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Titan
+  rotate: false
+  xy: 1588, 532
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Living Metal Forging
   rotate: false
-  xy: 4, 4
+  xy: 1696, 640
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Sit
   rotate: false
-  xy: 1060, 484
+  xy: 1324, 748
   size: 256, 256
   orig: 256, 256
   offset: 0, 0

@@ -42,12 +42,12 @@
 		"terrainsCanBeBuiltOn": [
 			"Mycelium"
 		],
-		"science": 1,
+		"happiness": 1,
 		"faith": 1,
 		"turnsToBuild": 6,
 		"techRequired": "Calendar",
 		"uniques": [
-			"[+1 Science] <after discovering [Scientific Theory]>",
+			"[+1 Happiness] <after discovering [Scientific Theory]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "M"

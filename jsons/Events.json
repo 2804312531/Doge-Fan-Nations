@@ -7,16 +7,16 @@
                 "text": "Praise the Sun",
                 "uniques": [
                     "Play [chimes] sound",
-                    "[+1 Faith] per [1] population [in all cities] <for [1] turns>",
-                    "Empire enters a [1]-turn Golden Age",
+                    "[+1 Faith] per [1] population [in all cities] <for [2] turns>",
+                    "Empire enters a [2]-turn Golden Age",
                 ]
             },
             {
                 "text": "Kindled Offering to the Sun",
                 "uniques": [
                     "Play [chimes] sound",
-                    "[+1 Faith] per [1] population [in all cities] <for [1] turns>",
-                    "Empire enters a [1]-turn Golden Age",
+                    "[+1 Faith] per [1] population [in all cities] <for [2] turns>",
+                    "Empire enters a [2]-turn Golden Age",
                     "[-1] population in a random city",
                     "Instantly provides [12] [Catnip]",
                     "Instantly provides [6] [Karma]"

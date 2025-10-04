@@ -6,7 +6,7 @@
 		"production": 1,
 		"movementCost": 2,
 		"overrideStats": true,
-		"unbuildable": false,
+		"unbuildable": true,
 		"defenceBonus": 0.25,
 		"occursOn": [
 			"Tundra",

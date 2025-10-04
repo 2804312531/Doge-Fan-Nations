@@ -58,7 +58,8 @@
 			"[-1] population [in this city]",
 			"Remove [The Embrace - Bat] [in this city]",
 			"Requires at least [3] population",
-			"Only available <when above [0] [Enable the Embrace]>"
+			"Only available <when above [0] [Enable the Embrace]>",
+			"Destroyed when the city is captured"
 		]
 	},
 	{
@@ -72,7 +73,8 @@
 			"[-1] population [in this city]",
 			"Remove [The Embrace - Warrior I] [in this city]",
 			"Requires at least [4] population",
-			"Only available <when above [0] [Enable the Embrace]>"
+			"Only available <when above [0] [Enable the Embrace]>",
+			"Destroyed when the city is captured"
 		]
 	},
 	{
@@ -86,7 +88,8 @@
 			"[-2] population [in this city]",
 			"Remove [The Embrace - Warrior II] [in this city]",
 			"Requires at least [3] population",
-			"Only available <when above [0] [Enable the Embrace]>"
+			"Only available <when above [0] [Enable the Embrace]>",
+			"Destroyed when the city is captured"
 		]
 	},
 	{
@@ -101,7 +104,8 @@
 			"[-1] population [in this city]",
 			"Remove [The Embrace - Spearman I] [in this city]",
 			"Requires at least [5] population",
-			"Only available <when above [0] [Enable the Embrace]>"
+			"Only available <when above [0] [Enable the Embrace]>",
+			"Destroyed when the city is captured"
 		]
 	},
 	{
@@ -116,7 +120,8 @@
 			"[-2] population [in this city]",
 			"Remove [The Embrace - Spearman II] [in this city]",
 			"Requires at least [4] population",
-			"Only available <when above [0] [Enable the Embrace]>"
+			"Only available <when above [0] [Enable the Embrace]>",
+			"Destroyed when the city is captured"
 		]
 	},
 	{
@@ -132,7 +137,8 @@
 			"Remove [The Embrace - Swordsman I] [in this city]",
 			"Requires at least [6] population",
 			"Only available <when above [0] [Iron]>",
-			"Only available <when above [0] [Enable the Embrace]>"
+			"Only available <when above [0] [Enable the Embrace]>",
+			"Destroyed when the city is captured"
 		]
 	},
 	{
@@ -148,7 +154,8 @@
 			"Remove [The Embrace - Swordsman II] [in this city]",
 			"Requires at least [4] population",
 			"Only available <when above [0] [Iron]>",
-			"Only available <when above [0] [Enable the Embrace]>"
+			"Only available <when above [0] [Enable the Embrace]>",
+			"Destroyed when the city is captured"
 		]
 	},
 	{
@@ -163,7 +170,8 @@
 			"[-1] population [in this city]",
 			"Remove [The Embrace - Pikeman I] [in this city]",
 			"Requires at least [7] population",
-			"Only available <when above [0] [Enable the Embrace]>"
+			"Only available <when above [0] [Enable the Embrace]>",
+			"Destroyed when the city is captured"
 		]
 	},
 	{
@@ -178,7 +186,8 @@
 			"[-2] population [in this city]",
 			"Remove [The Embrace - Pikeman II] [in this city]",
 			"Requires at least [5] population",
-			"Only available <when above [0] [Enable the Embrace]>"
+			"Only available <when above [0] [Enable the Embrace]>",
+			"Destroyed when the city is captured"
 		]
 	},
 	{
@@ -193,7 +202,8 @@
 			"[-3] population [in this city]",
 			"Remove [The Embrace - Pikeman III] [in this city]",
 			"Requires at least [4] population",
-			"Only available <when above [0] [Enable the Embrace]>"
+			"Only available <when above [0] [Enable the Embrace]>",
+			"Destroyed when the city is captured"
 		]
 	},
 	{
@@ -209,7 +219,8 @@
 			"Remove [The Embrace - Longswordsman I] [in this city]",
 			"Requires at least [9] population",
 			"Only available <when above [0] [Iron]>",
-			"Only available <when above [0] [Enable the Embrace]>"
+			"Only available <when above [0] [Enable the Embrace]>",
+			"Destroyed when the city is captured"
 		]
 	},
 	{
@@ -225,7 +236,8 @@
 			"Remove [The Embrace - Longswordsman II] [in this city]",
 			"Requires at least [6] population",
 			"Only available <when above [0] [Iron]>",
-			"Only available <when above [0] [Enable the Embrace]>"
+			"Only available <when above [0] [Enable the Embrace]>",
+			"Destroyed when the city is captured"
 		]
 	},
 	{
@@ -241,7 +253,8 @@
 			"Remove [The Embrace - Longswordsman III] [in this city]",
 			"Requires at least [5] population",
 			"Only available <when above [0] [Iron]>",
-			"Only available <when above [0] [Enable the Embrace]>"
+			"Only available <when above [0] [Enable the Embrace]>",
+			"Destroyed when the city is captured"
 		]
 	},
 	{
@@ -381,7 +394,19 @@
 			"[+1 Production, +1 Science] from [Whales] tiles [in this city] <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
 			"[+1 Production, +1 Science] from [Citrus] tiles [in this city] <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
 			"[+1 Production, +1 Science] from [Crab] tiles [in this city] <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
-			"[+1 Production, +1 Science] from [Salt] tiles [in this city] <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>"
+			"[+1 Production, +1 Science] from [Salt] tiles [in this city] <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
+			"Destroyed when the city is captured"
 		]
-	}
+	},
+	{
+		"name": "Deep Slate Mine",
+		"uniqueTo": "Titan",
+		"production": 2,
+		"specialistSlots": {"Miner": 50},
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Construction"
+	},
 ]

@@ -7,7 +7,7 @@
 		"uniques": [
 			"Founds a new city <by consuming this unit> <for [non-[Rimeweave]] Civilizations>",
 			"Founds a new city <if [Palace] is not constructed>",
-			"Founds a new city <by consuming this unit> <with [1] to [6] neighboring [Mycelium] tiles> <for [AI player] Civilizations> <hidden from users>",
+			"Founds a new city <by consuming this unit> <with [1] to [6] neighboring [Mycelium] tiles> <for [Rimeweave] Civilizations>",
 			"Founds a new city <by consuming this unit> <for [AI player] Civilizations> <hidden from users>",
 			"Excess Food converted to Production when under construction",
 			"Requires at least [2] population",
@@ -22,6 +22,7 @@
 		"movement": 2,
 		"cost": 106,
 		"uniques": [
+			"Founds a new city <by consuming this unit> <starting from the [Industrial era]>",
 			"Founds a new city <by consuming this unit> <if [Palace] is not constructed>",
 			"Founds a new puppet city <by consuming this unit>",
 			"Excess Food converted to Production when under construction",
@@ -76,7 +77,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"promotions": ["[Tridentman] ability"],
+		"promotions": ["[Tridentman] ability","Amphibious"],
 		"uniques": [
 			"[+15]% Strength <vs [Mounted] units>"
 		],
@@ -118,13 +119,13 @@
 		"unitType": "Scout",
 		"range": 1,
 		"movement": 3,
-		"strength": 5,
-		"rangedStrength": 5,
+		"strength": 4,
+		"rangedStrength": 4,
 		"cost": 25,
 		"upgradesTo": "Warrior",
 		"uniques": [
 			"Melee",
-			"[-2147483648]% Strength <when attacking>",
+			"[-50]% Strength <when attacking>",
 			"[Target Unit] gains the [Flustered] status for [2] turn(s) <upon damaging a [Military] unit>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
@@ -140,8 +141,9 @@
 		"uniqueTo": "The Kindred",
 		"unitType": "Sword",
 		"movement": 3,
-		"strength": 21,
+		"strength": 24,
 		"cost": 120,
+		"upgradesTo": "Cavalry",
 		"uniques": [
 			"Unbuildable"
 		],
@@ -160,7 +162,7 @@
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"All tiles cost 1 movement",
 			"Ignores Zone of Control",
-			"Can pass through impassable tiles",
+			"Can pass through impassable tiles",    
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Can be earned through combat",
 			"Is part of Great Person group [General]",
@@ -168,6 +170,26 @@
 			"Unbuildable",
 			"Uncapturable"
 		],
-		"movement": 4
+		"movement": 3
 	},
+	{
+		"name": "Granite Colossus",
+		"uniqueTo": "Titan",
+		"replaces": "Catapult",
+		"unitType": "Siege",
+		"movement": 1,
+		"strength": 14,
+		"rangedStrength": 14,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"obsoleteTech": "Physics",
+		"upgradesTo": "Trebuchet",
+		"uniques": [
+			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"[+200]% Strength <vs cities> <when attacking>",
+			"Must set up to ranged attack"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "throw"
+	}
 ]

@@ -119,10 +119,11 @@
 		],
 		"uniqueName": "The Lost People",
 		"uniques": [
+			"Starts with [Sailing]",
 			"[+10]% Strength",
 			"[-10]% Strength <when fighting units from a Civilization with more Cities than you>",
 			"[+15]% Production when constructing [Water] units [in all cities]",
-			"[+1 Production, +1 Science] from [Atoll] tiles [in this city]"
+			"[+1 Production, +1 Food] from [Atoll] tiles [in all cities]"
 		],
 		"cities": [
 			"Poseidonis",
@@ -160,9 +161,9 @@
 		"uniqueName": "Veindead Edict",
 		"uniques": [
 			"[All] units gain the [Rimescar] promotion",
-			"[+2147483647]% Culture cost of natural border growth [in this city]",
-			"[+2147483647]% Gold cost of acquiring tiles [in this city]",
-			"[+1 Happiness] from [Mycelium] tiles [in all cities]",
+			"[+100]% Culture cost of natural border growth [in this city]",
+			"[+100]% Gold cost of acquiring tiles [in this city]",
+			"[+1 Food] from [Mycelium] tiles [in all cities]",
 			"[100]% of excess happiness converted to [Science]",
 			/*"Gain a free [Mastermind] [in all cities] <for [AI player] Civilizations> <hidden from users>"*/
 			"[32767] Unit Supply per city <for [AI player] Civilizations> <hidden from users>",
@@ -232,13 +233,23 @@
 		],
 		"uniqueName": "Crimson Suzerainty",
 		"uniques": [
+			/*"Comment [༺Boss༻]",*/
+			"[Bat] units gain the [Bloodline] promotion",
 			"[Sword] units gain the [Bloodline] promotion",
+			"[Mounted] units gain the [Bloodline] promotion",
 			"May buy items in puppet cities",
-			"May not annex cities",
-			"[+25]% [Science] <in [Puppeted] cities> <after adopting [Monarchy]>",
-			"[+25]% [Culture] <in [Puppeted] cities> <after adopting [Monarchy]>",
-			"Triggers a [The Progenitor awakens.] event <after adopting [Tradition Complete]>",
-			"Triggers a [Heirlooms Choice] event <when above [0] [Turn]> <when below [2] [Turn]> <upon turn end>"
+			"May not annex cities <before the [Industrial era]>",
+			/*"Free [Blooded Marshal] appears <after adopting [Aristocracy]>",
+			"Gain a free [Courthouse] [in all cities] <after adopting [Aristocracy]>",
+			"[Gold] cost of purchasing [Ranged] units [-33]% <after adopting [Oligarchy]>",
+			"[+25]% [Science] <in [Puppeted] cities> <after adopting [Landed Elite]>",
+			"[+25]% [Culture] <in [Puppeted] cities> <after adopting [Landed Elite]>",
+			"[+25]% [Gold] <in [Puppeted] cities> <after adopting [Landed Elite]>",
+			"[+1 Gold] per [1] population [in this city] <in [Puppeted] cities> <after adopting [Monarchy]>",
+			"[+4 Gold] [in this city] <in [Puppeted] cities> <after adopting [Monarchy]>",
+			"Triggers a [The Progenitor awakens.] event <after adopting [Tradition Complete]>",*/
+			"Triggers a [Heirlooms Choice] event <when above [0] [Turn]> <when below [2] [Turn]> <upon turn end>",
+			"Triggers a [The Progenitor awakens.] event <starting from the [Medieval era]>"
 		],
 		"cities": [
 			"Helframoros",
@@ -342,6 +353,102 @@
 			"Aurum Lumen",
 			"Viridian Anvil",
 			"The Philosopher's Foundry"
+		]
+	},
+	{
+		"name": "Titan",
+		"leaderName": "Granite",
+		"startBias": [
+			"Hill"
+		],
+		"preferredVictoryType": "Domination",
+		"personality": "Granite",
+		"outerColor": [
+			255,
+			102,
+			0
+		],
+		"innerColor": [
+			94,
+			94,
+			94
+		],
+		"uniqueName": "Mining Guilds",
+		"uniques": [
+			"Starts with [Mining]",
+			"[All] units gain the [Lithoid] promotion",
+			"[+1 Happiness] per [10] population [in all cities]"
+			"[-2 Production, +2 Food] from [Hill] tiles [in all cities]",
+			"[+2 Production, -2 Food] from [Hill] tiles [in all cities] <in [City center] tiles>",
+			"[+1 Production, -1 Food] from [Hill] tiles [in all cities] <in [Plains] tiles>",
+			"[-1 Production, +1 Food] from [Hill] tiles [in all cities] <in [Plains] tiles> <in [City center] tiles>",
+			"[+1 Food, +1 Gold] from [Mine] tiles [in all cities] <after discovering [Guilds]>",
+			"[+1 Food, +1 Gold] from [Quarry] tiles [in all cities] <after discovering [Guilds]>",
+			"[+1 Food] from [Stone] tiles [in all cities] <in cities with a [Granary]>",
+			"[+2 Production, +1 Food] from [Mountain] tiles [in all cities]",
+			"[+1 Production] from [Mountain] tiles [in all cities] <after discovering [Chemistry]>",
+			"[+1 Production] from [Mountain] tiles [in all cities] <after adopting [Communism]>",
+			"[+1 Food, +1 Gold] from [Mountain] tiles [in all cities] <after discovering [Guilds]>",
+			"[+1 Food, +1 Gold] from every [Miner] <after discovering [Guilds]>",
+			"[+1 Production] from every [Miner] <after discovering [Chemistry]>",
+			"[+1 Production] from every [Miner] <after adopting [Communism]>",
+			"[-1 Food] from [Ocean] tiles [in this city] <in tiles without [Ice]>",
+			"[-1 Food] from [Ocean] tiles [in this city] <in tiles without [Ice]> <in cities with a [Lighthouse]>",
+			"[-1 Food] from [Coast] tiles [in this city] <in tiles without [Ice]>",
+			"[-1 Food] from [Coast] tiles [in this city] <in tiles without [Ice]> <in cities with a [Lighthouse]>",
+			"[-2 Food] from [Grassland] tiles [in this city] <in tiles without [Hill]> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Mycelium]>",
+			"[-1 Food] from [Plains] tiles [in this city] <in tiles without [Hill]> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Mycelium]> <in tiles without [El Dorado]> <in tiles without [Fountain of Youth]>",
+			"[-1 Food] from [Tundra] tiles [in this city] <in tiles without [Hill]> <in tiles without [Forest]> <in tiles without [Mycelium]>",
+			"[-2 Food] from [Lakes] tiles [in this city]",
+			"[-1 Food] from [Forest] tiles [in this city]",
+			"[-2 Food] from [Jungle] tiles [in this city]",
+			"[-1 Food] from [Mycelium] tiles [in this city]",
+			"[-3 Food] from [Oasis] tiles [in this city]",
+			"[-2 Food] from [Flood plains] tiles [in this city]",
+			"[-1 Food] from [Cattle] tiles [in this city]",
+			"[-1 Food] from [Sheep] tiles [in this city]",
+			"[-1 Food] from [Sheep] tiles [in this city] <in [Pasture] tiles>",
+			"[-1 Food] from [Deer] tiles [in this city]",
+			"[-1 Food] from [Deer] tiles [in this city] <in cities with a [Granary]>",
+			"[-1 Food] from [Bananas] tiles [in this city]",
+			"[-2 Food] from [Bananas] tiles [in this city] <in [Plantation] tiles>",
+			"[-1 Food] from [Bananas] tiles [in this city] <in cities with a [Granary]>",
+			"[-1 Food] from [Wheat] tiles [in this city]",
+			"[-1 Food] from [Wheat] tiles [in this city] <in cities with a [Granary]>",
+			"[-1 Food] from [Fish] tiles [in this city]",
+			"[-1 Food] from [Fish] tiles [in this city] <in cities with a [Lighthouse]>"
+			"[-1 Food] from [Whales] tiles [in this city]",
+			"[-1 Food] from [Citrus] tiles [in this city]",
+			"[-1 Food] from [Crab] tiles [in this city]",
+			"[-2 Food] from [Farm] tiles [in this city]",
+			"[-1 Food] from [Farm] tiles [in this city] <in [non-fresh water] tiles> <after discovering [Fertilizer]>",
+			"[-1 Food] from [Pasture] tiles [in this city] <after discovering [Fertilizer]>",
+			"[-1 Food] from [Plantation] tiles [in this city] <after discovering [Fertilizer]>",
+			"[-1 Food] from [Fishing Boats] tiles [in this city]",
+			"[-2 Food] from [Terrace farm] tiles [in this city]",
+			"[-3 Food] from [Polder] tiles [in this city]",
+		],
+		"cities": [
+			"Craggor"
+			"Basaltar"
+			"Deepstone"
+			"Obsidia"
+			"Petra"
+			"Rift"
+			"Mantle"
+			"Bedrock"
+			"Crystalia"
+			"Pumice"
+			"Silicore"
+			"Dolomite"
+			"Jasper"
+			"Geode"
+			"Fissure"
+			"Lithos"
+			"Gneiss"
+			"Shale"
+			"Cinder"
+			"Monolith"
 		]
 	}
 ]
