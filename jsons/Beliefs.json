@@ -6,5 +6,19 @@
            "[Land] units gain the [Cowardly Bunch] promotion",
            "All newly-trained [Land] units [in all cities] receive the [Cowardly Bunch] promotion"
         ]
+    },
+    {
+        "name": "Waaagh",
+        "type": "Pantheon",
+        "uniques": [
+           "[+1 Happiness] [in all cities] <when at war>"
+        ]
+    },
+    {
+        "name": "UUar",
+        "type": "Enhancer",
+        "uniques": [
+            "[+10]% Strength <for [All] units>"
+        ]
     }
 ]

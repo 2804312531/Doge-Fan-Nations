@@ -186,8 +186,7 @@
 		"upgradesTo": "Trebuchet",
 		"uniques": [
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
-			"[+200]% Strength <vs cities> <when attacking>",
-			"Must set up to ranged attack"
+			"[+200]% Strength <vs cities> <when attacking>"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"

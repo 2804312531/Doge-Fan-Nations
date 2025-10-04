@@ -402,11 +402,11 @@
 		"name": "Deep Slate Mine",
 		"uniqueTo": "Titan",
 		"production": 2,
-		"specialistSlots": {"Miner": 50},
+		"specialistSlots": {"Miner": 15},
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Destroyed when the city is captured"
 		],
-		"requiredTech": "Construction"
+		"requiredTech": "Masonry"
 	},
 ]
