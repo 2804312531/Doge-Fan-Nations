@@ -1,4 +1,20 @@
 [
+	/*{
+		"name": "Auto",
+		"terrainsCanBeBuiltOn": [
+			"Land",
+			"Water"
+		],
+		"turnsToBuild": 4,
+		"techRequired": "Agriculture",
+		"uniques": [
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"Does not need removal of [Mycelium]",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "A"
+	},*/
 	{
 		"name": "Auto-Berry Mine",
 		"replaces": "Farm",
@@ -99,7 +115,7 @@
 			"[+1 Gold] <after discovering [Flight]>",
 			"Comment [Very High]"
 		],
-		"shortcutKey": "O"
+		"shortcutKey": "E"
 	},
 	{
 		"name": "Catalytic Processing Plant",
@@ -116,6 +132,6 @@
 			"Does not need removal of [Mycelium]",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
-		"shortcutKey": "B"
+		"shortcutKey": "C"
 	}
 ]

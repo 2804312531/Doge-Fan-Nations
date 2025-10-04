@@ -5,7 +5,7 @@
         "When defeating a [Military] unit, earn [0] Gold and recruit it <for units with [Pureblood]>"
     ],
     "unitUniques": [
-        "Can move immediately once bought <after adopting [Oligarchy]> <for [The Kindred] Civilizations>",
+        /*"Can move immediately once bought <after adopting [Oligarchy]> <for [The Kindred] Civilizations>",*/
         "[Target Unit] gains the [High] promotion <for [1] movement> <in [The Eyrie] tiles> <for units without [High]>",
         "[Target Unit] loses the [High] promotion <for units with [High]>"
     ]

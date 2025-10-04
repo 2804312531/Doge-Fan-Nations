@@ -22,6 +22,14 @@
 		]
 	},
 	{
+		"name": "Travel Light",
+		"uniques": [
+			"[+1] Movement",
+            "Can move after attacking",
+            "[-33]% Strength <when defending>"
+		]
+	},
+	{
 		"name": "[Tridentman] ability",
 		"uniques": [
 			"[Target Unit] gains the [Trapped] status for [2] turn(s) <upon damaging a [All] unit>",
@@ -158,6 +166,14 @@
 	    "uniques": [
 			"[+25]% Strength <when defending>",
 			"[+33]% Strength <vs [Ranged] units> <when defending>"
+		]
+	},
+	{
+        "name": "Stuned",
+	    "uniques": [
+			"Cannot attack",
+			"Cannot move",
+			"[-40]% Strength <when defending>"
 		]
 	}
 ]

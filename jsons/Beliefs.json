@@ -20,5 +20,13 @@
         "uniques": [
             "[+10]% Strength <for [All] units>"
         ]
+    },
+    {
+        "name": "Light",
+        "type": "Enhancer",
+        "uniques": [
+            "[Military] units gain the [Travel Light] promotion",
+            "All newly-trained [Military] units [in all cities] receive the [Travel Light] promotion"
+        ]
     }
 ]

@@ -180,14 +180,18 @@
 		"movement": 1,
 		"strength": 14,
 		"rangedStrength": 14,
-		"cost": 75,
+		"cost": 90,
 		"requiredTech": "Mathematics",
-		"obsoleteTech": "Physics",
+		"obsoleteTech": "Dynamite",
 		"upgradesTo": "Trebuchet",
 		"uniques": [
+			"[Target Unit] gains the [Stuned] status for [2] turn(s) <upon damaging a [Military] unit>",
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
-			"[+200]% Strength <vs cities> <when attacking>"
+			"[+300]% Strength <vs cities> <when attacking>",
+			"Must set up to ranged attack",
+			"Can only attack [City] units"
 		],
+		"promotions": ["Indirect Fire"],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
 	}
