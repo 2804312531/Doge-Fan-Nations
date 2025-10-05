@@ -55,8 +55,10 @@
 			"[-10]% Strength <when defending> <in tiles without [City center]> <in tiles without [Mycelium]> <for [Ranged] units>",
 			/*"[This Unit] takes [5] damage <in [All] tiles> <upon turn end>",*/
 			"[This Unit] heals [10] HP <in [Mycelium] tiles> <upon turn end>",
-			"[This Unit] takes [5] damage <in tiles without [City center]> <in tiles without [Mycelium]> <upon ending a turn in a [All] tile>"
+			"[This Unit] takes [5] damage <in tiles without [City center]> <in tiles without [Mycelium]> <upon ending a turn in a [All] tile>",
 			/*"Turn this tile into a [Mycelium] tile <upon being defeated>"*/
+			"Turn this tile into a [Mycelium] tile <with [1] to [6] neighboring [City center] tiles> <in [Land] tiles> <upon turn end> <for [AI player] Civilizations> <hidden from users>",
+			"Turn this tile into a [Mycelium] tile <with [1] to [6] neighboring [Mycelium] tiles> <in [Land] tiles> <upon turn end> <for [AI player] Civilizations> <hidden from users>",
 		]
 	},
 	{
@@ -92,6 +94,9 @@
 	    "uniques": [
 			"[+15]% Strength bonus for [Military] units within [5] tiles",
 			"[+25]% Strength",
+			"[1] additional attacks per turn",
+			"[+1] Movement",
+            "Can move after attacking",
 			"All tiles cost 1 movement",
 			"Ignores Zone of Control",
 			"Can pass through impassable tiles",
@@ -156,9 +161,8 @@
 	{
         "name": "Living Metal Forging",
 	    "uniques": [
-			"[+1] Movement <in [City center] tiles>"
-			"Can move immediately once bought",
-			"[This Unit] heals [5] HP <upon turn end>"
+			"[+5]% Strength"
+			"Comment [[2] damage absorption for Military units]"
 		]
 	},
 	{

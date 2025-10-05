@@ -16,6 +16,12 @@
             {
                 "name": "Unique Enhancement", //1
                 "uniques": [
+                    "[+5]% [Production]",
+                    "[+5]% [Food]",
+                    "[+5]% [Gold]",
+                    "[+5]% [Science]",
+                    "[+5]% [Culture]",
+                    "[+5]% [Faith]",
                     "Unavailable <when number of [Completed Policy branches] is less than [1]>"
                 ],
                 "row": 2,
@@ -32,6 +38,7 @@
             {
                 "name": "Automation", //3
                 "uniques": [
+                    "Comment [[Auto] can be build with [Worker]]"
                     "Unavailable <when number of [Completed Policy branches] is less than [3]>"
                 ],
                 "row": 2,

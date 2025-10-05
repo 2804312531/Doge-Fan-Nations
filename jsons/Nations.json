@@ -165,8 +165,8 @@
 			"[+100]% Gold cost of acquiring tiles [in this city]",
 			"[+1 Food] from [Mycelium] tiles [in all cities]",
 			"[100]% of excess happiness converted to [Science]",
-			/*"Gain a free [Mastermind] [in all cities] <for [AI player] Civilizations> <hidden from users>"*/
-			"[32767] Unit Supply per city <for [AI player] Civilizations> <hidden from users>",
+			/*"Gain a free [Mastermind] [in all cities] <for [AI player] Civilizations> <hidden from users>"
+			"[32767] Unit Supply per city <for [AI player] Civilizations> <hidden from users>",*/
 			"Comment [A wind laden with spores sweeps through the veins of the world's dreams, weaving silence into an eternal dynasty.]"
 		],
 		"cities": [
@@ -236,6 +236,7 @@
 			/*"Comment [༺Boss༻]",*/
 			"[Bat] units gain the [Bloodline] promotion",
 			"[Sword] units gain the [Bloodline] promotion",
+			"[Gunpowder] units gain the [Bloodline] promotion",
 			"[Mounted] units gain the [Bloodline] promotion",
 			"May buy items in puppet cities",
 			"May not annex cities <before the [Industrial era]>",
@@ -399,7 +400,7 @@
 			"[+1 Production, -1 Gold] from [Coast] tiles [in this city] <in tiles without [Ice]>",
 			"[+1 Production, -1 Food] from [Grassland] tiles [in this city] <in tiles without [Hill]> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Mycelium]>",
 			"[+1 Production] from [Tundra] tiles [in this city] <in tiles without [Hill]> <in tiles without [Forest]> <in tiles without [Mycelium]>",
-			"[+1 Production, +1 Food] from [Desert] tiles [in this city]",
+			"[+1 Production, +1 Food] from [Desert] tiles [in this city] <in tiles without [Hill]>",
 			"[+1 Production, -1 Food] from [Lakes] tiles [in this city]",
 			"[+1 Production, -1 Food] from [Jungle] tiles [in this city]",
 			"[-3 Food] from [Oasis] tiles [in this city]",

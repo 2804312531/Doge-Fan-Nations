@@ -140,10 +140,10 @@
 		"name": "Progenitor",
 		"uniqueTo": "The Kindred",
 		"unitType": "Sword",
-		"movement": 3,
+		"movement": 2,
 		"strength": 24,
 		"cost": 120,
-		"upgradesTo": "Cavalry",
+		"upgradesTo": "Rifleman",
 		"uniques": [
 			"Unbuildable"
 		],
