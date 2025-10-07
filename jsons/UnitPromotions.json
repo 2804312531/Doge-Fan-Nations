@@ -75,7 +75,8 @@
 	    "uniques": [
 			"[+100]% to Flank Attack bonuses",
 			"[+10]% Strength",
-			"Consumes [10] [Catnip]"
+			"Consumes [10] [Catnip]",
+			"Only available <when above [9] [Catnip]>"
 		]
 	},
 	{
@@ -183,14 +184,14 @@
         "name": "[Granite Colossus] ability",
 	    "uniques": [
 			/*"Destroys tile improvements when attacking",*/
-			"[Target Unit] gains the [Stuned I] status for [2] turn(s) <upon damaging a [All] unit>",
+			"[Target Unit] gains the [Stuned I] status for [1] turn(s) <upon damaging a [non-[Stuned II]] unit>",
 			"[Target Unit] gains the [Stuned II] status for [2] turn(s) <upon damaging a [Stuned I] unit>"
 		]
 	}
 	{
         "name": "Stuned I",
 	    "uniques": [
-			"[-1] Movement",
+			"[-99] Movement",
 			"[-20]% Strength"
 			/*"No defensive terrain bonus"*/
 		]
@@ -200,7 +201,8 @@
 	    "uniques": [
 			"Cannot attack",
 			"Cannot move",
-			"[-20]% Strength"
+			"[-40]% Strength",
+			"[This Unit] loses the [Stuned I] promotion"
 			/*"No defensive terrain bonus"*/
 		]
 	},
@@ -213,6 +215,23 @@
 			"[+99] Sight",
 			"Can see over obstacles"
 			/*"No defensive terrain bonus"*/
+		]
+	},
+	{
+        "name": "[Agony] ability",
+	    "uniques": [
+			"[This Unit] heals [50] HP <upon turn end> <for [Agony] units>",
+			"[Target Unit] gains the [Unquenchable Fire] promotion <upon damaging a [All] unit>",
+			"[This Unit] gains the [Unquenchable Fire] promotion",
+			"Free [Agony] appears <upon defeating a [Barbarian] unit>",
+			"Consumes [1] [Essence of Agony]",
+			"Only available <when above [0] [Essence of Agony]>"
+		]
+	},
+	{
+        "name": "Unquenchable Fire",
+	    "uniques": [
+			"[This Unit] takes [50] damage <upon ending a turn in a [All] tile>"
 		]
 	}
 ]

@@ -43,5 +43,12 @@
 		"uniques": [
 			"Cannot be traded"
 		]
-	}
+	},
+	{
+		"name": "Essence of Agony",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Cannot be traded"
+		]
+	},
 ]

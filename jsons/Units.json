@@ -1,5 +1,16 @@
 [
 	{
+		"name": "Miracle Engineer",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": [
+			"Can build [Megastructure] improvements on tiles",
+			"Automation is a primary action",
+			"Unbuildable",
+			"Uncapturable"
+		]
+	},
+	{
 		"name": "Settler",
 		"unitType": "Civilian",
 		"movement": 2,
@@ -125,7 +136,7 @@
 		"cost": 25,
 		"uniques": [
 			"[-100]% Strength <when attacking>",
-			"[Target Unit] gains the [Flustered] status for [2] turn(s) <upon damaging a [Military] unit>",
+			"[Target Unit] gains the [Flustered] status for [1] turn(s) <upon damaging a [Military] unit>",
 			/*"Gain [+1] [Gold] <upon damaging a [All] unit>",*/
 			"Can move after attacking",
 			"No defensive terrain bonus",
@@ -194,5 +205,18 @@
 		"promotions": ["[Granite Colossus] ability"/*,"Indirect Fire"*/],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
+	},
+	{
+		"name": "Agony",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"uniques": [
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"promotions": ["[Agony] ability"],
+		"attackSound": "nonmetalhit"
 	}
 ]
