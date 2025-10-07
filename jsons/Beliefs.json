@@ -11,14 +11,14 @@
         "name": "Waaagh",
         "type": "Pantheon",
         "uniques": [
-           "[+1 Happiness] [in all cities] <when at war>"
+           "[+1 Happiness, -1 Science] [in all cities] <when at war>"
         ]
     },
     {
         "name": "UUar",
         "type": "Enhancer",
         "uniques": [
-            "[+10]% Strength <for [All] units>"
+            "[+7]% Strength <for [All] units>"
         ]
     },
     {

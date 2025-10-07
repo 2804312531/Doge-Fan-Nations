@@ -6,7 +6,7 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Arms Forge
   rotate: false
-  xy: 1588, 640
+  xy: 1324, 376
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -20,21 +20,21 @@ BuildingIcons/Deep Slate Mine
   index: -1
 BuildingIcons/Enable the Embrace
   rotate: false
-  xy: 532, 220
+  xy: 796, 748
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 ResourceIcons/Enable the Embrace
   rotate: false
-  xy: 532, 220
+  xy: 796, 748
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 BuildingIcons/Organic Catalytic Core
   rotate: false
-  xy: 112, 4
+  xy: 1696, 640
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -48,7 +48,7 @@ BuildingIcons/Petty King
   index: -1
 ImprovementIcons/Auto-Berry Mine
   rotate: false
-  xy: 4, 484
+  xy: 4, 748
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
@@ -62,21 +62,21 @@ ImprovementIcons/Catalytic Processing Plant
   index: -1
 ImprovementIcons/Foxes
   rotate: false
-  xy: 796, 484
+  xy: 532, 220
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 ImprovementIcons/Remove Mycelium
   rotate: false
-  xy: 220, 112
+  xy: 1852, 796
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/The Eyrie
   rotate: false
-  xy: 1696, 532
+  xy: 220, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -90,14 +90,21 @@ NationIcons/Aishira
   index: -1
 NationIcons/Atlantis
   rotate: false
-  xy: 4, 748
-  size: 256, 256
-  orig: 256, 256
+  xy: 1588, 640
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Tridentman
   rotate: false
-  xy: 4, 748
+  xy: 1588, 640
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Kittens
+  rotate: false
+  xy: 1060, 748
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
@@ -116,44 +123,37 @@ UnitIcons/The Kindred and The Herd
   orig: 256, 256
   offset: 0, 0
   index: -1
-NationIcons/The Meow
-  rotate: false
-  xy: 1588, 748
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
 NationIcons/Vulpine
   rotate: false
-  xy: 1804, 708
+  xy: 1324, 228
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 NationIcons/Wanpasha
   rotate: false
-  xy: 1324, 220
+  xy: 1588, 748
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 ResourceIcons/Catnip
   rotate: false
-  xy: 532, 748
+  xy: 268, 484
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 ImprovementIcons/Catnip Field
   rotate: false
-  xy: 532, 748
+  xy: 268, 484
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 ResourceIcons/Karma
   rotate: false
-  xy: 1588, 532
+  xy: 1324, 268
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -167,42 +167,42 @@ ResourceIcons/Turn
   index: -1
 TileSets/AbsoluteUnits/Units/Bat
   rotate: false
-  xy: 268, 748
+  xy: 4, 484
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitIcons/Bat
   rotate: false
-  xy: 268, 748
+  xy: 4, 484
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Cettle
   rotate: false
-  xy: 532, 484
+  xy: 268, 220
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitIcons/Cettle
   rotate: false
-  xy: 532, 484
+  xy: 268, 220
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Granite Colossus
   rotate: false
-  xy: 1060, 748
+  xy: 796, 484
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitIcons/Granite Colossus
   rotate: false
-  xy: 1060, 748
+  xy: 796, 484
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
@@ -216,49 +216,49 @@ TileSets/AbsoluteUnits/Units/Progenitor
   index: -1
 TileSets/HexaRealm/Tiles/Auto-Berry Mine
   rotate: false
-  xy: 220, 48
+  xy: 1432, 312
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Foxes
   rotate: false
-  xy: 220, 48
+  xy: 1432, 312
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Catalytic Processing Plant
   rotate: false
-  xy: 328, 156
+  xy: 1696, 576
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Grassland+Hill+Mycelium
   rotate: false
-  xy: 1588, 360
+  xy: 220, 48
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Plains+Hill+Mycelium
   rotate: false
-  xy: 1588, 360
+  xy: 220, 48
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Tundra+Hill+Mycelium
   rotate: false
-  xy: 1588, 360
+  xy: 220, 48
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Mycelium
   rotate: false
-  xy: 1696, 468
+  xy: 328, 156
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -272,42 +272,42 @@ TileSets/HexaRealm/Tiles/The Eyrie
   index: -1
 UnitIcons/Blooded Marshal
   rotate: false
-  xy: 4, 220
+  xy: 268, 748
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitIcons/Ceremonial Chariot
   rotate: false
-  xy: 268, 220
+  xy: 532, 748
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitIcons/Crystallacta
   rotate: false
-  xy: 796, 748
+  xy: 532, 484
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 ImprovementIcons/Crystallacta Plantation
   rotate: false
-  xy: 796, 748
+  xy: 532, 484
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 NationIcons/Rimeweave
   rotate: false
-  xy: 796, 748
+  xy: 532, 484
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Crystallacta Plantation
   rotate: false
-  xy: 796, 748
+  xy: 532, 484
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
@@ -328,7 +328,7 @@ UnitIcons/Sponger
   index: -1
 UnitPromotionIcons/Bloodline
   rotate: false
-  xy: 268, 484
+  xy: 4, 220
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
@@ -349,21 +349,21 @@ NationIcons/Obitos
   index: -1
 UnitPromotionIcons/Lithoid
   rotate: false
-  xy: 1696, 640
+  xy: 1432, 376
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Titan
   rotate: false
-  xy: 1696, 640
+  xy: 1432, 376
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Living Metal Forging
   rotate: false
-  xy: 1852, 796
+  xy: 1588, 532
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -377,7 +377,7 @@ UnitPromotionIcons/Sit
   index: -1
 UnitPromotionIcons/Stuned
   rotate: false
-  xy: 1588, 424
+  xy: 112, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

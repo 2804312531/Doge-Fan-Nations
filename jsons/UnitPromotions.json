@@ -3,7 +3,8 @@
 		"name": "Sit",
 		"uniques": [
 			"Can instantly construct a [Foxes] improvement <[1] times> <after which this unit is consumed>",
-			"May Paradrop to [Foxes] tiles up to [3] tiles away <in [all] tiles>",
+			/*"May Paradrop to [Foxes] tiles up to [3] tiles away <in [all] tiles>",*/
+			"[+1] Movement <in [Foxes] tiles>",
 			"[+15]% Strength <when defending> <in [Foxes] tiles>",
 			"[This Unit] heals [5] HP <in [Foxes] tiles> <upon turn end>"
 		]
@@ -25,7 +26,7 @@
 		"name": "Travel Light",
 		"uniques": [
 			"[+1] Movement",
-            "Can move after attacking",
+            /*"Can move after attacking",*/
             "[-33]% Strength <when defending>"
 		]
 	},
@@ -49,13 +50,13 @@
 			"Gain control over [all] tiles in a [0]-tile radius <in [Mycelium] tiles> <upon turn end>",
 			"Gain control over [all] tiles in a [0]-tile radius <in [Mycelium] tiles> <for [0] movement> <after which this unit is consumed>"
 			"Double movement in [Mycelium]",
-			"[+15]% Strength <in [Mycelium] tiles> <for [Melee] units>",
-			"[+15]% Strength <when defending> <in [Mycelium] tiles> <for [Ranged] units>",
-			"[-10]% Strength <in tiles without [City center]> <in tiles without [Mycelium]> <for [Melee] units>",
-			"[-10]% Strength <when defending> <in tiles without [City center]> <in tiles without [Mycelium]> <for [Ranged] units>",
+			"[+10]% Strength <in [Mycelium] tiles> <for [Melee] units>",
+			"[+10]% Strength <when defending> <in [Mycelium] tiles> <for [Ranged] units>",
+			"[-5]% Strength <in tiles without [City center]> <in tiles without [Mycelium]> <for [Melee] units>",
+			"[-5]% Strength <when defending> <in tiles without [City center]> <in tiles without [Mycelium]> <for [Ranged] units>",
 			/*"[This Unit] takes [5] damage <in [All] tiles> <upon turn end>",*/
-			"[This Unit] heals [10] HP <in [Mycelium] tiles> <upon turn end>",
-			"[This Unit] takes [5] damage <in tiles without [City center]> <in tiles without [Mycelium]> <upon ending a turn in a [All] tile>",
+			"[This Unit] heals [5] HP <in [Mycelium] tiles> <upon turn end>",
+			"[This Unit] takes [2] damage <in tiles without [City center]> <in tiles without [Mycelium]> <upon ending a turn in a [All] tile>",
 			/*"Turn this tile into a [Mycelium] tile <upon being defeated>"*/
 			"Turn this tile into a [Mycelium] tile <with [1] to [6] neighboring [City center] tiles> <in [Land] tiles> <upon turn end> <for [AI player] Civilizations> <hidden from users>",
 			"Turn this tile into a [Mycelium] tile <with [1] to [6] neighboring [Mycelium] tiles> <in [Land] tiles> <upon turn end> <for [AI player] Civilizations> <hidden from users>",
@@ -64,15 +65,17 @@
 	{
         "name": "Kitling",
 	    "uniques": [
-			"[Target Unit] gains the [Warrior of Sunlight] status for [1] turn(s) <for [0] movement> <when above [11] [Catnip]>",
+			"[Target Unit] gains the [Warrior of Sunlight] status for [1] turn(s) <for [0] movement> <for [Melee] units> <for units without [Warrior of Sunlight]> <when above [9] [Catnip]>",
+			"[This Unit] gains the [Warrior of Sunlight] status for [1] turn(s) <for [0] movement> <for [Melee] units> <for units without [Warrior of Sunlight]> <when above [9] [Catnip]> <when at war> <upon turn end> <for [AI player] Civilizations> <hidden from users>",
 			"Instantly provides [1] [Karma] <upon being defeated>"
 		]
 	},
 	{
         "name": "Warrior of Sunlight",
 	    "uniques": [
-			"[1] additional attacks per turn",
-			"Consumes [12] [Catnip]"
+			"[+100]% to Flank Attack bonuses",
+			"[+10]% Strength",
+			"Consumes [10] [Catnip]"
 		]
 	},
 	{
@@ -84,8 +87,12 @@
 	{
         "name": "Bloodline",
 	    "uniques": [
-			"[+25]% Strength",
-			"Heals [25] damage if it kills a unit",
+			"[+25]% Strength <without [Enable the Embrace]>",
+			"[+15]% Strength <with [Enable the Embrace]>",
+			"Earn [20]% of the damage done to [All] units as [Gold] <for [Melee] units>",
+			"Gain [-2] [Gold] <upon turn end> <for [non-[Bat]] units>",
+			/*"Gain [+4] [Gold] <upon damaging a [All] unit> <for [Melee] units>",*/
+			"Heals [25] damage if it kills a unit <for [Melee] units>",
 			"Can transform to [Bat] <for [0] movement>"
 		]
 	},
@@ -93,13 +100,12 @@
         "name": "Pureblood",
 	    "uniques": [
 			"[+15]% Strength bonus for [Military] units within [5] tiles",
-			"[+25]% Strength",
-			"[1] additional attacks per turn",
+			/*"[1] additional attacks per turn",
 			"[+1] Movement",
             "Can move after attacking",
 			"All tiles cost 1 movement",
 			"Ignores Zone of Control",
-			"Can pass through impassable tiles",
+			"Can pass through impassable tiles",*/
 			"Comment [100％ Capture Military]",
 			"Unit will heal every turn, even if it performs an action"
 		]
@@ -107,7 +113,7 @@
 	{
         "name": "Form Fusion",
 	    "uniques": [
-			"[-33]% Gold cost of upgrading",
+			/*"[-33]% Gold cost of upgrading",*/
 			"Can transform to [Archer] <for [0] movement> <for [Warrior] units> <after discovering [Archery]>",
 			"Can transform to [Warrior] <for [0] movement> <for [Archer] units>",
 			"Can transform to [Composite Bowman] <for [0] movement> <for [Swordsman] units> <after discovering [Construction]>",
@@ -116,7 +122,7 @@
 			"Can transform to [Longswordsman] <for [0] movement> <for [Crossbowman] units> <after discovering [Steel]> <when above [0] [Iron]>",
 			"Can transform to [Gatling Gun] <for [0] movement> <for [Rifleman] units> <after discovering [Industrialization]>",
 			"Can transform to [Rifleman] <for [0] movement> <for [Gatling Gun] units> <after discovering [Rifling]>",
-			"Can build [The Eyrie] improvements on tiles"
+			/*"Can build [The Eyrie] improvements on tiles"*/
 /*			"Can transform to [Archer] <for [1] movement> <for [Warrior] units> <after discovering [Archery]> <in tiles without [Friendly Land]>",
 			"Can transform to [Warrior] <for [1] movement> <for [Archer] units> <in tiles without [Friendly Land]>",
 			"Can transform to [Composite Bowman] <for [1] movement> <for [Swordsman] units> <after discovering [Construction]> <in tiles without [Friendly Land]>",
@@ -138,8 +144,9 @@
 	{
         "name": "Plated Armor, Bodkin Points",
 	    "uniques": [
-			"[+15]% Strength <for [Melee] units>",
-			"[+15]% Strength <when attacking> <for [Ranged] units>"
+			"[+15]% Strength",
+			/*"[+15]% Strength <for [Melee] units>",
+			"[+15]% Strength <when attacking> <for [Ranged] units>"*/
 		]
 	},
 	{
@@ -168,16 +175,44 @@
 	{
         "name": "Lithoid",
 	    "uniques": [
-			"[+25]% Strength <when defending>",
-			"[+33]% Strength <vs [Ranged] units> <when defending>"
+			"[+25]% Strength <when defending>"
+			/*"[-33]% Strength <vs [Siege] units> <when defending>"*/
 		]
 	},
 	{
-        "name": "Stuned",
+        "name": "[Granite Colossus] ability",
+	    "uniques": [
+			/*"Destroys tile improvements when attacking",*/
+			"[Target Unit] gains the [Stuned I] status for [2] turn(s) <upon damaging a [All] unit>",
+			"[Target Unit] gains the [Stuned II] status for [2] turn(s) <upon damaging a [Stuned I] unit>"
+		]
+	}
+	{
+        "name": "Stuned I",
+	    "uniques": [
+			"[-1] Movement",
+			"[-20]% Strength"
+			/*"No defensive terrain bonus"*/
+		]
+	},
+	{
+        "name": "Stuned II",
 	    "uniques": [
 			"Cannot attack",
 			"Cannot move",
-			"[-40]% Strength <when defending>"
+			"[-20]% Strength"
+			/*"No defensive terrain bonus"*/
+		]
+	},
+	{
+        "name": "God",
+	    "uniques": [
+			"[+32767]% Strength",
+			"Cannot attack",
+			"Cannot move",
+			"[+99] Sight",
+			"Can see over obstacles"
+			/*"No defensive terrain bonus"*/
 		]
 	}
 ]

@@ -16,12 +16,7 @@
             {
                 "name": "Unique Enhancement", //1
                 "uniques": [
-                    "[+5]% [Production]",
-                    "[+5]% [Food]",
-                    "[+5]% [Gold]",
-                    "[+5]% [Science]",
-                    "[+5]% [Culture]",
-                    "[+5]% [Faith]",
+                    "Triggers a [Unique Enhancement Choice] event",
                     "Unavailable <when number of [Completed Policy branches] is less than [1]>"
                 ],
                 "row": 2,
@@ -47,7 +42,7 @@
             {
                 "name": "Utopia", //4
                 "uniques": [
-                    "[+1 Happiness] per [4] population [in all cities]",
+                    "[+1 Happiness] per [6] population [in all cities]",
                     "Unavailable <when number of [Completed Policy branches] is less than [4]>"
                 ],
                 "row": 3,
@@ -64,7 +59,7 @@
             {
                 "name": "Beyond Complete",
                 "uniques": [
-                    "Comment [Theophany]"
+                    "Comment [[Bable Tower] can build]"
                 ]
             }
         ]
