@@ -18,8 +18,6 @@
 		],
 		"uniqueName": "Your Old Buddy",
 		"uniques": [
-			"[+1] Movement <for [Military] units> <when stacked with a [Civilian] unit>",
-			"[+1] Movement <for [Civilian] units> <when stacked with a [Military] unit>",
 			"[All] units gain the [Sit] promotion"
 		],
 		"cities": [
@@ -489,7 +487,8 @@
 		"uniqueName": "Ares's Game",
 		"uniques": [
 			"Earn [50]% of killed [Military] unit's [Strength] as [Faith]",
-			"[Melee] units gain the [Ares Warrior] promotion"
+			"[Melee] units gain the [Ares Warrior] promotion",
+			"[+15]% Strength <for [Military] units> <when stacked with a [Great General] unit>"
 		],
 		"cities": [
 			"Mars"

@@ -425,7 +425,6 @@
 	},
 	{
 		"name": "Temple of Ares",
-		"uniqueTo": "Ares",
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great General": 1},
@@ -433,5 +432,19 @@
             "[+15]% Production when constructing [Gunpowder] units [in this city]"],
 		"requiredTech": "Agriculture",
 		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
+	},
+	{
+		"name": "Mars's Shrine",
+		"uniqueTo": "Ares",
+        "replaces": "Shrine",
+		"faith": 1,
+		"food": 1,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": [
+            "New [Military] units start with [5] XP [in this city]",
+            "Only available <when religion is enabled>"
+        ]
 	}
 ]

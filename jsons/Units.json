@@ -273,8 +273,7 @@
 		"uniqueTo": "Ares",
 		"replaces": "Great General",
 		"uniques": [
-            "[+15]% Strength bonus for [{Military}] units within [5] tiles",
-            "[+15]% Strength bonus for [{Military}] units within [0] tiles",
+            "[+15]% Strength bonus for [Military] units within [3] tiles",
             "[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"Can be earned through combat",
             "Is part of Great Person group [General]",

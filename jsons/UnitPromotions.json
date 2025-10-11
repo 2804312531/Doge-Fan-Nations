@@ -6,7 +6,9 @@
 			/*"May Paradrop to [Foxes] tiles up to [3] tiles away <in [all] tiles>",*/
 			"[+1] Movement <in [Foxes] tiles>",
 			"[+15]% Strength <when defending> <in [Foxes] tiles>",
-			"[This Unit] heals [5] HP <in [Foxes] tiles> <upon turn end>"
+			"[This Unit] heals [5] HP <in [Foxes] tiles> <upon turn end>",
+			"[+1] Movement <for [Military] units> <when stacked with a [Civilian] unit>",
+			"[+1] Movement <for [Civilian] units> <when stacked with a [Military] unit>"
 		]
 	},
 	{
@@ -249,6 +251,7 @@
 			"Comment [Arena]",
 			"[+10]% Strength <when attacking>",
 			"[-100]% to Flank Attack bonuses",
+			"Comment [Cannot attack or be attacked by [non-[Ares's Game]] units]",
 			"Cannot move"
 		]
 	}
