@@ -1,0 +1,427 @@
+[
+	{
+		"name": "Petty King",
+		"uniqueTo": "Wanpasha",
+		"cost": 400,
+		"uniques": [
+			"Gain a free [Palace] [in this city]",
+			"Empire enters golden age",
+			"Destroyed when the city is captured",
+			"Unbuildable <in cities with a [Palace]>",
+			"Unsellable"
+		]
+	},
+/*	{
+		"name": "Mastermind",
+		"uniqueTo": "Rimeweave",
+		"cost": 1,
+		"uniques": [
+			"Destroyed when the city is captured",
+			"[1] free [Crystallacta] units appear <every [1] turns> <upon turn end>",
+			"Unbuildable <for [Human player] Civilizations> <hidden from users>",
+			"Unsellable"
+		]
+	},*/
+	{
+		"name": "Enable the Embrace",
+		"uniqueTo": "The Kindred",
+		"cost": 0,
+		"uniques": [
+			"Play [chimes] sound",
+			"Provides [1] [Enable the Embrace]",
+			/*"Triggers the following global alert: [[The Kindred] is expanding its military] <upon turn end>",*/
+			"Can only be built <in [Capital] cities>",
+			"Destroyed when the city is captured",
+			"Remove [Prohibit the Embrace] [in this city]",
+		]
+	},
+	{
+		"name": "Prohibit the Embrace",
+		"uniqueTo": "The Kindred",
+		"cost": 0,
+		"uniques": [
+			"Play [chimes] sound",
+			/*"Triggers the following global alert: [[The Kindred] has halted its military expansion] <upon turn end>",*/
+			"Can only be built <in [Capital] cities>",
+			"Destroyed when the city is captured",
+			"Remove [Enable the Embrace] [in this city]",
+		]
+	},
+/*	{
+		"name": "The Embrace - Bat",
+		"uniqueTo": "The Kindred",
+		"cost": 0,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": [
+			"Play [chimes] sound",
+			"[1] free [Bat] units appear",
+			"[-1] population [in this city]",
+			"Remove [The Embrace - Bat] [in this city]",
+			"Requires at least [3] population",
+			"Only available <when above [0] [Enable the Embrace]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "The Embrace - Warrior I",
+		"uniqueTo": "The Kindred",
+		"cost": 0,
+		"obsoleteTech": "Metal Casting",
+		"uniques": [
+			"Play [chimes] sound",
+			"[1] free [Warrior] units appear",
+			"[-1] population [in this city]",
+			"Remove [The Embrace - Warrior I] [in this city]",
+			"Requires at least [4] population",
+			"Only available <when above [0] [Enable the Embrace]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "The Embrace - Warrior II",
+		"uniqueTo": "The Kindred",
+		"cost": 0,
+		"obsoleteTech": "Metal Casting",
+		"uniques": [
+			"Play [chimes] sound",
+			"[1] free [Warrior] units appear",
+			"[-2] population [in this city]",
+			"Remove [The Embrace - Warrior II] [in this city]",
+			"Requires at least [3] population",
+			"Only available <when above [0] [Enable the Embrace]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "The Embrace - Spearman I",
+		"uniqueTo": "The Kindred",
+		"cost": 0,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"uniques": [
+			"Play [chimes] sound",
+			"[1] free [Spearman] units appear",
+			"[-1] population [in this city]",
+			"Remove [The Embrace - Spearman I] [in this city]",
+			"Requires at least [5] population",
+			"Only available <when above [0] [Enable the Embrace]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "The Embrace - Spearman II",
+		"uniqueTo": "The Kindred",
+		"cost": 0,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"uniques": [
+			"Play [chimes] sound",
+			"[1] free [Spearman] units appear",
+			"[-2] population [in this city]",
+			"Remove [The Embrace - Spearman II] [in this city]",
+			"Requires at least [4] population",
+			"Only available <when above [0] [Enable the Embrace]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "The Embrace - Swordsman I",
+		"uniqueTo": "The Kindred",
+		"cost": 0,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Steel",
+		"uniques": [
+			"Play [chimes] sound",
+			"[1] free [Swordsman] units appear",
+			"[-1] population [in this city]",
+			"Remove [The Embrace - Swordsman I] [in this city]",
+			"Requires at least [6] population",
+			"Only available <when above [0] [Iron]>",
+			"Only available <when above [0] [Enable the Embrace]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "The Embrace - Swordsman II",
+		"uniqueTo": "The Kindred",
+		"cost": 0,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Steel",
+		"uniques": [
+			"Play [chimes] sound",
+			"[1] free [Swordsman] units appear",
+			"[-2] population [in this city]",
+			"Remove [The Embrace - Swordsman II] [in this city]",
+			"Requires at least [4] population",
+			"Only available <when above [0] [Iron]>",
+			"Only available <when above [0] [Enable the Embrace]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "The Embrace - Pikeman I",
+		"uniqueTo": "The Kindred",
+		"cost": 0,
+		"requiredTech": "Civil Service",
+		"obsoleteTech": "Metallurgy",
+		"uniques": [
+			"Play [chimes] sound",
+			"[1] free [Pikeman] units appear",
+			"[-1] population [in this city]",
+			"Remove [The Embrace - Pikeman I] [in this city]",
+			"Requires at least [7] population",
+			"Only available <when above [0] [Enable the Embrace]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "The Embrace - Pikeman II",
+		"uniqueTo": "The Kindred",
+		"cost": 0,
+		"requiredTech": "Civil Service",
+		"obsoleteTech": "Metallurgy",
+		"uniques": [
+			"Play [chimes] sound",
+			"[1] free [Pikeman] units appear",
+			"[-2] population [in this city]",
+			"Remove [The Embrace - Pikeman II] [in this city]",
+			"Requires at least [5] population",
+			"Only available <when above [0] [Enable the Embrace]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "The Embrace - Pikeman III",
+		"uniqueTo": "The Kindred",
+		"cost": 0,
+		"requiredTech": "Civil Service",
+		"obsoleteTech": "Metallurgy",
+		"uniques": [
+			"Play [chimes] sound",
+			"[1] free [Pikeman] units appear",
+			"[-3] population [in this city]",
+			"Remove [The Embrace - Pikeman III] [in this city]",
+			"Requires at least [4] population",
+			"Only available <when above [0] [Enable the Embrace]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "The Embrace - Longswordsman I",
+		"uniqueTo": "The Kindred",
+		"cost": 0,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Gunpowder",
+		"uniques": [
+			"Play [chimes] sound",
+			"[1] free [Longswordsman] units appear",
+			"[-1] population [in this city]",
+			"Remove [The Embrace - Longswordsman I] [in this city]",
+			"Requires at least [9] population",
+			"Only available <when above [0] [Iron]>",
+			"Only available <when above [0] [Enable the Embrace]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "The Embrace - Longswordsman II",
+		"uniqueTo": "The Kindred",
+		"cost": 0,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Gunpowder",
+		"uniques": [
+			"Play [chimes] sound",
+			"[1] free [Longswordsman] units appear",
+			"[-2] population [in this city]",
+			"Remove [The Embrace - Longswordsman II] [in this city]",
+			"Requires at least [6] population",
+			"Only available <when above [0] [Iron]>",
+			"Only available <when above [0] [Enable the Embrace]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "The Embrace - Longswordsman III",
+		"uniqueTo": "The Kindred",
+		"cost": 0,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Gunpowder",
+		"uniques": [
+			"Play [chimes] sound",
+			"[1] free [Longswordsman] units appear",
+			"[-3] population [in this city]",
+			"Remove [The Embrace - Longswordsman III] [in this city]",
+			"Requires at least [5] population",
+			"Only available <when above [0] [Iron]>",
+			"Only available <when above [0] [Enable the Embrace]>",
+			"Destroyed when the city is captured"
+		]
+	},*/
+	{
+		"name": "Arms Forge",
+		"replaces": "Forge",
+		"uniqueTo": "Aishira",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Iron"],
+		"requiredTech": "Metal Casting",
+		"uniques": [
+			"All newly-trained [Land] units [in this city] receive the [Plated Armor, Bodkin Points] promotion"
+			"[+15]% Production when constructing [Land] units [in this city]",
+			"[+1 Production] from [Iron] tiles [in this city]"
+		]
+	},
+	{
+		"name": "Organic Catalytic Core",
+		"uniqueTo": "Obitos",
+		"cost": 0,
+		"uniques": [
+			/*"[+1 Production, -1 Food] from [Ocean] tiles [in this city] <in tiles without [Ice]>",
+			"[+1 Production, -1 Food] from [Ocean] tiles [in this city] <in tiles without [Ice]> <in cities with a [Lighthouse]>",
+			"[+1 Production, -1 Food] from [Coast] tiles [in this city] <in tiles without [Ice]>",
+			"[+1 Production, -1 Food] from [Coast] tiles [in this city] <in tiles without [Ice]> <in cities with a [Lighthouse]>",
+			"[+2 Production, -2 Food] from [Grassland] tiles [in this city] <in tiles without [Hill]> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Mycelium]>",
+			"[+1 Production, -1 Food] from [Plains] tiles [in this city] <in tiles without [Hill]> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Mycelium]> <in tiles without [El Dorado]> <in tiles without [Fountain of Youth]>",
+			"[+1 Production, -1 Food] from [Tundra] tiles [in this city] <in tiles without [Hill]> <in tiles without [Forest]> <in tiles without [Mycelium]>",
+			"[+1 Production, -1 Food] from [Desert] tiles without [Flood plains] [in this city] <in cities with a [Petra]>",
+			"[+2 Production, -2 Food] from [Lakes] tiles [in this city]",
+			"[+1 Production, -1 Food] from [Forest] tiles [in this city]",
+			"[+2 Production, -2 Food] from [Jungle] tiles [in this city]",
+			"[+1 Production, -1 Food] from [Mycelium] tiles [in this city]",
+			"[+3 Production, -3 Food] from [Oasis] tiles [in this city]",
+			"[+2 Production, -2 Food] from [Flood plains] tiles [in this city]",
+			"[+1 Production, -1 Food] from [Atoll] tiles [in this city]",
+			"[+2 Production, -2 Food] from [Great Barrier Reef] tiles [in this city]",
+			"[+2 Production, -2 Food] from [Rock of Gibraltar] tiles [in this city]",
+			"[+2 Production, -2 Food] from [Sri Pada] tiles [in this city]",
+			"[+2 Production, -2 Food] from [Uluru] tiles [in this city]",
+			"[+1 Production, -1 Food] from [Cattle] tiles [in this city]",
+			"[+1 Production, -1 Food] from [Sheep] tiles [in this city]",
+			"[+1 Production, -1 Food] from [Sheep] tiles [in this city] <in [Pasture] tiles>",
+			"[+1 Production, -1 Food] from [Deer] tiles [in this city]",
+			"[+1 Production, -1 Food] from [Deer] tiles [in this city] <in cities with a [Granary]>",
+			"[+1 Production, -1 Food] from [Bananas] tiles [in this city]",
+			"[+2 Production, -2 Food] from [Bananas] tiles [in this city] <in [Plantation] tiles>",
+			"[+1 Production, -1 Food] from [Bananas] tiles [in this city] <in cities with a [Granary]>",
+			"[+1 Production, -1 Food] from [Wheat] tiles [in this city]",
+			"[+1 Production, -1 Food] from [Wheat] tiles [in this city] <in cities with a [Granary]>",
+			"[+1 Production, -1 Food] from [Fish] tiles [in this city]",
+			"[+1 Production, -1 Food] from [Fish] tiles [in this city] <in cities with a [Lighthouse]>"
+			"[+1 Production, -1 Food] from [Whales] tiles [in this city]",
+			"[+1 Production, -1 Food] from [Citrus] tiles [in this city]",
+			"[+1 Production, -1 Food] from [Crab] tiles [in this city]",
+			"[+1 Production, -1 Food] from [Salt] tiles [in this city]",
+			"[+1 Production, -1 Food] from [Salt] tiles [in this city] <in [Mine] tiles>",
+			"[+1 Production, -1 Food] from [Farm] tiles [in this city]",
+			"[+1 Production, -1 Food] from [Fresh water] tiles [in this city] <in [Farm] tiles> <after discovering [Civil Service]>",
+			"[+1 Production, -1 Food] from [non-fresh water] tiles [in this city] <in [Farm] tiles> <after discovering [Fertilizer]>",
+			"[+1 Production, -1 Food] from [Pasture] tiles [in this city] <after discovering [Fertilizer]>",
+			"[+1 Production, -1 Food] from [Plantation] tiles [in this city] <after discovering [Fertilizer]>",
+			"[+1 Production, -1 Food] from [Fishing Boats] tiles [in this city]",
+			"[+1 Production, -1 Food] from [Terrace farm] tiles [in this city]",
+			"[+1 Production, -1 Food] from [Fresh water] tiles [in this city] <in [Terrace farm] tiles> <after discovering [Civil Service]>",
+			"[+1 Production, -1 Food] from [non-fresh water] tiles [in this city] <in [Terrace farm] tiles> <after discovering [Fertilizer]>",
+			"[+3 Production, -3 Food] from [Polder] tiles [in this city]",
+			"[+2 Production, -2 Food] <in cities with a [Granary]>",
+			"[+2 Production, -2 Food] <in cities with a [Water Mill]>",
+			"[+6 Production, -6 Food] <in cities with a [Hanging Gardens]>",
+			"[+5 Production, -5 Food] <in cities with a [Hospital]>",
+			"[+2 Production, -2 Food] <in cities with a [Palace]> <after adopting [Landed Elite]>",
+			"[+2 Production, -2 Food] <after adopting [Order Complete]>"*/
+			"[+2 Production, +1 Science, -1 Food] from [Ocean] tiles [in this city] <in tiles without [Ice]> <in [Catalytic Processing Plant] tiles>",
+			"[+2 Production, +1 Science, -1 Food] from [Ocean] tiles [in this city] <in tiles without [Ice]> <in cities with a [Lighthouse]> <in [Catalytic Processing Plant] tiles>",
+			"[+2 Production, +1 Science, -1 Food] from [Coast] tiles [in this city] <in tiles without [Ice]> <in [Catalytic Processing Plant] tiles>",
+			"[+2 Production, +1 Science, -1 Food] from [Coast] tiles [in this city] <in tiles without [Ice]> <in cities with a [Lighthouse]> <in [Catalytic Processing Plant] tiles>",
+			"[+3 Production, +1 Science, -2 Food] from [Grassland] tiles [in this city] <in tiles without [Hill]> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Mycelium]> <in [Catalytic Processing Plant] tiles>",
+			"[+2 Production, +1 Science, -1 Food] from [Plains] tiles [in this city] <in tiles without [Hill]> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Mycelium]> <in tiles without [El Dorado]> <in tiles without [Fountain of Youth]> <in [Catalytic Processing Plant] tiles>",
+			"[+2 Production, +1 Science, -1 Food] from [Tundra] tiles [in this city] <in tiles without [Hill]> <in tiles without [Forest]> <in tiles without [Mycelium]> <in [Catalytic Processing Plant] tiles>",
+			"[+2 Production, +1 Science, -1 Food] from [Desert] tiles without [Flood plains] [in this city] <in cities with a [Petra]> <in [Catalytic Processing Plant] tiles>",
+			"[+3 Production, +1 Science, -2 Food] from [Lakes] tiles [in this city] <in [Catalytic Processing Plant] tiles>",
+			"[+2 Production, +1 Science, -1 Food] from [Forest] tiles [in this city] <in [Catalytic Processing Plant] tiles>",
+			"[+3 Production, +1 Science, -2 Food] from [Jungle] tiles [in this city] <in [Catalytic Processing Plant] tiles>",
+			"[+2 Production, +1 Science, -1 Food] from [Mycelium] tiles [in this city] <in [Catalytic Processing Plant] tiles>",
+			"[+4 Production, +1 Science, -3 Food] from [Oasis] tiles [in this city] <in [Catalytic Processing Plant] tiles>",
+			"[+3 Production, +1 Science, -2 Food] from [Flood plains] tiles [in this city] <in [Catalytic Processing Plant] tiles>",
+			"[+2 Production, +1 Science, -1 Food] from [Atoll] tiles [in this city] <in [Catalytic Processing Plant] tiles>",
+			"[+3 Production, +1 Science, -2 Food] from [Great Barrier Reef] tiles [in this city] <in [Catalytic Processing Plant] tiles>",
+			"[+3 Production, +1 Science, -2 Food] from [Rock of Gibraltar] tiles [in this city] <in [Catalytic Processing Plant] tiles>",
+			"[+3 Production, +1 Science, -2 Food] from [Sri Pada] tiles [in this city] <in [Catalytic Processing Plant] tiles>",
+			"[+3 Production, +1 Science, -2 Food] from [Uluru] tiles [in this city] <in [Catalytic Processing Plant] tiles>",
+			"[+2 Production, +1 Science, -1 Food] from [Cattle] tiles [in this city] <in [Catalytic Processing Plant] tiles>",
+			"[+2 Production, +1 Science, -1 Food] from [Sheep] tiles [in this city] <in [Catalytic Processing Plant] tiles>",
+			"[+2 Production, +1 Science, -1 Food] from [Deer] tiles [in this city] <in [Catalytic Processing Plant] tiles>",
+			"[+2 Production, +1 Science, -1 Food] from [Deer] tiles [in this city] <in cities with a [Granary]> <in [Catalytic Processing Plant] tiles>",
+			"[+2 Production, +1 Science, -1 Food] from [Bananas] tiles [in this city] <in [Catalytic Processing Plant] tiles>",
+			"[+2 Production, +1 Science, -1 Food] from [Bananas] tiles [in this city] <in cities with a [Granary]> <in [Catalytic Processing Plant] tiles>",
+			"[+2 Production, +1 Science, -1 Food] from [Wheat] tiles [in this city] <in [Catalytic Processing Plant] tiles>",
+			"[+2 Production, +1 Science, -1 Food] from [Wheat] tiles [in this city] <in cities with a [Granary]> <in [Catalytic Processing Plant] tiles>",
+			"[+2 Production, +1 Science, -1 Food] from [Fish] tiles [in this city] <in [Catalytic Processing Plant] tiles>",
+			"[+2 Production, +1 Science, -1 Food] from [Fish] tiles [in this city] <in cities with a [Lighthouse]> <in [Catalytic Processing Plant] tiles>"
+			"[+2 Production, +1 Science, -1 Food] from [Whales] tiles [in this city] <in [Catalytic Processing Plant] tiles>",
+			"[+2 Production, +1 Science, -1 Food] from [Citrus] tiles [in this city] <in [Catalytic Processing Plant] tiles>",
+			"[+2 Production, +1 Science, -1 Food] from [Crab] tiles [in this city] <in [Catalytic Processing Plant] tiles>",
+			"[+2 Production, +1 Science, -1 Food] from [Salt] tiles [in this city] <in [Catalytic Processing Plant] tiles>",
+			/*工业*/
+			"[+1 Production, +1 Science] from [Ocean] tiles [in this city] <in tiles without [Ice]> <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
+			"[+1 Production, +1 Science] from [Ocean] tiles [in this city] <in tiles without [Ice]> <in cities with a [Lighthouse]> <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
+			"[+1 Production, +1 Science] from [Coast] tiles [in this city] <in tiles without [Ice]> <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
+			"[+1 Production, +1 Science] from [Coast] tiles [in this city] <in tiles without [Ice]> <in cities with a [Lighthouse]> <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
+			"[+1 Production, +1 Science] from [Grassland] tiles [in this city] <in tiles without [Hill]> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Mycelium]> <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
+			"[+1 Production, +1 Science] from [Plains] tiles [in this city] <in tiles without [Hill]> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Mycelium]> <in tiles without [El Dorado]> <in tiles without [Fountain of Youth]> <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
+			"[+1 Production, +1 Science] from [Tundra] tiles [in this city] <in tiles without [Hill]> <in tiles without [Forest]> <in tiles without [Mycelium]> <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
+			"[+1 Production, +1 Science] from [Desert] tiles without [Flood plains] [in this city] <in cities with a [Petra]> <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
+			"[+1 Production, +1 Science] from [Lakes] tiles [in this city] <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
+			"[+1 Production, +1 Science] from [Forest] tiles [in this city] <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
+			"[+1 Production, +1 Science] from [Jungle] tiles [in this city] <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
+			"[+1 Production, +1 Science] from [Mycelium] tiles [in this city] <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
+			"[+1 Production, +1 Science] from [Oasis] tiles [in this city] <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
+			"[+1 Production, +1 Science] from [Flood plains] tiles [in this city] <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
+			"[+1 Production, +1 Science] from [Atoll] tiles [in this city] <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
+			"[+1 Production, +1 Science] from [Great Barrier Reef] tiles [in this city] <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
+			"[+1 Production, +1 Science] from [Rock of Gibraltar] tiles [in this city] <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
+			"[+1 Production, +1 Science] from [Sri Pada] tiles [in this city] <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
+			"[+1 Production, +1 Science] from [Uluru] tiles [in this city] <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
+			"[+1 Production, +1 Science] from [Cattle] tiles [in this city] <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
+			"[+1 Production, +1 Science] from [Sheep] tiles [in this city] <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
+			"[+1 Production, +1 Science] from [Deer] tiles [in this city] <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
+			"[+1 Production, +1 Science] from [Deer] tiles [in this city] <in cities with a [Granary]> <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
+			"[+1 Production, +1 Science] from [Bananas] tiles [in this city] <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
+			"[+1 Production, +1 Science] from [Bananas] tiles [in this city] <in cities with a [Granary]> <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
+			"[+1 Production, +1 Science] from [Wheat] tiles [in this city] <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
+			"[+1 Production, +1 Science] from [Wheat] tiles [in this city] <in cities with a [Granary]> <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
+			"[+1 Production, +1 Science] from [Fish] tiles [in this city] <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
+			"[+1 Production, +1 Science] from [Fish] tiles [in this city] <in cities with a [Lighthouse]> <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>"
+			"[+1 Production, +1 Science] from [Whales] tiles [in this city] <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
+			"[+1 Production, +1 Science] from [Citrus] tiles [in this city] <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
+			"[+1 Production, +1 Science] from [Crab] tiles [in this city] <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
+			"[+1 Production, +1 Science] from [Salt] tiles [in this city] <in [Catalytic Processing Plant] tiles> <after discovering [Chemistry]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Deep Slate Mine",
+		"uniqueTo": "Titan",
+		"maintenance": 1,
+		"production": 2,
+		"specialistSlots": {"Miner": 15},
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Mining"
+	},
+	{
+		"name": "Babel Tower",
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {
+			"Great Engineer": 1
+		},
+		"uniques": [
+			"Comment [Theophany]",
+			"Only available <after adopting [Beyond Complete]>"
+		]
+		"requiredTech": "Future Tech",
+		"quote": "'Stop building!.' - God"
+	},
+]

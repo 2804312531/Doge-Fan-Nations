@@ -1,0 +1,134 @@
+[
+    {
+        "name": "Unique Enhancement Choice",
+        "text": "Unique Enhancement Choice",
+        "choices": [
+            {
+                "text": "Unique Enhancement I",
+                "uniques": [
+                    "Play [chimes] sound",
+                    "Provides [1] [Unique Enhancement I] <for [32767] turns>"
+                ]
+            },
+            {
+                "text": "Unique Enhancement II",
+                "uniques": [
+                    "Play [chimes] sound",
+                    "Provides [1] [Unique Enhancement II] <for [32767] turns>",
+                ]
+            },
+            {
+                "text": "Add In Future",
+                "uniques": [
+                    "Play [chimes] sound <for [32767] turns>",
+                    "[+3]% [Production] <for [32767] turns>",
+                    "[+3]% [Food] <for [32767] turns>",
+                    "[+3]% [Gold] <for [32767] turns>",
+                    "[+3]% [Science] <for [32767] turns>",
+                    "[+3]% [Culture] <for [32767] turns>",
+                    "[+3]% [Faith] <for [32767] turns>",
+                    "[3]% [Strategic] resource production <for [32767] turns>",
+                    "Comment [None.]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Praise the Sun",
+        "text": "Praise the Sun",
+        "choices": [
+            {
+                "text": "Praise the Sun",
+                "uniques": [
+                    "Play [chimes] sound",
+                    "[+1 Faith] per [1] population [in all cities] <for [2] turns>"
+                ]
+            },
+/*            {
+                "text": "Kindled Offering to the Sun",
+                "uniques": [
+                    "Play [chimes] sound",
+                    "[+1 Faith] per [1] population [in all cities] <for [2] turns>",
+                    "Empire enters a [2]-turn Golden Age",
+                    "[-1] population in a random city",
+                    "Instantly provides [6] [Karma]"
+                ]
+            }*/
+        ]
+    },
+    {
+        "name": "Heirlooms Choice",
+        "text": "Cassius Knox's grandfather distributed the heirlooms among his descendants after his death... and Cassius chose...",
+        "choices": [
+            {
+                "text": "A sum of wealth",
+                "uniques": [
+                    "Play [chimes] sound",
+                    "Gain [50]-[100] [Gold] <(modified by game speed)>"
+                ]
+            },
+            {
+                "text": "The Bloodline's History",
+                "uniques": [
+                    "Play [chimes] sound",
+                    "Gain [20] [Culture] <(modified by game speed)>"
+                ]
+            },
+            {
+                "text": "Old Craft",
+                "uniques": [
+                    "Play [chimes] sound",
+                    "[1] free random researchable Tech(s) from the [Ancient era]"
+                ]
+            },
+            {
+                "text": "Effigy",
+                "uniques": [
+                    "Play [chimes] sound",
+                    "Gain enough Faith for a Pantheon"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "The Progenitor awakens.",
+        "text": "The Progenitor awakens.",
+        "choices": [
+            {
+                "text": "The Progenitor awakens.",
+                "uniques": [
+                    "Play [chimes] sound",
+                    "Free [Progenitor] appears",
+                    /*"Triggers the following global alert: [Can he be defeated once more by mortal hands?]"*/
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Signature Gemstones Choice",
+        "text": "Signature Gemstones Choice",
+        "choices": [
+            {
+                "text": "Diamond",
+                "uniques": [
+                    "Play [chimes] sound",
+                    "[+15]% [Production] <for [10] turns>"
+                ]
+            },
+            {
+                "text": "Red Stone",
+                "uniques": [
+                    "Play [chimes] sound",
+                    "[+15]% [Science] <for [10] turns>"
+                ]
+            },
+            {
+                "text": "Emerald",
+                "uniques": [
+                    "Play [chimes] sound",
+                    "[+15]% [Culture] <for [10] turns>"
+                ]
+            }
+        ]
+    }
+]

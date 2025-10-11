@@ -1,0 +1,73 @@
+[
+    {
+        "name": "Beyond",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "Free Social Policy"
+        ],
+        "policies": [
+            {
+                "name": "Unique Enhancement", //1
+                "uniques": [
+                    "Triggers a [Unique Enhancement Choice] event",
+                    /*"Unavailable <when number of [Completed Policy branches] is less than [1]>"*/
+                ],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Un Wonder", //2
+                "uniques": [
+                    "Free [Miracle Engineer] appears",
+                    "Comment [Megastructure can be build with [Miracle Engineer]]"
+                    /*"Unavailable <when number of [Completed Policy branches] is less than [2]>"*/
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Automation", //3
+                "uniques": [
+                    "Comment [[Auto] can be build with [Worker]]"
+                    /*"Unavailable <when number of [Completed Policy branches] is less than [3]>"*/
+                ],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Utopia", //4
+                "uniques": [
+                    "[+1 Happiness] per [6] population [in all cities]",
+                    /*"Unavailable <when number of [Completed Policy branches] is less than [4]>"*/
+                ],
+                "row": 3,
+                "column": 2
+            },
+            {
+                "name": "Unique Expansion", //5
+                "uniques": [
+                    /*"[20]% of excess happiness converted to [Gold]",
+                    "[20]% of excess happiness converted to [Science]",
+                    "[20]% of excess happiness converted to [Culture]",
+                    "[20]% of excess happiness converted to [Faith]",
+                    "Unavailable <when number of [Completed Policy branches] is less than [5]>"*/
+                ],
+                "row": 3,
+                "column": 4
+            },
+            {
+                "name": "Beyond Complete",
+                "uniques": [
+                    "Comment [[Bable Tower] can build]"
+                ]
+            }
+        ]
+    }
+]
