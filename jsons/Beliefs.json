@@ -3,8 +3,8 @@
         "name": "Self-preservation",
         "type": "Pantheon",
         "uniques": [
-           "[Land] units gain the [Cowardly Bunch] promotion",
-           "All newly-trained [Land] units [in all cities] receive the [Cowardly Bunch] promotion"
+           "[{Military} {non-[Missile]}] units gain the [Cowardly Bunch] promotion",
+           "All newly-trained [{Military} {non-[Missile]}] units [in all cities] receive the [Cowardly Bunch] promotion"
         ]
     },
     {
@@ -25,8 +25,8 @@
         "name": "Light",
         "type": "Enhancer",
         "uniques": [
-            "[Military] units gain the [Travel Light] promotion",
-            "All newly-trained [Military] units [in all cities] receive the [Travel Light] promotion"
+            "[{Military} {non-[Missile]}] units gain the [Travel Light] promotion",
+            "All newly-trained [{Military} {non-[Missile]}] units [in all cities] receive the [Travel Light] promotion"
         ]
     }
 ]

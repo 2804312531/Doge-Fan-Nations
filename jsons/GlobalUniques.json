@@ -14,6 +14,8 @@
         "[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack> <for [Living Metal Forging] units>",
 		"[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <for [Living Metal Forging] units>",
 		"Can build [Auto] improvements on tiles <after adopting [Automation]> <for [Worker] units>",
-		"[-10]% production cost <for [Obitos] Civilizations>"
+		"[-10]% production cost <for [Obitos] Civilizations>",
+		"Cannot attack <for [non-[Ares's Game]] units> <when attacking> <vs [Ares's Game] units>",
+		"Cannot attack <for [Ares's Game] units> <when attacking> <vs [non-[Ares's Game]] units>"
     ]
 }

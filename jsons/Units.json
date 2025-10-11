@@ -11,6 +11,42 @@
 		]
 	},
 	{
+		"name": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+            "[+15]% Strength bonus for [{Military} {non-[Ares's Game]}] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat",
+            "Is part of Great Person group [General]",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Khan",
+		"unitType": "Civilian",
+		"uniqueTo": "Mongolia",
+		"replaces": "Great General",
+		"uniques": [
+            "[+15]% Strength bonus for [{Military} {non-[Ares's Game]}] units within [2] tiles",
+			"All adjacent units heal [+15] HP when healing", "[+15] HP when healing",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat",
+            "Is part of Great Person group [General]",
+            "Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 5
+	},
+	{
+		"name": "Great Admiral",
+		"unitType": "Civilian Water",
+		"uniques": [
+            // TODO: "[Every adjacent [{Friendly} {Water}] unit] heals [100] HP <by consuming this unit>",
+            "[+15]% Strength bonus for [{Military} {Water} {non-[Ares's Game]}] units within [2] tiles",
+			"Can be earned through combat",
+            "Is part of Great Person group [Admiral]",
+            "Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 4
+	},
+	{
 		"name": "Settler",
 		"unitType": "Civilian",
 		"movement": 2,
@@ -129,13 +165,28 @@
 		"uniqueTo": "The Kindred",
 		"replaces": "Scout",
 		"unitType": "Scout",
-		"range": 1,
+		/*"range": 1,*/
 		"movement": 3,
 		"strength": 4,
-		"rangedStrength": 4,
+		/*"rangedStrength": 5,*/
 		"cost": 25,
 		"uniques": [
-			"[-100]% Strength <when attacking>",
+            "Can upgrade to [Warrior]",
+            "Can upgrade to [Archer]",
+            "Can upgrade to [Spearman]",
+            "Can upgrade to [Chariot Archer]",
+            "Can upgrade to [Catapult]",
+            "Can upgrade to [Horseman]",
+            "Can upgrade to [Paratrooper]",
+            "Can upgrade to [Marine]",
+            "Can upgrade to [Helicopter Gunship]",
+            "Can upgrade to [Trireme]",
+            "Can upgrade to [Galleass]",
+            "Can upgrade to [Privateer]",
+            "Can upgrade to [Submarine]",
+            "Can upgrade to [Carrier]",
+            "Can upgrade to [Triplane]",
+            "Can upgrade to [Great War Bomber]",
 			"[Target Unit] gains the [Flustered] status for [1] turn(s) <upon damaging a [Military] unit>",
 			/*"Gain [+1] [Gold] <upon damaging a [All] unit>",*/
 			"Can move after attacking",
@@ -169,11 +220,8 @@
 		"replaces": "Great General",
 		"unitType": "Civilian",
 		"uniques": [
-			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"[+15]% Strength bonus for [{Military} {non-[Ares's Game]}] units within [2] tiles",
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
-			"All tiles cost 1 movement",
-			/*"Ignores Zone of Control",
-			"Can pass through impassable tiles",*/
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Can be earned through combat",
 			"Is part of Great Person group [General]",
@@ -181,7 +229,7 @@
 			"Unbuildable",
 			"Uncapturable"
 		],
-		"movement": 3
+		"movement": 2
 	},
 	{
 		"name": "Granite Colossus",
@@ -218,5 +266,19 @@
 		],
 		"promotions": ["[Agony] ability"],
 		"attackSound": "nonmetalhit"
-	}
+	},
+	{
+		"name": "Ares Avatar",
+		"unitType": "Civilian",
+		"uniqueTo": "Ares",
+		"replaces": "Great General",
+		"uniques": [
+            "[+15]% Strength bonus for [{Military}] units within [5] tiles",
+            "[+15]% Strength bonus for [{Military}] units within [0] tiles",
+            "[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"Can be earned through combat",
+            "Is part of Great Person group [General]",
+            "Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
 ]

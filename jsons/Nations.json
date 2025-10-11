@@ -160,7 +160,7 @@
 		],
 		"uniqueName": "Veindead Edict",
 		"uniques": [
-			"[All] units gain the [Rimescar] promotion",
+			"[{non-[Missile]}] units gain the [Rimescar] promotion",
 			"[+50]% Culture cost of natural border growth [in this city]",
 			"[+50]% Gold cost of acquiring tiles [in this city]",
 			"[+1 Food] from [Mycelium] tiles [in all cities]",
@@ -233,9 +233,9 @@
 		],
 		"uniqueName": "Crimson Suzerainty",
 		"uniques": [
-			"[-20]% Production when constructing [Military] units [in all cities] <without [Enable the Embrace]>",
-			"[Gold] cost of purchasing [Military] units [+25]% <without [Enable the Embrace]>",
-			"[Military] units gain the [Bloodline] promotion",
+			"[-20]% Production when constructing [{Military} {non-[Missile]}] units [in all cities] <without [Enable the Embrace]>",
+			"[Gold] cost of purchasing [{Military} {non-[Missile]}] units [+25]% <without [Enable the Embrace]>",
+			"[{Military} {non-[Missile]}] units gain the [Bloodline] promotion",
 			"May buy items in puppet cities",
 			"May not annex cities <before the [Industrial era]>",
 			"[-1 Production] per [2] population [in this city] <in [Puppeted] cities>",
@@ -293,7 +293,7 @@
 		"uniques": [
 			/*"[+1 Production] from every [Iron]",
 			"[+100]% [Iron] resource production",*/
-			"[{Military} {Land}] units gain the [Form Fusion] promotion",
+			"[{Military} {non-[Missile]}] units gain the [Form Fusion] promotion",
 			"Comment [Blade and Arrow are One.]"
 		],
 		"cities": [
@@ -469,6 +469,30 @@
 			"Shale"
 			"Cinder"
 			"Monolith"
+		]
+	},
+	{
+		"name": "Ares",
+		"leaderName": "Ares",
+		"preferredVictoryType": "Domination",
+		"personality": "入机",
+		"outerColor": [
+			97,
+			78,
+			26
+		],
+		"innerColor": [
+			138,
+			7,
+			7
+		],
+		"uniqueName": "Ares's Game",
+		"uniques": [
+			"Earn [50]% of killed [Military] unit's [Strength] as [Faith]",
+			"[Melee] units gain the [Ares Warrior] promotion"
+		],
+		"cities": [
+			"Mars"
 		]
 	},
 	{

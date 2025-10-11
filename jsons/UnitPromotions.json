@@ -82,7 +82,8 @@
 	{
         "name": "Flustered",
 	    "uniques": [
-			"[-1] Movement"
+			"[-1] Movement",
+			"[-10]% Strength"
 		]
 	},
 	{
@@ -91,7 +92,7 @@
 			"[+25]% Strength <without [Enable the Embrace]>",
 			"[+15]% Strength <with [Enable the Embrace]>",
 			"Earn [20]% of the damage done to [All] units as [Gold] <for [Melee] units>",
-			"Gain [-2] [Gold] <upon turn end> <for [non-[Bat]] units>",
+			"Gain [-2] [Gold] <upon turn end>",
 			/*"Gain [+4] [Gold] <upon damaging a [All] unit> <for [Melee] units>",*/
 			"Heals [25] damage if it kills a unit <for [Melee] units>",
 			"Can transform to [Bat] <for [0] movement>"
@@ -185,23 +186,23 @@
 	    "uniques": [
 			/*"Destroys tile improvements when attacking",*/
 			"[Target Unit] gains the [Stuned I] status for [1] turn(s) <upon damaging a [non-[Stuned II]] unit>",
-			/*"[Target Unit] gains the [Stuned II] status for [2] turn(s) <upon damaging a [Stuned I] unit>"*/
+			"[Target Unit] gains the [Stuned II] status for [1] turn(s) <upon damaging a [Stuned I] unit>"
 		]
 	}
 	{
         "name": "Stuned I",
 	    "uniques": [
-			"[-99] Movement",
-			"[-20]% Strength"
+			/*"[-99] Movement",*/
+			"[-15]% Strength"
 			/*"No defensive terrain bonus"*/
 		]
 	},
 	{
         "name": "Stuned II",
 	    "uniques": [
-			"Cannot attack",
-			"Cannot move",
-			"[-40]% Strength",
+			/*"Cannot attack",
+			"Cannot move",*/
+			"[-30]% Strength",
 			"[This Unit] loses the [Stuned I] promotion"
 			/*"No defensive terrain bonus"*/
 		]
@@ -232,6 +233,23 @@
         "name": "Unquenchable Fire",
 	    "uniques": [
 			"[This Unit] takes [50] damage <upon ending a turn in a [All] tile>"
+		]
+	},
+	{
+        "name": "Ares Warrior",
+	    "uniques": [
+			"[+10]% Strength <when attacking> <vs [{Melee} {non-[Ares's Game]}] units>",
+			"[This Unit] gains the [Ares's Game] status for [2] turn(s) <when attacking> <upon damaging a [{Melee} {non-[Ares's Game]}] unit>",
+			"[Target Unit] gains the [Ares's Game] status for [2] turn(s) <when attacking> <upon damaging a [{Melee} {non-[Ares's Game]}] unit>"
+		]
+	},
+	{
+        "name": "Ares's Game",
+	    "uniques": [
+			"Comment [Arena]",
+			"[+10]% Strength <when attacking>",
+			"[-100]% to Flank Attack bonuses",
+			"Cannot move"
 		]
 	}
 ]

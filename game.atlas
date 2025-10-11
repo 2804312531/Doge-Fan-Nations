@@ -46,6 +46,13 @@ BuildingIcons/Petty King
   orig: 83, 65
   offset: 0, 0
   index: -1
+BuildingIcons/Temple of Ares
+  rotate: false
+  xy: 220, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Auto-Berry Mine
   rotate: false
   xy: 4, 748
@@ -76,7 +83,7 @@ ImprovementIcons/Remove Mycelium
   index: -1
 ImprovementIcons/The Eyrie
   rotate: false
-  xy: 220, 112
+  xy: 1432, 268
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -86,6 +93,27 @@ NationIcons/Aishira
   xy: 4, 112
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Ares
+  rotate: false
+  xy: 1960, 817
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitIcons/Ares Avatar
+  rotate: false
+  xy: 1960, 817
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Ares Warrior
+  rotate: false
+  xy: 1960, 817
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 NationIcons/Atlantis
@@ -160,7 +188,7 @@ ResourceIcons/Karma
   index: -1
 ResourceIcons/Turn
   rotate: false
-  xy: 400, 162
+  xy: 530, 162
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -216,56 +244,56 @@ TileSets/AbsoluteUnits/Units/Progenitor
   index: -1
 TileSets/HexaRealm/Tiles/Auto-Berry Mine
   rotate: false
-  xy: 1432, 312
+  xy: 1696, 576
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Foxes
   rotate: false
-  xy: 1432, 312
+  xy: 1696, 576
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Catalytic Processing Plant
   rotate: false
-  xy: 1696, 576
+  xy: 220, 48
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Grassland+Hill+Mycelium
   rotate: false
-  xy: 220, 48
+  xy: 328, 156
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Plains+Hill+Mycelium
   rotate: false
-  xy: 220, 48
+  xy: 328, 156
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Tundra+Hill+Mycelium
   rotate: false
-  xy: 220, 48
+  xy: 328, 156
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Mycelium
   rotate: false
-  xy: 328, 156
+  xy: 1960, 875
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/The Eyrie
   rotate: false
-  xy: 1960, 875
+  xy: 400, 156
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -324,6 +352,13 @@ UnitIcons/Sponger
   xy: 1060, 220
   size: 256, 256
   orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Ares's Game
+  rotate: false
+  xy: 472, 162
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Bloodline

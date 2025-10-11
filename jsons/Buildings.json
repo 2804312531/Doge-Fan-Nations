@@ -401,7 +401,6 @@
 	{
 		"name": "Deep Slate Mine",
 		"uniqueTo": "Titan",
-		"maintenance": 1,
 		"production": 2,
 		"specialistSlots": {"Miner": 15},
 		"hurryCostModifier": 25,
@@ -424,4 +423,15 @@
 		"requiredTech": "Future Tech",
 		"quote": "'Stop building!.' - God"
 	},
+	{
+		"name": "Temple of Ares",
+		"uniqueTo": "Ares",
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great General": 1},
+        "uniques": ["[+10]% [Food] [in all cities]", "[+15]% Production when constructing [Sword] units [in this city]",
+            "[+15]% Production when constructing [Gunpowder] units [in this city]"],
+		"requiredTech": "Agriculture",
+		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
+	}
 ]
