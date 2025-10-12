@@ -130,5 +130,20 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "Future Advance",
+        "text": "Future Advance",
+        "choices": [
+            {
+                "text": "Future Advance",
+                "uniques": [
+                    "Play [chimes] sound",
+                    "[+1] population [in all cities] <when above [-1] [Time]>",
+                    "Instantly consumes [20] [Time] <when above [-1] [Time]>",
+                    "[-1] population [in all cities] <when below [0] [Time]>"
+                ]
+            }
+        ]
     }
 ]

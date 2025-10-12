@@ -8,6 +8,14 @@
 		]
 	},
 	{
+		"name": "Time",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Cannot be traded"
+		]
+	},
+	{
 		"name": "Catnip",
 		"resourceType": "Strategic",
 		"uniques": [

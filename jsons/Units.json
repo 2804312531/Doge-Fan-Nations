@@ -105,10 +105,10 @@
 		"uniqueTo": "Atlantis",
 		"unitType": "Civilian Water",
 		"movement": 2,
-		"cost": 30,
+		"cost": 70,
 		"requiredTech": "Sailing",
 		"uniques": [
-			"Turn this tile into a [Desert] tile <[2] times> <after which this unit is consumed> <if it hasn't used other actions yet> <in [Water] tiles>",
+			"Turn this tile into a [Atoll] tile <[2] times> <after which this unit is consumed> <in [Coast] tiles>",
 			/*"May travel on Water tiles without embarking",*/
 			"Uncapturable",
 			"Automation is a primary action"
@@ -120,7 +120,7 @@
 		"replaces": "Spearman",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 12,
+		"strength": 11,
 		"cost": 56,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",

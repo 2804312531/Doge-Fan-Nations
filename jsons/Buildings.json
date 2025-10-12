@@ -443,7 +443,8 @@
 		"maintenance": 1,
 		"requiredTech": "Pottery",
 		"uniques": [
-            "New [Military] units start with [5] XP [in this city]",
+            "[Military] units gain the [Harvest of War] promotion",
+            /*"New [Military] units start with [5] XP [in this city]",*/
             "Only available <when religion is enabled>"
         ]
 	}

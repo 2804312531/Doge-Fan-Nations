@@ -117,11 +117,11 @@
 		],
 		"uniqueName": "The Lost People",
 		"uniques": [
-			"Starts with [Sailing]",
-			"[+10]% Strength",
-			"[-10]% Strength <when fighting units from a Civilization with more Cities than you>",
+			"Discover [Sailing] <upon turn end> <while researching [Sailing]>",
+			"[+10]% Strength <vs [non-[Barbarians]] units>",
+			"[-10]% Strength <vs [non-[Barbarians]] units> <when fighting units from a Civilization with more Cities than you>",
 			/*"[+15]% Production when constructing [Water] units [in all cities]",*/
-			"[+1 Production, +1 Food] from [Atoll] tiles [in all cities]"
+			"[+1 Production, +1 Food, +1 Gold] from [Atoll] tiles [in all cities]"
 		],
 		"cities": [
 			"Poseidonis",
@@ -200,9 +200,9 @@
 		],
 		"uniqueName": "Kittens Game",
 		"uniques": [
-			"[All] units gain the [Kitling] promotion",
+			"[{non-[Missile]}] units gain the [Kitling] promotion",
 			"[+1]% [Production] <for every [10] [Karma]>",
-			"Triggers a [Praise the Sun] event <every [10] turns> <upon turn end>"
+			"Triggers a [Praise the Sun] event <every [10] turns> <upon turn end> <if [Palace] is constructed>"
 		],
 		"cities": [
 			"Catnip Grove",
@@ -236,8 +236,7 @@
 			"[{Military} {non-[Missile]}] units gain the [Bloodline] promotion",
 			"May buy items in puppet cities",
 			"May not annex cities <before the [Industrial era]>",
-			"[-1 Production] per [2] population [in this city] <in [Puppeted] cities>",
-			"[+4 Gold] per [2] population [in this city] <in [Puppeted] cities>",
+			"[+4 Gold] per [1] population [in this city] <in [Puppeted] cities>",
 			/*"Free [Blooded Marshal] appears <after adopting [Aristocracy]>",
 			"Gain a free [Courthouse] [in all cities] <after adopting [Aristocracy]>",
 			"[Gold] cost of purchasing [Ranged] units [-33]% <after adopting [Oligarchy]>",
@@ -257,7 +256,7 @@
 			"[+1 Gold] per [2] population [in this city] <in [Puppeted] cities> <with [Unique Enhancement I]>",
 			"Comment [Unique Enhancement II]",
 			"Comment [Sanguine Harvest]",
-			"[+1 Happiness] from [Bonus resource] tiles [in this city]",
+			"[+1 Happiness] from [Bonus resource] tiles [in this city] <with [Unique Enhancement II]>",
 			"[100]% of excess happiness converted to [Gold] <with [Unique Enhancement II]>"
 		],
 		"cities": [
@@ -385,25 +384,30 @@
 		"uniqueName": "Pulse of the Earth",
 		"uniques": [
 			"Starts with [Mining]",
-			"[All] units gain the [Lithoid] promotion",
-			/*"[-15]% growth [in all cities]",*/
-			/*"[+1 Happiness] per [10] population [in all cities]",*/
+			/*"[All] units gain the [Lithoid] promotion",*/
+			"[+1 Food] from [Mine] tiles [in all cities]",
+			"[+1 Food] from [Quarry] tiles [in all cities]",
+			"[-15]% growth [in all cities]",
+			/*"[-15]% growth [in all cities]",
+			"[+1 Gold] per [1] population [in all cities]",
+			"[+1 Happiness] per [10] population [in all cities]",
+			"[+10]% [Food] [in this city] <in cities with a [Granary]>",
 			"[-2 Production, +2 Food] from [Hill] tiles [in all cities] <in tiles without [City center]> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Mycelium]>",
-			/*"[+2 Production, -2 Food] from [Hill] tiles [in all cities] <in [City center] tiles>",
+			"[+2 Production, -2 Food] from [Hill] tiles [in all cities] <in [City center] tiles>",
 			"[+1 Production, -1 Food] from [Hill] tiles [in all cities] <in [Plains] tiles>",
 			"[-1 Production, +1 Food] from [Hill] tiles [in all cities] <in [Plains] tiles> <in [City center] tiles>",*/
 			/*"[-1 Production, +1 Food] from [Mine] tiles [in all cities] <in tiles without [Hill]>",
 			"[-1 Production, +1 Food] from [Mine] tiles [in all cities] <after discovering [Masonry]>",
 			"[-1 Production, +1 Food] from [Quarry] tiles [in all cities] <in tiles without [Hill]>",*/
-			/*"[-1 Production, +1 Food] from [Quarry] tiles [in all cities] <after discovering [Masonry]>",*/
+			/*"[-1 Production, +1 Food] from [Quarry] tiles [in all cities] <after discovering [Masonry]>",
 			"[-1 Production, +1 Food] from [Stone] tiles [in all cities]",
 			"[+1 Food] from [Stone] tiles [in all cities] <in cities with a [Granary]>",
 			"[+1 Production, +2 Food] from [Mountain] tiles [in all cities]",
 			"[+1 Production] from [Mountain] tiles [in all cities] <after discovering [Chemistry]>",
 			"[+1 Production] from [Mountain] tiles [in all cities] <after adopting [Communism]>",
-			/*"[-1 Production, +1 Food] from [Mountain] tiles [in all cities] <after discovering [Masonry]>",
+			"[-1 Production, +1 Food] from [Mountain] tiles [in all cities] <after discovering [Masonry]>",
 			"[-1 Production, +1 Food] from every [Miner] <after discovering [Masonry]>",
-			"[-1 Production, +1 Food, +1 Gold] from [Trading post] tiles [in all cities] <after discovering [Guilds]>",*/
+			"[-1 Production, +1 Food, +1 Gold] from [Trading post] tiles [in all cities] <after discovering [Guilds]>",
 			"[+1 Production] from every [Miner] <after discovering [Chemistry]>",
 			"[+1 Production] from every [Miner] <after adopting [Communism]>",
 			"[+1 Production, -1 Gold] from [Ocean] tiles [in this city] <in tiles without [Ice]>",
@@ -435,7 +439,7 @@
 			"[-1 Food] from [Plantation] tiles [in this city] <after discovering [Fertilizer]>",
 			"[-1 Food] from [Fishing Boats] tiles [in this city]",
 			"[-2 Food] from [Terrace farm] tiles [in this city]",
-			"[-3 Food] from [Polder] tiles [in this city]",
+			"[-3 Food] from [Polder] tiles [in this city]",*/
 			"Comment [Unique Enhancement I]",
 			"Comment [Mining Guilds]",
 			"[+1 Production] from [Mine] tiles [in all cities] <with [Unique Enhancement I]>",
@@ -472,6 +476,9 @@
 	{
 		"name": "Ares",
 		"leaderName": "Ares",
+		"startBias": [
+			"Coast"
+		],
 		"preferredVictoryType": "Domination",
 		"personality": "入机",
 		"outerColor": [
@@ -494,6 +501,31 @@
 			"Mars"
 		]
 	},
+/*	{
+		"name": "Chronus",
+		"leaderName": "Miriam",
+		"preferredVictoryType": "Domination",
+		"personality": "入机",
+		"outerColor": [
+			255,
+			255,
+			255
+		],
+		"innerColor": [
+			0,
+			0,
+			0
+		],
+		"uniqueName": "Future Advance",
+		"uniques": [
+
+			"Provides [1] [Time] <if [Palace] is constructed>"
+			"Triggers a [Future Advance] event <every [10] turns> <upon turn end> <if [Palace] is constructed>"
+		],
+		"cities": [
+			"Heaven"
+		]
+	},*/
 	{
 		"name": "God",
 		"leaderName": "God",

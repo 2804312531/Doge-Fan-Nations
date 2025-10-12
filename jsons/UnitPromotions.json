@@ -172,7 +172,7 @@
 	{
         "name": "Living Metal Forging",
 	    "uniques": [
-			"[+5]% Strength"
+			/*"[+5]% Strength"*/
 			"Comment [[2] damage absorption for Military units]"
 		]
 	},
@@ -242,7 +242,8 @@
 	    "uniques": [
 			"[+10]% Strength <when attacking> <vs [{Melee} {non-[Ares's Game]}] units>",
 			"[This Unit] gains the [Ares's Game] status for [2] turn(s) <when attacking> <upon damaging a [{Melee} {non-[Ares's Game]}] unit>",
-			"[Target Unit] gains the [Ares's Game] status for [2] turn(s) <when attacking> <upon damaging a [{Melee} {non-[Ares's Game]}] unit>"
+			"[Target Unit] gains the [Ares's Game] status for [2] turn(s) <when attacking> <upon damaging a [{Melee} {non-[Ares's Game]}] unit>",
+			"[This Unit] heals [5] HP <for units with [Harvest of War]> <when attacking> <upon damaging a [{Melee} {non-[Ares's Game]}] unit>"
 		]
 	},
 	{
@@ -250,9 +251,16 @@
 	    "uniques": [
 			"Comment [Arena]",
 			"[+10]% Strength <when attacking>",
+			"[This Unit] heals [5] HP <for units with [Harvest of War]> <when attacking> <upon damaging a [{Melee} {[Ares's Game]}] unit>",
 			"[-100]% to Flank Attack bonuses",
 			"Comment [Cannot attack or be attacked by [non-[Ares's Game]] units]",
 			"Cannot move"
+		]
+	},
+	{
+        "name": "Harvest of War",
+	    "uniques": [
+			"[+5]% Strength"
 		]
 	}
 ]

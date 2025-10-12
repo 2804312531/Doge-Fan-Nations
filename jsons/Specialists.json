@@ -1,7 +1,8 @@
 [
 	{
 		"name":"Miner",
-		"production":2,
+		"food":2,
+		"production":1,
 		"color": [139,69,19]
 	}
 ]
