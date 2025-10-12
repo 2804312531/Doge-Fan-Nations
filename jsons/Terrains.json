@@ -13,7 +13,8 @@
 			"Plains",
 			"Grassland",
 			"Desert",
-			"Snow"
+			"Snow",
+			"Hill"
 		],
 		"uniques": [
 			"Rough terrain",

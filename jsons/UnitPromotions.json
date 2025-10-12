@@ -28,7 +28,7 @@
 		"name": "Travel Light",
 		"uniques": [
 			"[+1] Movement",
-            /*"Can move after attacking",*/
+            "Can move after attacking",
             "[-33]% Strength <when defending>"
 		]
 	},
@@ -84,9 +84,9 @@
         "name": "Bloodline",
 	    "uniques": [
 			"[+25]% Strength",
-			/*"[+15]% Strength <with [Enable the Embrace]>",*/
+			/*"[+15]% Strength <with [Enable the Embrace]>",
 			"Earn [20]% of the damage done to [All] units as [Gold] <for [Melee] units>",
-			/*"Gain [-2] [Gold] <upon turn end>",*/
+			"Gain [-2] [Gold] <upon turn end>",*/
 			/*"Gain [+4] [Gold] <upon damaging a [All] unit> <for [Melee] units>",*/
 			"Heals [25] damage if it kills a unit <for [Melee] units>",
 			"Can transform to [Bat] <for [0] movement>"
@@ -264,5 +264,20 @@
 	    "uniques": [
 			"[+5]% Strength"
 		]
-	}
+	},
+	{
+        "name": "The Crusades",
+	    "uniques": [
+			"[This Unit] gains the [Medic] promotion",
+			"[This Unit] gains the [Medic II] promotion",
+			"Can Spread Religion <for [4] movement> <[1] times>"
+		]
+	},
+/*	{
+        "name": "Can Spread Religion",
+	    "uniques": [
+			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+			"[This Unit] gains the [Dash II] promotion <upon defeating a [All] unit> <for units without [Dash III]>"
+		]
+	}*/
 ]

@@ -181,7 +181,7 @@ ResourceIcons/Karma
   index: -1
 ResourceIcons/Turn
   rotate: false
-  xy: 472, 162
+  xy: 530, 162
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -436,5 +436,12 @@ UnitPromotionIcons/Stuned
   xy: 1432, 268
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/The Crusades
+  rotate: false
+  xy: 472, 162
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1

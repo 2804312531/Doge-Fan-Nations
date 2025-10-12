@@ -158,7 +158,7 @@
 		],
 		"uniqueName": "Moguli",
 		"uniques": [
-			"[non-[Missile]] units gain the [Rimescar] promotion",
+			"[non-[Air]] units gain the [Rimescar] promotion",
 			/*"[+50]% Culture cost of natural border growth [in this city]",
 			"[+50]% Gold cost of acquiring tiles [in this city]",
 			"[+1 Food] from [Mycelium] tiles [in all cities]",*/
@@ -503,6 +503,32 @@
 			"Mars"
 		]
 	},
+/*	{
+		"name": "半人马",
+		"leaderName": "待定",
+		"startBias": [
+			"Plains"
+		],
+		"preferredVictoryType": "Domination",
+		"personality": "入机",
+		"outerColor": [
+			255,
+			255,
+			255
+		],
+		"innerColor": [
+			0,
+			0,
+			0
+		],
+		"uniqueName": "待定",
+		"uniques": [
+			
+		],
+		"cities": [
+			"阿尔法"
+		]
+	},*/
 /*	{
 		"name": "Chronus",
 		"leaderName": "Miriam",
