@@ -24,7 +24,7 @@
 	},*/
 	{
 		"name": "Enable the Embrace",
-		"uniqueTo": "The Kindred",
+		/*"uniqueTo": "The Kindred",*/
 		"cost": 0,
 		"uniques": [
 			"Play [chimes] sound",
@@ -33,11 +33,12 @@
 			"Can only be built <in [Capital] cities>",
 			"Destroyed when the city is captured",
 			"Remove [Prohibit the Embrace] [in this city]",
+			"Unbuildable"
 		]
 	},
 	{
 		"name": "Prohibit the Embrace",
-		"uniqueTo": "The Kindred",
+		/*"uniqueTo": "The Kindred",*/
 		"cost": 0,
 		"uniques": [
 			"Play [chimes] sound",
@@ -45,6 +46,7 @@
 			"Can only be built <in [Capital] cities>",
 			"Destroyed when the city is captured",
 			"Remove [Enable the Embrace] [in this city]",
+			"Unbuildable"
 		]
 	},
 /*	{
@@ -267,7 +269,7 @@
 		"requiredTech": "Metal Casting",
 		"uniques": [
 			"All newly-trained [Land] units [in this city] receive the [Plated Armor, Bodkin Points] promotion"
-			"[+15]% Production when constructing [Land] units [in this city]",
+			"[+25]% Production when constructing [Land] units [in this city]",
 			"[+1 Production] from [Iron] tiles [in this city]"
 		]
 	},
@@ -429,7 +431,7 @@
 		"isWonder": true,
 		"greatPersonPoints": {"Great General": 1},
         "uniques": ["[+10]% [Food] [in all cities]", "[+15]% Production when constructing [Sword] units [in this city]",
-            "[+15]% Production when constructing [Gunpowder] units [in this city]"],
+            "[+15]% Production when constructing [Gunpowder] units [in this city]","Unbuildable"],
 		"requiredTech": "Agriculture",
 		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
 	},

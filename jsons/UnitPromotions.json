@@ -52,16 +52,8 @@
 			"Gain control over [all] tiles in a [0]-tile radius <in [Mycelium] tiles> <upon turn end>",
 			"Gain control over [all] tiles in a [0]-tile radius <in [Mycelium] tiles> <for [0] movement> <after which this unit is consumed>"
 			"Double movement in [Mycelium]",
-			"[+10]% Strength <in [Mycelium] tiles> <for [Melee] units>",
-			"[+10]% Strength <when defending> <in [Mycelium] tiles> <for [Ranged] units>",
-			"[-5]% Strength <in tiles without [City center]> <in tiles without [Mycelium]> <for [Melee] units>",
-			"[-5]% Strength <when defending> <in tiles without [City center]> <in tiles without [Mycelium]> <for [Ranged] units>",
-			/*"[This Unit] takes [5] damage <in [All] tiles> <upon turn end>",*/
-			"[This Unit] heals [5] HP <in [Mycelium] tiles> <upon turn end>",
-			"[This Unit] takes [2] damage <in tiles without [City center]> <in tiles without [Mycelium]> <upon ending a turn in a [All] tile>",
-			/*"Turn this tile into a [Mycelium] tile <upon being defeated>"*/
-			"Turn this tile into a [Mycelium] tile <with [1] to [6] neighboring [City center] tiles> <in [Land] tiles> <upon turn end> <for [AI player] Civilizations> <hidden from users>",
-			"Turn this tile into a [Mycelium] tile <with [1] to [6] neighboring [Mycelium] tiles> <in [Land] tiles> <upon turn end> <for [AI player] Civilizations> <hidden from users>",
+			"[+25]% Strength <in [Mycelium] tiles> <for [Melee] units>",
+			"[+25]% Strength <when defending> <in [Mycelium] tiles> <for [Ranged] units>"
 		]
 	},
 	{
@@ -91,10 +83,10 @@
 	{
         "name": "Bloodline",
 	    "uniques": [
-			"[+25]% Strength <without [Enable the Embrace]>",
-			"[+15]% Strength <with [Enable the Embrace]>",
+			"[+25]% Strength",
+			/*"[+15]% Strength <with [Enable the Embrace]>",*/
 			"Earn [20]% of the damage done to [All] units as [Gold] <for [Melee] units>",
-			"Gain [-2] [Gold] <upon turn end>",
+			/*"Gain [-2] [Gold] <upon turn end>",*/
 			/*"Gain [+4] [Gold] <upon damaging a [All] unit> <for [Melee] units>",*/
 			"Heals [25] damage if it kills a unit <for [Melee] units>",
 			"Can transform to [Bat] <for [0] movement>"
@@ -179,7 +171,17 @@
 	{
         "name": "Lithoid",
 	    "uniques": [
-			"[+25]% Strength <when defending>"
+			"[+15]% Strength <when defending>",
+			"[Target Unit] gains the [Stonelike] promotion <for [1] movement> <for units without [Stonelike]>"
+			/*"[-33]% Strength <vs [Siege] units> <when defending>"*/
+		]
+	},
+	{
+        "name": "Stonelike",
+	    "uniques": [
+			"[Target Unit] loses the [Stonelike] promotion <for [1] movement>"
+			"[+10]% Strength <when defending>",
+			"Cannot move"
 			/*"[-33]% Strength <vs [Siege] units> <when defending>"*/
 		]
 	},

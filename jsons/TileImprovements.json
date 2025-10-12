@@ -66,14 +66,17 @@
 		"name": "Crystallacta Plantation",
 		"uniqueTo": "Rimeweave",
 		"terrainsCanBeBuiltOn": [
-			"Mycelium"
+			"Land"
 		],
 		"happiness": 1,
-		"faith": 1,
-		"turnsToBuild": 6,
-		"techRequired": "Calendar",
 		"uniques": [
-			"[+1 Happiness] <after discovering [Scientific Theory]>",
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"Does not need removal of [Mycelium]",
+			"Turn this tile into a [Mycelium] tile",
+			"Gain control over [all] tiles in a [0]-tile radius",
+			"Can be built outside your borders",
+			"[+1 Happiness] <after discovering [Theology]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "M"

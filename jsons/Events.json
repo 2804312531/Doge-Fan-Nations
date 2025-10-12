@@ -3,7 +3,7 @@
         "name": "Unique Enhancement Choice",
         "text": "Unique Enhancement Choice",
         "choices": [
-            {
+            /*{
                 "text": "Unique Enhancement I",
                 "uniques": [
                     "Play [chimes] sound",
@@ -16,7 +16,7 @@
                     "Play [chimes] sound",
                     "Provides [1] [Unique Enhancement II] <for [32767] turns>",
                 ]
-            },
+            },*/
             {
                 "text": "Add In Future",
                 "uniques": [

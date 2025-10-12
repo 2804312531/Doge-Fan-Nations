@@ -12,12 +12,12 @@
 			"Tundra",
 			"Plains",
 			"Grassland",
-			"Hill"
+			"Desert",
+			"Snow"
 		],
 		"uniques": [
 			"Rough terrain",
 			"Vegetation",
-			"Provides a one-time bonus of [+15 Food] to the closest city when cut down <(modified by game speed)>",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[0]% Chance to be destroyed by nukes",
 			"Must be adjacent to [99] to [99] [Fountain of Youth] tiles"

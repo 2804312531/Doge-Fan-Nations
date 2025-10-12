@@ -156,13 +156,13 @@
 			228,
 			223
 		],
-		"uniqueName": "Veindead Edict",
+		"uniqueName": "Moguli",
 		"uniques": [
-			"[{non-[Missile]}] units gain the [Rimescar] promotion",
-			"[+50]% Culture cost of natural border growth [in this city]",
+			"[non-[Missile]] units gain the [Rimescar] promotion",
+			/*"[+50]% Culture cost of natural border growth [in this city]",
 			"[+50]% Gold cost of acquiring tiles [in this city]",
-			"[+1 Food] from [Mycelium] tiles [in all cities]",
-			"[50]% of excess happiness converted to [Science]",
+			"[+1 Food] from [Mycelium] tiles [in all cities]",*/
+			"[50]% of excess happiness converted to [Faith]",
 			/*"Gain a free [Mastermind] [in all cities] <for [AI player] Civilizations> <hidden from users>"
 			"[32767] Unit Supply per city <for [AI player] Civilizations> <hidden from users>",*/
 			"Comment [A wind laden with spores sweeps through the veins of the world's dreams, weaving silence into an eternal dynasty.]"
@@ -200,7 +200,7 @@
 		],
 		"uniqueName": "Kittens Game",
 		"uniques": [
-			"[{non-[Missile]}] units gain the [Kitling] promotion",
+			"[non-[Missile]] units gain the [Kitling] promotion",
 			"[+1]% [Production] <for every [10] [Karma]>",
 			"Triggers a [Praise the Sun] event <every [10] turns> <upon turn end> <if [Palace] is constructed>"
 		],
@@ -231,12 +231,15 @@
 		],
 		"uniqueName": "Crimson Suzerainty",
 		"uniques": [
-			"[-20]% Production when constructing [{Military} {non-[Missile]}] units [in all cities] <without [Enable the Embrace]>",
-			"[Gold] cost of purchasing [{Military} {non-[Missile]}] units [+25]% <without [Enable the Embrace]>",
+			/*"[-20]% Production when constructing [{Military} {non-[Missile]}] units [in all cities] <without [Enable the Embrace]>",
+			"[Gold] cost of purchasing [{Military} {non-[Missile]}] units [+25]% <without [Enable the Embrace]>",*/
 			"[{Military} {non-[Missile]}] units gain the [Bloodline] promotion",
 			"May buy items in puppet cities",
-			"May not annex cities <before the [Industrial era]>",
-			"[+4 Gold] per [1] population [in this city] <in [Puppeted] cities>",
+			"May not annex cities",
+			"[+1 Happiness] from [Luxury resource] tiles [in all cities]",
+			"[200]% of excess happiness converted to [Gold]",
+			"Enables conversion of city production to [Gold]",
+			"Production to [Gold] conversion in cities changed by [1500]%"
 			/*"Free [Blooded Marshal] appears <after adopting [Aristocracy]>",
 			"Gain a free [Courthouse] [in all cities] <after adopting [Aristocracy]>",
 			"[Gold] cost of purchasing [Ranged] units [-33]% <after adopting [Oligarchy]>",
@@ -246,7 +249,7 @@
 			"[+1 Gold] per [1] population [in this city] <in [Puppeted] cities> <after adopting [Monarchy]>",
 			"[+4 Gold] [in this city] <in [Puppeted] cities> <after adopting [Monarchy]>",
 			"Triggers a [The Progenitor awakens.] event <after adopting [Tradition Complete]>",
-			"Triggers a [Heirlooms Choice] event <when above [0] [Turn]> <when below [2] [Turn]> <upon turn end>",*/
+			"Triggers a [Heirlooms Choice] event <when above [0] [Turn]> <when below [2] [Turn]> <upon turn end>",
 			"Triggers a [Heirlooms Choice] event <when number of [Turn] is equal to [1]> <upon turn start>",
 			"Triggers a [The Progenitor awakens.] event <upon discovering [Theology] technology>",
 			"Comment [Unique Enhancement I]",
@@ -257,7 +260,7 @@
 			"Comment [Unique Enhancement II]",
 			"Comment [Sanguine Harvest]",
 			"[+1 Happiness] from [Bonus resource] tiles [in this city] <with [Unique Enhancement II]>",
-			"[100]% of excess happiness converted to [Gold] <with [Unique Enhancement II]>"
+			"[100]% of excess happiness converted to [Gold] <with [Unique Enhancement II]>"*/
 		],
 		"cities": [
 			"Helframoros",
@@ -288,8 +291,8 @@
 		],
 		"uniqueName": "Unity of Aspects",
 		"uniques": [
-			/*"[+1 Production] from every [Iron]",
-			"[+100]% [Iron] resource production",*/
+			"[+1 Production] from every [Iron]",
+			"[+100]% [Iron] resource production",
 			"[{Military} {non-[Missile]}] units gain the [Form Fusion] promotion",
 			"Comment [Blade and Arrow are One.]"
 		],
@@ -384,10 +387,9 @@
 		"uniqueName": "Pulse of the Earth",
 		"uniques": [
 			"Starts with [Mining]",
-			/*"[All] units gain the [Lithoid] promotion",*/
-			"[+1 Food] from [Mine] tiles [in all cities]",
-			"[+1 Food] from [Quarry] tiles [in all cities]",
-			"[-15]% growth [in all cities]",
+			"[All] units gain the [Lithoid] promotion",
+			"[-1 Production, +1 Food] from [Mine] tiles [in all cities]",
+			"[-1 Production, +1 Food] from [Quarry] tiles [in all cities]",
 			/*"[-15]% growth [in all cities]",
 			"[+1 Gold] per [1] population [in all cities]",
 			"[+1 Happiness] per [10] population [in all cities]",
@@ -439,7 +441,7 @@
 			"[-1 Food] from [Plantation] tiles [in this city] <after discovering [Fertilizer]>",
 			"[-1 Food] from [Fishing Boats] tiles [in this city]",
 			"[-2 Food] from [Terrace farm] tiles [in this city]",
-			"[-3 Food] from [Polder] tiles [in this city]",*/
+			"[-3 Food] from [Polder] tiles [in this city]",
 			"Comment [Unique Enhancement I]",
 			"Comment [Mining Guilds]",
 			"[+1 Production] from [Mine] tiles [in all cities] <with [Unique Enhancement I]>",
@@ -448,7 +450,7 @@
 			"[+1 Production] from every [Miner] <with [Unique Enhancement I]>",
 			"Comment [Unique Enhancement II]",
 			"Comment [The Gemmed Realm]",
-			"Triggers a [Signature Gemstones Choice] event <every [10] turns> <upon turn end> <with [Unique Enhancement II]>"
+			"Triggers a [Signature Gemstones Choice] event <every [10] turns> <upon turn end> <with [Unique Enhancement II]>"*/
 		],
 		"cities": [
 			"Craggor"

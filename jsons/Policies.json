@@ -88,8 +88,7 @@
             {
                 "name": "Unique Enhancement", //1
                 "uniques": [
-                    "Triggers a [Unique Enhancement Choice] event",
-                    /*"Unavailable <when number of [Completed Policy branches] is less than [1]>"*/
+                    "Triggers a [Unique Enhancement Choice] event"
                 ],
                 "row": 2,
                 "column": 1
@@ -99,7 +98,6 @@
                 "uniques": [
                     "Free [Miracle Engineer] appears",
                     "Comment [Megastructure can be build with [Miracle Engineer]]"
-                    /*"Unavailable <when number of [Completed Policy branches] is less than [2]>"*/
                 ],
                 "row": 1,
                 "column": 3
@@ -108,7 +106,6 @@
                 "name": "Automation", //3
                 "uniques": [
                     "Comment [[Auto] can be build with [Worker]]"
-                    /*"Unavailable <when number of [Completed Policy branches] is less than [3]>"*/
                 ],
                 "row": 2,
                 "column": 5
@@ -116,8 +113,7 @@
             {
                 "name": "Utopia", //4
                 "uniques": [
-                    "[+1 Happiness] per [6] population [in all cities]",
-                    /*"Unavailable <when number of [Completed Policy branches] is less than [4]>"*/
+                    "[+1 Happiness] per [6] population [in all cities]"
                 ],
                 "row": 3,
                 "column": 2
@@ -125,11 +121,10 @@
             {
                 "name": "Unique Expansion", //5
                 "uniques": [
-                    /*"[20]% of excess happiness converted to [Gold]",
-                    "[20]% of excess happiness converted to [Science]",
-                    "[20]% of excess happiness converted to [Culture]",
-                    "[20]% of excess happiness converted to [Faith]",
-                    "Unavailable <when number of [Completed Policy branches] is less than [5]>"*/
+                    "[15]% of excess happiness converted to [Gold]",
+                    "[15]% of excess happiness converted to [Science]",
+                    "[15]% of excess happiness converted to [Culture]",
+                    "[15]% of excess happiness converted to [Faith]"
                 ],
                 "row": 3,
                 "column": 4

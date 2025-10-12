@@ -144,20 +144,6 @@ NationIcons/Kittens
   orig: 256, 256
   offset: 0, 0
   index: -1
-NationIcons/The Kindred
-  rotate: false
-  xy: 1324, 484
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-UnitIcons/The Kindred and The Herd
-  rotate: false
-  xy: 1324, 484
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
 NationIcons/Vulpine
   rotate: false
   xy: 1324, 228
@@ -354,9 +340,23 @@ UnitIcons/Progenitor
   orig: 256, 256
   offset: 0, 0
   index: -1
+NationIcons/The Kindred
+  rotate: false
+  xy: 1060, 484
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
 UnitIcons/Sponger
   rotate: false
   xy: 1060, 220
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitIcons/The Kindred and The Herd
+  rotate: false
+  xy: 1324, 484
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
@@ -404,6 +404,13 @@ UnitPromotionIcons/Lithoid
   offset: 0, 0
   index: -1
 NationIcons/Titan
+  rotate: false
+  xy: 1588, 532
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Stonelike
   rotate: false
   xy: 1588, 532
   size: 100, 100

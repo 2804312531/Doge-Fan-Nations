@@ -52,10 +52,9 @@
 		"movement": 2,
 		"cost": 106,
 		"uniques": [
-			"Founds a new city <by consuming this unit> <for [non-[Rimeweave]] Civilizations>",
-			"Founds a new city <if [Palace] is not constructed>",
-			"Founds a new city <by consuming this unit> <with [1] to [6] neighboring [Mycelium] tiles> <for [Rimeweave] Civilizations>",
-			"Founds a new city <by consuming this unit> <for [AI player] Civilizations> <hidden from users>",
+			"Founds a new city <by consuming this unit> <if [Palace] is not constructed> <for [The Kindred] Civilizations>",
+			"Founds a new puppet city <by consuming this unit> <for [The Kindred] Civilizations>",
+			"Founds a new city <by consuming this unit> <for [non-[The Kindred]] Civilizations>",
 			"Excess Food converted to Production when under construction",
 			"Requires at least [2] population",
 		],
@@ -63,8 +62,6 @@
 	},
 	{
 		"name": "The Kindred and The Herd",
-		"uniqueTo": "The Kindred",
-		"replaces": "Settler",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 106,
@@ -74,7 +71,8 @@
 			"Founds a new puppet city <by consuming this unit>",
 			"Founds a new city <by consuming this unit> <for [AI player] Civilizations> <hidden from users>",
 			"Excess Food converted to Production when under construction",
-			"Requires at least [2] population"
+			"Requires at least [2] population",
+			"Unbuildable"
 		],
 		"hurryCostModifier": 20
 	},
@@ -108,7 +106,7 @@
 		"cost": 70,
 		"requiredTech": "Sailing",
 		"uniques": [
-			"Turn this tile into a [Atoll] tile <[2] times> <after which this unit is consumed> <in [Coast] tiles>",
+			"Turn this tile into a [Atoll] tile <[1] times> <after which this unit is consumed> <in [Coast] tiles>",
 			/*"May travel on Water tiles without embarking",*/
 			"Uncapturable",
 			"Automation is a primary action"
@@ -138,8 +136,8 @@
 		"movement": 2,
 		"cost": 30,
 		"uniques": [
-			"Turn this tile into a [Mycelium] tile <for [0] movement> <[2] times> <after which this unit is consumed> <with [1] to [6] neighboring [City center] tiles> <in [Land] tiles>",
-			"Turn this tile into a [Mycelium] tile <for [0] movement> <[2] times> <after which this unit is consumed> <with [1] to [6] neighboring [Mycelium] tiles> <in [Land] tiles>",
+			"Can instantly construct a [Crystallacta Plantation] improvement <for [0] movement> <[1] times> <after which this unit is consumed> <with [1] to [6] neighboring [City center] tiles> <in [Land] tiles>",
+			"Can instantly construct a [Crystallacta Plantation] improvement <for [0] movement> <[1] times> <after which this unit is consumed> <with [1] to [6] neighboring [Mycelium] tiles> <in [Land] tiles>",
 			/*"[Target Unit] gains the [Mode1] promotion <[1] times> <if it hasn't used other actions yet>",
 			"[Target Unit] gains the [Mode2] promotion <[1] times> <if it hasn't used other actions yet>",*/
 			"Uncapturable"
@@ -167,7 +165,7 @@
 		"unitType": "Scout",
 		/*"range": 1,*/
 		"movement": 3,
-		"strength": 4,
+		"strength": 5,
 		/*"rangedStrength": 5,*/
 		"cost": 25,
 		"uniques": [
@@ -200,7 +198,6 @@
 	},
 	{
 		"name": "Progenitor",
-		"uniqueTo": "The Kindred",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 21,
@@ -222,6 +219,7 @@
 		"uniques": [
 			"[+15]% Strength bonus for [{Military} {non-[Ares's Game]}] units within [2] tiles",
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"All tiles cost 1 movement",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Can be earned through combat",
 			"Is part of Great Person group [General]",
@@ -229,7 +227,7 @@
 			"Unbuildable",
 			"Uncapturable"
 		],
-		"movement": 2
+		"movement": 3
 	},
 	{
 		"name": "Granite Colossus",
@@ -273,7 +271,7 @@
 		"uniqueTo": "Ares",
 		"replaces": "Great General",
 		"uniques": [
-            "[+15]% Strength bonus for [Military] units within [3] tiles",
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
             "[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"Can be earned through combat",
             "Is part of Great Person group [General]",
