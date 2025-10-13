@@ -69,6 +69,7 @@
 			"Land"
 		],
 		"happiness": 1,
+		"faith": 1,
 		"uniques": [
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
