@@ -130,7 +130,7 @@
 			"Discover [Sailing] <upon turn end> <while researching [Sailing]>",
 			"[+10]% Strength <vs [non-[Barbarians]] units>",
 			"[-10]% Strength <vs [non-[Barbarians]] units> <when fighting units from a Civilization with more Cities than you>",
-			/*"[+15]% Production when constructing [Water] units [in all cities]",*/
+			"[+15]% Production when constructing [Water] units [in all cities]"
 		],
 		"cities": [
 			"Poseidonis",
