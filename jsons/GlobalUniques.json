@@ -1,0 +1,29 @@
+{
+    "name": "Global uniques",
+    "uniques": [
+        "Provides [1] [Turn]",
+        "When defeating a [Military] unit, earn [0] Gold and recruit it <for units with [Pureblood]>"
+    ],
+    "unitUniques": [
+        /*"Can move immediately once bought <after adopting [Oligarchy]> <for [The Kindred] Civilizations>",*/
+        "[Target Unit] loses the [Trapped] promotion <for [2] movement> <for units with [Trapped]>",
+        "[Target Unit] gains the [[Agony] ability] promotion <for [0] movement> <for units without [[Agony] ability]> <when above [0] [Essence of Agony]>",
+        "[Target Unit] gains the [High] promotion <for [1] movement> <in [The Eyrie] tiles> <for units without [High]>",
+        "[Target Unit] loses the [High] promotion <for [1] movement> <for units with [High]>",
+        "[This Unit] loses the [High] promotion <in tiles without [The Eyrie]> <for units with [High]> <upon turn end>",
+        "[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack> <for units with [Living Metal Forging]>",
+		"[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <for units with [Living Metal Forging]>",
+/*		"[+50]% Strength <for [Volley] units> <vs [Lithoid] units> <when attacking>",
+		"[+50]% Strength <for [Besiege] units> <vs [Lithoid] units> <when attacking>",
+		"[+20]% Strength <for [Coastal Raider I] units> <vs [Lithoid] units> <when attacking>",
+		"[+20]% Strength <for [Coastal Raider II] units> <vs [Lithoid] units> <when attacking>",
+		"[+20]% Strength <for [Coastal Raider III] units> <vs [Lithoid] units> <when attacking>",
+		"[+33]% Strength <for [Coastal Raider I] units> <vs [Lithoid] units> <when attacking>",
+		"[+33]% Strength <for [Coastal Raider II] units> <vs [Lithoid] units> <when attacking>",
+		"[+34]% Strength <for [Coastal Raider III] units> <vs [Lithoid] units> <when attacking>",*/
+		"Can build [Auto] improvements on tiles <after adopting [Automation]> <for [Worker] units>",
+		"[-10]% production cost <for [Obitos] Civilizations>",
+		"Cannot attack <for [non-[Ares's Game]] units> <vs [Ares's Game] units>",
+		"Cannot attack <for [Ares's Game] units> <vs [non-[Ares's Game]] units>"
+    ]
+}

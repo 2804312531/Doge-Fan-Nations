@@ -1,0 +1,587 @@
+[
+	{
+		"name": "Vulpine",
+		"leaderName": "Buddy",
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Domination",
+		"personality": "入机",
+		"favoredReligion": "Taoism",
+		"outerColor": [
+			223,
+			131,
+			68
+		],
+		"innerColor": [
+			255,
+			255,
+			255
+		],
+		"uniqueName": "Your Old Buddy",
+		"uniques": [
+			"[All] units gain the [Sit] promotion"
+		],
+		"cities": [
+			"Aurora",
+			"Silverbridge",
+			"Northwood",
+			"Redfield",
+			"Glenmore",
+			"Fellsworth",
+			"Cinderford",
+			"Pinecrest",
+			"Foxcross",
+			"Riverside",
+			"Highcliff",
+			"Amberwood",
+			"Swiftwater",
+			"Copperhill",
+			"Ashford"
+		],
+		"spyNames": [
+			"Buddy",
+			"Russet",
+			"Corvin",
+			"Silas",
+			"Pyrrhus",
+			"Stellan",
+			"Lysander",
+			"Sienna",
+			"Lyra",
+			"Faye",
+			"Vesper",
+			"Sage",
+			"Briar",
+			"Shade",
+			"Riddle",
+			"Wraith",
+			"Cipher"
+		]
+	},
+	{
+		"name": "Wanpasha",
+		"leaderName": "The King of Ten Thousand Kings",
+		"preferredVictoryType": "Domination",
+		"personality": "入机",
+		"outerColor": [
+			178,
+			28,
+			82
+		],
+		"innerColor": [
+			255,
+			204,
+			0
+		],
+/*		"outerColor": [
+			200,
+			35,
+			45
+		],
+		"innerColor": [
+			255,
+			210,
+			50
+		],*/
+		"uniqueName": "A Myriad Halls and Palaces",
+		"uniques": [
+			"[+2 Culture, +2 Gold] from all [Palace] buildings"
+		],
+		"cities": [
+			"Morning Radiance",
+			"Ethereal Dream",
+			"Auspicious Mist",
+			"Condensed Fragrance",
+			"Wandering Clouds",
+			"Stellar Haze",
+			"Lunar Haze",
+			"Snowfall Melody",
+			"Phoenix Plume",
+			"Dragon Spire",
+			"Cloud Peak",
+			"Azure Heights",
+			"Gemstone Light",
+			"Frost Bloom",
+			"Rainbow Abyss",
+			"Verdant Ridge",
+			"Penglai",
+			"Celestial Pivot",
+			"Soaring Breeze",
+			"Cerulean Expanse"
+		]
+	},
+	{
+		"name": "Atlantis",
+		"leaderName": "Atlas",
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		"personality": "入机",
+		"outerColor": [
+			0,
+			48,
+			90
+		],
+		"innerColor": [
+			212,
+			175,
+			55
+		],
+		"uniqueName": "The Lost People",
+		"uniques": [
+			"Discover [Sailing] <upon turn end> <while researching [Sailing]>",
+			"[+10]% Strength <vs [non-[Barbarians]] units>",
+			"[-10]% Strength <vs [non-[Barbarians]] units> <when fighting units from a Civilization with more Cities than you>",
+			/*"[+15]% Production when constructing [Water] units [in all cities]",*/
+		],
+		"cities": [
+			"Poseidonis",
+			"Critias",
+			"Atlantis",
+			"Elysium",
+			"Cyclope",
+			"Thalassa",
+			"Halon",
+			"Actus",
+			"Oreichia",
+			"Heliopolis-Sothis",
+			"Nemesis",
+			"Oneiros"
+		]
+	},
+	{
+		"name": "Rimeweave",
+		"leaderName": "U-Ring Fungus",
+		"startBias": [
+			"Jungle"
+		],
+		"preferredVictoryType": "Domination",
+		"personality": "入机",
+		"outerColor": [
+			0,
+			80,
+			80
+		],
+		"innerColor": [
+			0,
+			255,
+			255
+		],
+		"uniqueName": "Moguli",
+		"uniques": [
+			"[non-[Air]] units gain the [Rimescar] promotion",
+			/*"[+50]% Culture cost of natural border growth [in this city]",
+			"[+50]% Gold cost of acquiring tiles [in this city]",
+			"[+1 Food] from [Mycelium] tiles [in all cities]",*/
+			"[50]% of excess happiness converted to [Faith]",
+			/*"Gain a free [Mastermind] [in all cities] <for [AI player] Civilizations> <hidden from users>"
+			"[32767] Unit Supply per city <for [AI player] Civilizations> <hidden from users>",*/
+			"Comment [A wind laden with spores sweeps through the veins of the world's dreams, weaving silence into an eternal dynasty.]"
+		],
+		"cities": [
+			"Heartspore",
+			"Crystframe",
+			"Spore-root",
+			"Hushdream",
+			"Rimeweave",
+			"Everdream",
+			"Paledeep",
+			"Marrow-node",
+			"Bloomspire",
+			"Sporewood"
+		]
+	},
+	{
+		"name": "Kittens",
+		"leaderName": "Elder Cat",
+		"startBias": [
+			"Forest"
+		],
+		"preferredVictoryType": "Domination",
+		"personality": "入机",
+		"outerColor": [
+			190,
+			130,
+			100
+		],
+		"innerColor": [
+			255,
+			255,
+			255
+		],
+		"uniqueName": "Kittens Game",
+		"uniques": [
+			"[non-[Missile]] units gain the [Kitling] promotion",
+			"[+1]% [Production] <for every [10] [Karma]>",
+			"Triggers a [Praise the Sun] event <every [10] turns> <upon turn end> <if [Palace] is constructed>"
+		],
+		"cities": [
+			"Catnip Grove",
+			"Tri-Fish Creek",
+			"Cat's Eye Geode",
+			"Silverglow"
+		]
+	},
+	{
+		"name": "The Kindred",
+		"leaderName": "Cassius Knox",
+		"startBias": [
+			"Hill"
+		],
+		"preferredVictoryType": "Domination",
+		"personality": "入机",
+		"outerColor": [
+			94,
+			9,
+			19
+		],
+		"innerColor": [
+			255,
+			255,
+			255
+		],
+		"uniqueName": "Crimson Suzerainty",
+		"uniques": [
+			/*"[-20]% Production when constructing [{Military} {non-[Missile]}] units [in all cities] <without [Enable the Embrace]>",
+			"[Gold] cost of purchasing [{Military} {non-[Missile]}] units [+25]% <without [Enable the Embrace]>",*/
+			"[{Military} {non-[Missile]}] units gain the [Bloodline] promotion",
+			"May buy items in puppet cities",
+			"May not annex cities",
+			"[+1 Happiness] from [Luxury resource] tiles [in all cities]",
+			"[200]% of excess happiness converted to [Gold]",
+			"Enables conversion of city production to [Gold]",
+			"Production to [Gold] conversion in cities changed by [1500]%"
+			/*"Free [Blooded Marshal] appears <after adopting [Aristocracy]>",
+			"Gain a free [Courthouse] [in all cities] <after adopting [Aristocracy]>",
+			"[Gold] cost of purchasing [Ranged] units [-33]% <after adopting [Oligarchy]>",
+			"[+25]% [Science] <in [Puppeted] cities> <after adopting [Landed Elite]>",
+			"[+25]% [Culture] <in [Puppeted] cities> <after adopting [Landed Elite]>",
+			"[+25]% [Gold] <in [Puppeted] cities> <after adopting [Landed Elite]>",
+			"[+1 Gold] per [1] population [in this city] <in [Puppeted] cities> <after adopting [Monarchy]>",
+			"[+4 Gold] [in this city] <in [Puppeted] cities> <after adopting [Monarchy]>",
+			"Triggers a [The Progenitor awakens.] event <after adopting [Tradition Complete]>",
+			"Triggers a [Heirlooms Choice] event <when above [0] [Turn]> <when below [2] [Turn]> <upon turn end>",
+			"Triggers a [Heirlooms Choice] event <when number of [Turn] is equal to [1]> <upon turn start>",
+			"Triggers a [The Progenitor awakens.] event <upon discovering [Theology] technology>",
+			"Comment [Unique Enhancement I]",
+			"Comment [Edict of the Blood Tithe]",
+			"[+25]% [Science] <in [Puppeted] cities> <with [Unique Enhancement I]>",
+			"[+25]% [Culture] <in [Puppeted] cities> <with [Unique Enhancement I]>",
+			"[+1 Gold] per [2] population [in this city] <in [Puppeted] cities> <with [Unique Enhancement I]>",
+			"Comment [Unique Enhancement II]",
+			"Comment [Sanguine Harvest]",
+			"[+1 Happiness] from [Bonus resource] tiles [in this city] <with [Unique Enhancement II]>",
+			"[100]% of excess happiness converted to [Gold] <with [Unique Enhancement II]>"*/
+		],
+		"cities": [
+			"Helframoros",
+			"Harjalrunes",
+			"Rikegaz",
+			"Sliuhalles",
+			"Svatabegs",
+			"Brodzwih"
+		]
+	},
+	{
+		"name": "Aishira",
+		"leaderName": "Rex",
+		"startBias": [
+			"Hill"
+		],
+		"preferredVictoryType": "Domination",
+		"personality": "入机",
+		"outerColor": [
+			30,
+			60,
+			130
+		],
+		"innerColor": [
+			255,
+			180,
+			30
+		],
+		"uniqueName": "Unity of Aspects",
+		"uniques": [
+			"[+1 Production] from every [Iron]",
+			"[+100]% [Iron] resource production",
+			"[{Military} {non-[Missile]}] units gain the [Form Fusion] promotion",
+			"Comment [Blade and Arrow are One.]"
+		],
+		"cities": [
+			"Heartrift"
+			"Aethelanis"
+			"The Duoplex"
+			"Skybridge Hold"
+			"Equilibrium"
+			"The Forgehall"
+			"Umbragorge"
+			"Conflux"
+			"The Echoing Vale"
+			"Twinspear Spire"
+			"The Morphic Citadel"
+			"Omenwatch"
+			"Resonance"
+			"The Flowing Court"
+			"Mirrorlake Deep"
+		]
+	},
+	{
+		"name": "Obitos",
+		"leaderName": "Catalina",
+		"startBias": [
+			"Grassland"
+		],
+		"preferredVictoryType": "Domination",
+		"personality": "入机",
+		"outerColor": [
+			40,
+			40,
+			40
+		],
+		"innerColor": [
+			255,
+			200,
+			50
+		],
+		"uniqueName": "Catalytic Processing",
+		"uniques": [
+			"[All] units gain the [Living Metal Forging] promotion",
+			"[Worker] units gain the [Can build [Catalytic Processing Plant] improvements on tiles] promotion",
+			"Comment [[-10]% production cost]"
+		],
+		"cities": [
+			"Catalytic Core",
+			"Ferrum Vitalis",
+			"Animaforge",
+			"Sideros Foundry",
+			"Bio-Chrysopoeia",
+			"Protopolis",
+			"Vitalloy Works",
+			"Metalligaea",
+			"The Iron Cradle",
+			"Flesh-Steel Confluence",
+			"Aetherium",
+			"The Silver Mycelium",
+			"Azoth",
+			"Vital-Spark Nexus",
+			"The Gilded Vat",
+			"Caelum Ferrum",
+			"The Ossuary Spire",
+			"Soma-Crucible",
+			"Argentum Natura",
+			"The Alchemical Heart",
+			"Ignis Vivus",
+			"The Metallic Bloom",
+			"Aurum Lumen",
+			"Viridian Anvil",
+			"The Philosopher's Foundry"
+		]
+	},
+	{
+		"name": "Titan",
+		"leaderName": "Granite",
+		"startBias": [
+			"Hill"
+		],
+		"preferredVictoryType": "Domination",
+		"personality": "Granite",
+		"outerColor": [
+			255,
+			140,
+			0
+		],
+		"innerColor": [
+			40,
+			40,
+			40
+		],
+		"uniqueName": "Pulse of the Earth",
+		"uniques": [
+			"Starts with [Mining]",
+			"[All] units gain the [Lithoid] promotion",
+			/*"[-15]% growth [in all cities]",
+			"[+1 Gold] per [1] population [in all cities]",
+			"[+1 Happiness] per [10] population [in all cities]",
+			"[+10]% [Food] [in this city] <in cities with a [Granary]>",
+			"[-2 Production, +2 Food] from [Hill] tiles [in all cities] <in tiles without [City center]> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Mycelium]>",
+			"[+2 Production, -2 Food] from [Hill] tiles [in all cities] <in [City center] tiles>",
+			"[+1 Production, -1 Food] from [Hill] tiles [in all cities] <in [Plains] tiles>",
+			"[-1 Production, +1 Food] from [Hill] tiles [in all cities] <in [Plains] tiles> <in [City center] tiles>",*/
+			/*"[-1 Production, +1 Food] from [Mine] tiles [in all cities] <in tiles without [Hill]>",
+			"[-1 Production, +1 Food] from [Mine] tiles [in all cities] <after discovering [Masonry]>",
+			"[-1 Production, +1 Food] from [Quarry] tiles [in all cities] <in tiles without [Hill]>",*/
+			/*"[-1 Production, +1 Food] from [Quarry] tiles [in all cities] <after discovering [Masonry]>",
+			"[-1 Production, +1 Food] from [Stone] tiles [in all cities]",
+			"[+1 Food] from [Stone] tiles [in all cities] <in cities with a [Granary]>",
+			"[+1 Production, +2 Food] from [Mountain] tiles [in all cities]",
+			"[+1 Production] from [Mountain] tiles [in all cities] <after discovering [Chemistry]>",
+			"[+1 Production] from [Mountain] tiles [in all cities] <after adopting [Communism]>",
+			"[-1 Production, +1 Food] from [Mountain] tiles [in all cities] <after discovering [Masonry]>",
+			"[-1 Production, +1 Food] from every [Miner] <after discovering [Masonry]>",
+			"[-1 Production, +1 Food, +1 Gold] from [Trading post] tiles [in all cities] <after discovering [Guilds]>",
+			"[+1 Production] from every [Miner] <after discovering [Chemistry]>",
+			"[+1 Production] from every [Miner] <after adopting [Communism]>",
+			"[+1 Production, -1 Gold] from [Ocean] tiles [in this city] <in tiles without [Ice]>",
+			"[+1 Production, -1 Gold] from [Coast] tiles [in this city] <in tiles without [Ice]>",
+			"[+1 Production, -1 Food] from [Grassland] tiles [in this city] <in tiles without [Hill]> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Mycelium]>",
+			"[+1 Production] from [Tundra] tiles [in this city] <in tiles without [Hill]> <in tiles without [Forest]> <in tiles without [Mycelium]>",
+			"[+1 Production, +1 Food] from [Desert] tiles [in this city] <in tiles without [Hill]>",
+			"[+1 Production, -1 Food] from [Lakes] tiles [in this city]",
+			"[+1 Production, -1 Food] from [Jungle] tiles [in this city]",
+			"[-3 Food] from [Oasis] tiles [in this city]",
+			"[-2 Food] from [Flood plains] tiles [in this city]",
+			"[-1 Food] from [Cattle] tiles [in this city]",
+			"[-1 Food] from [Sheep] tiles [in this city]",
+			"[-1 Food] from [Sheep] tiles [in this city] <in [Pasture] tiles>",
+			"[-1 Food] from [Deer] tiles [in this city]",
+			"[-1 Food] from [Deer] tiles [in this city] <in cities with a [Granary]>",
+			"[-1 Food] from [Bananas] tiles [in this city]",
+			"[-2 Food] from [Bananas] tiles [in this city] <in [Plantation] tiles>",
+			"[-1 Food] from [Bananas] tiles [in this city] <in cities with a [Granary]>",
+			"[-1 Food] from [Wheat] tiles [in this city]",
+			"[-1 Food] from [Wheat] tiles [in this city] <in cities with a [Granary]>",
+			"[-1 Food] from [Fish] tiles [in this city]",
+			"[-1 Food] from [Fish] tiles [in this city] <in cities with a [Lighthouse]>"
+			"[-1 Food] from [Whales] tiles [in this city]",
+			"[-1 Food] from [Citrus] tiles [in this city]",
+			"[-1 Food] from [Crab] tiles [in this city]",
+			"[-2 Food] from [Farm] tiles [in this city]",
+			"[-1 Food] from [Pasture] tiles [in this city] <after discovering [Fertilizer]>",
+			"[-1 Food] from [Plantation] tiles [in this city] <after discovering [Fertilizer]>",
+			"[-1 Food] from [Fishing Boats] tiles [in this city]",
+			"[-2 Food] from [Terrace farm] tiles [in this city]",
+			"[-3 Food] from [Polder] tiles [in this city]",
+			"Comment [Unique Enhancement I]",
+			"Comment [Mining Guilds]",
+			"[+1 Production] from [Mine] tiles [in all cities] <with [Unique Enhancement I]>",
+			"[+1 Production] from [Quarry] tiles [in all cities] <with [Unique Enhancement I]>",
+			"[+1 Production] from [Mountain] tiles [in all cities] <with [Unique Enhancement I]>",
+			"[+1 Production] from every [Miner] <with [Unique Enhancement I]>",
+			"Comment [Unique Enhancement II]",
+			"Comment [The Gemmed Realm]",
+			"Triggers a [Signature Gemstones Choice] event <every [10] turns> <upon turn end> <with [Unique Enhancement II]>"*/
+		],
+		"cities": [
+			"Craggor"
+			"Basaltar"
+			"Deepstone"
+			"Obsidia"
+			"Petra"
+			"Rift"
+			"Mantle"
+			"Bedrock"
+			"Crystalia"
+			"Pumice"
+			"Silicore"
+			"Dolomite"
+			"Jasper"
+			"Geode"
+			"Fissure"
+			"Lithos"
+			"Gneiss"
+			"Shale"
+			"Cinder"
+			"Monolith"
+		]
+	},
+	{
+		"name": "Ares",
+		"leaderName": "Ares",
+		"startBias": [
+			"Coast"
+		],
+		"preferredVictoryType": "Domination",
+		"personality": "入机",
+		"outerColor": [
+			100,
+			110,
+			120
+		],
+		"innerColor": [
+			255,
+			70,
+			0
+		],
+		"uniqueName": "Ares's Game",
+		"uniques": [
+			"Earn [50]% of killed [Military] unit's [Strength] as [Faith]",
+			"[Melee] units gain the [Ares Warrior] promotion",
+			"[+15]% Strength <for [Military] units> <when stacked with a [Great General] unit>"
+		],
+		"cities": [
+			"Mars"
+		]
+	},
+/*	{
+		"name": "半人马",
+		"leaderName": "待定",
+		"startBias": [
+			"Plains"
+		],
+		"preferredVictoryType": "Domination",
+		"personality": "入机",
+		"outerColor": [
+			255,
+			255,
+			255
+		],
+		"innerColor": [
+			0,
+			0,
+			0
+		],
+		"uniqueName": "待定",
+		"uniques": [
+			
+		],
+		"cities": [
+			"阿尔法"
+		]
+	},*/
+/*	{
+		"name": "Chronus",
+		"leaderName": "Miriam",
+		"preferredVictoryType": "Domination",
+		"personality": "入机",
+		"outerColor": [
+			255,
+			255,
+			255
+		],
+		"innerColor": [
+			0,
+			0,
+			0
+		],
+		"uniqueName": "Future Advance",
+		"uniques": [
+
+			"Provides [1] [Time] <if [Palace] is constructed>"
+			"Triggers a [Future Advance] event <every [10] turns> <upon turn end> <if [Palace] is constructed>"
+		],
+		"cities": [
+			"Heaven"
+		]
+	},*/
+	{
+		"name": "God",
+		"leaderName": "God",
+		"preferredVictoryType": "Domination",
+		"personality": "入机",
+		"outerColor": [
+			255,
+			255,
+			255
+		],
+		"innerColor": [
+			0,
+			0,
+			0
+		],
+		"uniqueName": "God",
+		"uniques": [
+			"[All] units gain the [God] promotion"
+		],
+		"cities": [
+			"Heaven"
+		]
+	}
+]
