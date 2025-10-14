@@ -1,0 +1,69 @@
+[
+	{
+		"name": "Turn",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Time",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Not shown on world screen",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Catnip",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Not shown on world screen <for [non-[Kittens]] Civilizations>",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Karma",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Not shown on world screen <for [non-[Kittens]] Civilizations>",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Enable the Embrace",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Unique Enhancement I",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Unique Enhancement II",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Essence of Agony",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+			"Cannot be traded"
+		]
+	},
+]

@@ -1,0 +1,282 @@
+[
+	{
+		"name": "Fox",
+		"uniques": [
+			"Transfer Movement to [Civilian]",
+			"Transfer Movement to [{Military} {non-[Air]}]",
+			"[+1] Movement <for [{Military} {non-[Air]}] units> <when stacked with a [Civilian] unit>",
+			"[+1] Movement <for [Civilian] units> <when stacked with a [{Military} {non-[Air]}] unit>"
+		]
+	},
+	{
+		"name": "Banner of the King of Kings",
+		"uniques": [
+			"[+25]% Strength <when adjacent to a [Military] unit>"
+		]
+	},
+	{
+		"name": "Cowardly Bunch",
+		"uniques": [
+			"[-10]% Strength <when attacking> <for [Melee] units>",
+			"Withdraws before melee combat <with [25]% chance> <for [Land] units>"
+		]
+	},
+	{
+		"name": "Travel Light",
+		"uniques": [
+			"[+1] Movement",
+            "Can move after attacking",
+            "[-33]% Strength <when defending>"
+		]
+	},
+	{
+		"name": "[Tridentman] ability",
+		"uniques": [
+			"[Target Unit] gains the [Trapped] status for [2] turn(s) <upon damaging a [All] unit>",
+			"Can move after attacking"
+		]
+	},
+	{
+		"name": "Trapped",
+		"uniques": [
+			"[-10]% Strength",
+			"Cannot attack",
+			"Cannot move"
+		]
+	},
+	{
+        "name": "Rimescar",
+	    "uniques": [
+			"Gain control over [all] tiles in a [0]-tile radius <in [Mycelium] tiles> <upon turn end>",
+			"Gain control over [all] tiles in a [0]-tile radius <in [Mycelium] tiles> <for [0] movement> <after which this unit is consumed>"
+			"Double movement in [Mycelium]",
+			"[+25]% Strength <in [Mycelium] tiles> <for [Melee] units>",
+			"[+25]% Strength <when defending> <in [Mycelium] tiles> <for [Ranged] units>",
+			"[This Unit] heals [5] HP <upon turn end> <in [Mycelium] tiles>",
+		]
+	},
+	{
+        "name": "Kitling",
+	    "uniques": [
+			"[Target Unit] gains the [Warrior of Sunlight] status for [1] turn(s) <for [0] movement> <for [Melee] units> <for units without [Warrior of Sunlight]> <when above [9] [Catnip]>",
+			"[This Unit] gains the [Warrior of Sunlight] status for [1] turn(s) <for [0] movement> <for [Melee] units> <for units without [Warrior of Sunlight]> <when above [9] [Catnip]> <when at war> <upon turn end> <for [AI player] Civilizations> <hidden from users>",
+			"Instantly provides [1] [Karma] <upon being defeated>"
+		]
+	},
+	{
+        "name": "Warrior of Sunlight",
+	    "uniques": [
+			"[+100]% to Flank Attack bonuses",
+			"[+10]% Strength",
+			"Consumes [10] [Catnip]",
+			"Only available <when above [9] [Catnip]>"
+		]
+	},
+	{
+        "name": "Flustered",
+	    "uniques": [
+			"[-1] Movement"
+		]
+	},
+	{
+        "name": "Bloodline",
+	    "uniques": [
+			"[+25]% Strength",
+			/*"[+15]% Strength <with [Enable the Embrace]>",
+			"Earn [20]% of the damage done to [All] units as [Gold] <for [Melee] units>",
+			"Gain [-2] [Gold] <upon turn end>",*/
+			/*"Gain [+4] [Gold] <upon damaging a [All] unit> <for [Melee] units>",*/
+			"Heals [25] damage if it kills a unit <for [Melee] units>",
+			"Can transform to [Bat] <for [0] movement>"
+		]
+	},
+	{
+        "name": "Pureblood",
+	    "uniques": [
+			"[+15]% Strength bonus for [Military] units within [5] tiles",
+			/*"[1] additional attacks per turn",
+			"[+1] Movement",
+            "Can move after attacking",
+			"All tiles cost 1 movement",
+			"Ignores Zone of Control",
+			"Can pass through impassable tiles",*/
+			"Comment [100％ Capture Military]",
+			"Unit will heal every turn, even if it performs an action"
+		]
+	},
+	{
+        "name": "Form Fusion",
+	    "uniques": [
+			/*"[-33]% Gold cost of upgrading",*/
+			"Can transform to [Archer] <for [0] movement> <for [Warrior] units> <after discovering [Archery]>",
+			"Can transform to [Warrior] <for [0] movement> <for [Archer] units>",
+			"Can transform to [Composite Bowman] <for [0] movement> <for [Swordsman] units> <after discovering [Construction]>",
+			"Can transform to [Swordsman] <for [0] movement> <for [Composite Bowman] units> <after discovering [Iron Working]> <when above [0] [Iron]>",
+			"Can transform to [Crossbowman] <for [0] movement> <for [Longswordsman] units> <after discovering [Machinery]>",
+			"Can transform to [Longswordsman] <for [0] movement> <for [Crossbowman] units> <after discovering [Steel]> <when above [0] [Iron]>",
+			"Can transform to [Gatling Gun] <for [0] movement> <for [Rifleman] units> <after discovering [Industrialization]>",
+			"Can transform to [Rifleman] <for [0] movement> <for [Gatling Gun] units> <after discovering [Rifling]>",
+			/*"Can build [The Eyrie] improvements on tiles"*/
+/*			"Can transform to [Archer] <for [1] movement> <for [Warrior] units> <after discovering [Archery]> <in tiles without [Friendly Land]>",
+			"Can transform to [Warrior] <for [1] movement> <for [Archer] units> <in tiles without [Friendly Land]>",
+			"Can transform to [Composite Bowman] <for [1] movement> <for [Swordsman] units> <after discovering [Construction]> <in tiles without [Friendly Land]>",
+			"Can transform to [Swordsman] <for [1] movement> <for [Composite Bowman] units> <after discovering [Iron Working]> <when above [0] [Iron]> <in tiles without [Friendly Land]>",
+			"Can transform to [Crossbowman] <for [1] movement> <for [Longswordsman] units> <after discovering [Machinery]> <in tiles without [Friendly Land]>",
+			"Can transform to [Longswordsman] <for [1] movement> <for [Crossbowman] units> <after discovering [Steel]> <when above [0] [Iron]> <in tiles without [Friendly Land]>",
+			"Can transform to [Gatling Gun] <for [1] movement> <for [Rifleman] units> <after discovering [Industrialization]> <in tiles without [Friendly Land]>",
+			"Can transform to [Rifleman] <for [1] movement> <for [Gatling Gun] units> <after discovering [Rifling]> <in tiles without [Friendly Land]>",
+			"Can transform to [Archer] <for [0] movement> <for [Warrior] units> <after discovering [Archery]> <in [Friendly Land] tiles>",
+			"Can transform to [Warrior] <for [0] movement> <for [Archer] units> <in [Friendly Land] tiles>",
+			"Can transform to [Composite Bowman] <for [0] movement> <for [Swordsman] units> <after discovering [Construction]> <in [Friendly Land] tiles>",
+			"Can transform to [Swordsman] <for [0] movement> <for [Composite Bowman] units> <after discovering [Iron Working]> <when above [0] [Iron]> <in [Friendly Land] tiles>",
+			"Can transform to [Crossbowman] <for [0] movement> <for [Longswordsman] units> <after discovering [Machinery]> <in [Friendly Land] tiles>",
+			"Can transform to [Longswordsman] <for [0] movement> <for [Crossbowman] units> <after discovering [Steel]> <when above [0] [Iron]> <in [Friendly Land] tiles>",
+			"Can transform to [Gatling Gun] <for [0] movement> <for [Rifleman] units> <after discovering [Industrialization]> <in [Friendly Land] tiles>",
+			"Can transform to [Rifleman] <for [0] movement> <for [Gatling Gun] units> <after discovering [Rifling]> <in [Friendly Land] tiles>"*/
+		]
+	},
+	{
+        "name": "Plated Armor, Bodkin Points",
+	    "uniques": [
+			"[+15]% Strength",
+			/*"[+15]% Strength <for [Melee] units>",
+			"[+15]% Strength <when attacking> <for [Ranged] units>"*/
+		]
+	},
+	{
+        "name": "High",
+	    "uniques": [
+			"Ranged attacks may be performed over obstacles",
+			"Can see over obstacles"
+			"Cannot attack <for [Melee] units>",
+			"Cannot move",
+			"[+25]% Strength <when defending>"
+		]
+	},
+	{
+        "name": "Can build [Catalytic Processing Plant] improvements on tiles",
+	    "uniques": [
+			"Can build [Catalytic Processing Plant] improvements on tiles"
+		]
+	},
+	{
+        "name": "Living Metal Forging",
+	    "uniques": [
+			/*"[+5]% Strength"*/
+			"Comment [[2] damage absorption for Military units]"
+		]
+	},
+	{
+        "name": "Lithoid",
+	    "uniques": [
+			"[+15]% Strength <when defending>",
+			"[Target Unit] gains the [Stonelike] promotion <for [1] movement> <for units without [Stonelike]>"
+			/*"[-33]% Strength <vs [Siege] units> <when defending>"*/
+		]
+	},
+	{
+        "name": "Stonelike",
+	    "uniques": [
+			"[Target Unit] loses the [Stonelike] promotion <for [0] movement>",
+			"[This Unit] heals [5] HP <upon turn end>",
+			"[+10]% Strength <when defending>",
+			"Cannot move"
+			/*"[-33]% Strength <vs [Siege] units> <when defending>"*/
+		]
+	},
+	{
+        "name": "[Granite Colossus] ability",
+	    "uniques": [
+			/*"Destroys tile improvements when attacking",*/
+			"[Target Unit] gains the [Disintegrated I] status for [1] turn(s) <upon damaging a [non-[Disintegrated II]] unit>",
+			"[Target Unit] gains the [Disintegrated II] status for [1] turn(s) <upon damaging a [Disintegrated I] unit>"
+		]
+	}
+	{
+        "name": "Disintegrated I",
+	    "uniques": [
+			/*"[-99] Movement",*/
+			"[-20]% Strength"
+			/*"No defensive terrain bonus"*/
+		]
+	},
+	{
+        "name": "Disintegrated II",
+	    "uniques": [
+			/*"Cannot attack",
+			"Cannot move",*/
+			"[-40]% Strength",
+			"[This Unit] loses the [Disintegrated I] promotion"
+			/*"No defensive terrain bonus"*/
+		]
+	},
+	{
+        "name": "God",
+	    "uniques": [
+			"[+32767]% Strength",
+			"Cannot attack",
+			"Cannot move",
+			"[+99] Sight",
+			"Can see over obstacles"
+			/*"No defensive terrain bonus"*/
+		]
+	},
+	{
+        "name": "[Agony] ability",
+	    "uniques": [
+			"[This Unit] heals [50] HP <upon turn end> <for [Agony] units>",
+			"[Target Unit] gains the [Unquenchable Fire] promotion <upon damaging a [All] unit>",
+			"[This Unit] gains the [Unquenchable Fire] promotion",
+			"Free [Agony] appears <upon defeating a [Barbarian] unit>",
+			"Consumes [1] [Essence of Agony]",
+			"Only available <when above [0] [Essence of Agony]>"
+		]
+	},
+	{
+        "name": "Unquenchable Fire",
+	    "uniques": [
+			"[This Unit] takes [50] damage <upon ending a turn in a [All] tile>"
+		]
+	},
+	{
+        "name": "Ares Warrior",
+	    "uniques": [
+			"[+10]% Strength <when attacking> <vs [{Melee} {non-[Ares's Game]}] units>",
+			"[This Unit] gains the [Ares's Game] status for [2] turn(s) <when attacking> <upon damaging a [{Melee} {non-[Ares's Game]}] unit>",
+			"[Target Unit] gains the [Ares's Game] status for [2] turn(s) <when attacking> <upon damaging a [{Melee} {non-[Ares's Game]}] unit>"
+		]
+	},
+	{
+        "name": "Ares's Game",
+	    "uniques": [
+			"Comment [Arena]",
+			"[+10]% Strength <when attacking>",
+			"[-100]% to Flank Attack bonuses",
+			"Comment [Cannot attack or be attacked by [non-[Ares's Game]] units]",
+			"Cannot move"
+		]
+	},
+	{
+        "name": "Harvest of War",
+	    "uniques": [
+			"[+5]% Strength",
+			/*"Earn [20]% of the damage done to [Military] units as [Golden Age points]",
+			"Instantly gain [1] [Golden Age points] <upon damaging a [Military] unit>"*/
+		]
+	},
+	{
+        "name": "The Crusades",
+	    "uniques": [
+			"[This Unit] gains the [Medic] promotion",
+			"[This Unit] gains the [Medic II] promotion",
+			"Can Spread Religion <for [4] movement> <[1] times>"
+		]
+	},
+/*	{
+        "name": "Can Spread Religion",
+	    "uniques": [
+			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+			"[This Unit] gains the [Dash II] promotion <upon defeating a [All] unit> <for units without [Dash III]>"
+		]
+	}*/
+]
