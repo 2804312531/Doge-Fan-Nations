@@ -34,14 +34,14 @@ ResourceIcons/Enable the Embrace
   index: -1
 BuildingIcons/Mars Shrine
   rotate: false
-  xy: 1060, 316
+  xy: 1168, 424
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Organic Catalytic Core
   rotate: false
-  xy: 1168, 424
+  xy: 1540, 796
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -55,7 +55,7 @@ BuildingIcons/Petty King
   index: -1
 BuildingIcons/Temple of Ares
   rotate: false
-  xy: 328, 4
+  xy: 436, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -83,14 +83,14 @@ ImprovementIcons/Foxes
   index: -1
 ImprovementIcons/Remove Mycelium
   rotate: false
-  xy: 1540, 796
+  xy: 1648, 904
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/The Eyrie
   rotate: false
-  xy: 436, 112
+  xy: 1168, 316
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -125,21 +125,21 @@ NationIcons/Kittens
   index: -1
 NationIcons/The Kindred
   rotate: false
-  xy: 1168, 316
+  xy: 1648, 796
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Titan
   rotate: false
-  xy: 1648, 796
+  xy: 1756, 904
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Vulpine
   rotate: false
-  xy: 436, 4
+  xy: 544, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -167,7 +167,7 @@ ResourceIcons/Karma
   index: -1
 ResourceIcons/Turn
   rotate: false
-  xy: 616, 98
+  xy: 898, 162
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -223,63 +223,63 @@ TileSets/AbsoluteUnits/Units/Progenitor
   index: -1
 TileSets/HexaRealm/Tiles/Auto-Berry Mine
   rotate: false
-  xy: 544, 156
+  xy: 1756, 840
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Foxes
   rotate: false
-  xy: 544, 156
+  xy: 1756, 840
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Catalytic Processing Plant
   rotate: false
-  xy: 1756, 840
+  xy: 1864, 948
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Crystallacta Plantation
   rotate: false
-  xy: 1864, 948
+  xy: 544, 48
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Grassland+Hill+Mycelium
   rotate: false
-  xy: 1151, 252
+  xy: 652, 156
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Plains+Hill+Mycelium
   rotate: false
-  xy: 1151, 252
+  xy: 652, 156
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Tundra+Hill+Mycelium
   rotate: false
-  xy: 1151, 252
+  xy: 652, 156
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Mycelium
   rotate: false
-  xy: 544, 92
+  xy: 1151, 252
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/The Eyrie
   rotate: false
-  xy: 616, 156
+  xy: 1936, 948
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -342,21 +342,21 @@ UnitIcons/The Kindred and The Herd
   index: -1
 UnitIcons/Tridentman
   rotate: false
-  xy: 1756, 904
+  xy: 436, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Ares Warrior
   rotate: false
-  xy: 1936, 954
+  xy: 724, 162
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Ares's Game
   rotate: false
-  xy: 1994, 954
+  xy: 782, 162
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -417,44 +417,51 @@ UnitPromotionIcons/Harvest of War
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Kitling
+  rotate: false
+  xy: 220, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Lithoid
-  rotate: false
-  xy: 220, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Stonelike
-  rotate: false
-  xy: 220, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Living Metal Forging
   rotate: false
   xy: 328, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Stonelike
+  rotate: false
+  xy: 328, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Living Metal Forging
+  rotate: false
+  xy: 1060, 316
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Rimescar
   rotate: false
-  xy: 1648, 904
+  xy: 328, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Rimeweave
   rotate: false
-  xy: 1648, 904
+  xy: 328, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/The Crusades
   rotate: false
-  xy: 544, 34
+  xy: 840, 162
   size: 50, 50
   orig: 50, 50
   offset: 0, 0

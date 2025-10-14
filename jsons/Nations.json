@@ -18,7 +18,8 @@
 		],
 		"uniqueName": "Your Old Buddy",
 		"uniques": [
-			"[All] units gain the [Fox] promotion",
+			"[non-[Air]] units gain the [Fox] promotion",
+			"Comment [Unlock [Scout] promotion]"
 		],
 		"cities": [
 			"Aurora",

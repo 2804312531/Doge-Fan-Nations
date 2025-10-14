@@ -1,11 +1,64 @@
 [
 	{
+		"name": "*Scouting I",
+		"prerequisites": ["Fox"],
+		"uniques": [
+			"[+1] Sight",
+			"[-100]% weight to this choice for AI decisions"
+		],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
+        "column": 27,
+        "row": 1
+	},
+	{
+		"name": "*Scouting II",
+		"prerequisites": ["*Scouting I"],
+		"uniques": [
+			"[+1] Sight",
+			"[-100]% weight to this choice for AI decisions"
+		],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
+        "column": 27,
+        "row": 2
+	},
+	{
+		"name": "*Scouting III",
+		"prerequisites": ["*Scouting II"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
+        "column": 27,
+        "row": 3
+	},
+	{
+		"name": "*Survivalism I",
+		"prerequisites": ["Fox"],
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
+        "column": 28,
+        "row": 1
+	},
+	{
+		"name": "*Survivalism II",
+		"prerequisites": ["*Survivalism I"],
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
+        "column": 28,
+        "row": 2
+	},
+	{
+		"name": "*Survivalism III",
+		"prerequisites": ["*Survivalism II"],
+		"uniques": ["Unit will heal every turn, even if it performs an action", "Withdraws before melee combat <with [75]% chance>"], // This number is not based on any source
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
+        "column": 28,
+        "row": 3
+	},
+	{
 		"name": "Fox",
 		"uniques": [
-			"Transfer Movement to [Civilian]",
-			"Transfer Movement to [{Military} {non-[Air]}]",
-			"[+1] Movement <for [{Military} {non-[Air]}] units> <when stacked with a [Civilian] unit>",
-			"[+1] Movement <for [Civilian] units> <when stacked with a [{Military} {non-[Air]}] unit>"
+			"[This Unit] gains [5] XP <for [0] movement> <[1] times>",
+			"Ignores terrain cost",
+			"Transfer Movement to [All]"
 		]
 	},
 	{
@@ -47,6 +100,7 @@
 	{
         "name": "Rimescar",
 	    "uniques": [
+			"Turn this tile into a [Mycelium] tile <upon being defeated>",
 			"Gain control over [all] tiles in a [0]-tile radius <in [Mycelium] tiles> <upon turn end>",
 			"Gain control over [all] tiles in a [0]-tile radius <in [Mycelium] tiles> <for [0] movement> <after which this unit is consumed>"
 			"Double movement in [Mycelium]",
@@ -58,8 +112,9 @@
 	{
         "name": "Kitling",
 	    "uniques": [
-			"[Target Unit] gains the [Warrior of Sunlight] status for [1] turn(s) <for [0] movement> <for [Melee] units> <for units without [Warrior of Sunlight]> <when above [9] [Catnip]>",
-			"[This Unit] gains the [Warrior of Sunlight] status for [1] turn(s) <for [0] movement> <for [Melee] units> <for units without [Warrior of Sunlight]> <when above [9] [Catnip]> <when at war> <upon turn end> <for [AI player] Civilizations> <hidden from users>",
+			"Ignores Zone of Control",
+			"[Target Unit] gains the [Warrior of Sunlight] status for [10] turn(s) <for [0] movement> <for [Melee] units> <for units without [Warrior of Sunlight]> <when above [9] [Catnip]>",
+			"[This Unit] gains the [Warrior of Sunlight] status for [10] turn(s) <for [0] movement> <for [Melee] units> <for units without [Warrior of Sunlight]> <when above [9] [Catnip]> <when at war> <upon turn end> <for [AI player] Civilizations> <hidden from users>",
 			"Instantly provides [1] [Karma] <upon being defeated>"
 		]
 	},
@@ -67,9 +122,8 @@
         "name": "Warrior of Sunlight",
 	    "uniques": [
 			"[+100]% to Flank Attack bonuses",
-			"[+10]% Strength",
-			"Consumes [10] [Catnip]",
-			"Only available <when above [9] [Catnip]>"
+			"Consumes [1] [Catnip]",
+			"Only available <when above [0] [Catnip]>"
 		]
 	},
 	{

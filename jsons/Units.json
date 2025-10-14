@@ -136,11 +136,12 @@
 		"movement": 2,
 		"cost": 30,
 		"uniques": [
-			"May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles>",
+			"May Paradrop to [Land] tiles up to [99] tiles away <in [{Friendly} {Land}] tiles>",
 			"Can instantly construct a [Crystallacta Plantation] improvement <for [4] movement> <[1] times> <after which this unit is consumed>",
 			/*"[Target Unit] gains the [Mode1] promotion <[1] times> <if it hasn't used other actions yet>",
 			"[Target Unit] gains the [Mode2] promotion <[1] times> <if it hasn't used other actions yet>",*/
 			"Cannot move",
+			"[-100]% maintenance costs",
 			"Uncapturable"
 		]
 	},
@@ -150,12 +151,11 @@
 		"replaces": "Settler",
 		"unitType": "Civilian",
 		"movement": 3,
-		"cost": 106,
+		"cost": 85,
 		"uniques": [
 			"Founds a new city <by consuming this unit>",
 			"Excess Food converted to Production when under construction",
-			"Requires at least [2] population",
-			"Ignores Zone of Control"
+			"Requires at least [2] population"
 		],
 		"hurryCostModifier": 20
 	},
