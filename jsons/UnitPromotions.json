@@ -64,7 +64,7 @@
 	{
 		"name": "Banner of the King of Kings",
 		"uniques": [
-			"[+25]% Strength <when adjacent to a [Military] unit>"
+			"[+15]% Strength <when adjacent to a [Military] unit> <when attacking>"
 		]
 	},
 	{

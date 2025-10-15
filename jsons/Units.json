@@ -82,8 +82,8 @@
 		"uniqueTo": "Wanpasha",
 		"unitType": "Archery",
 		"movement": 4,
-		"strength": 6,
-		"rangedStrength": 10,
+		"strength": 7,
+		"rangedStrength": 11,
 		"cost": 56,
 		"requiredTech": "The Wheel",
 		"requiredResource": "Horses",
@@ -136,7 +136,7 @@
 		"movement": 2,
 		"cost": 30,
 		"uniques": [
-			"May Paradrop to [Land] tiles up to [99] tiles away <in [{Friendly} {Land}] tiles>",
+			"May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles>",
 			"Can instantly construct a [Crystallacta Plantation] improvement <for [4] movement> <[1] times> <after which this unit is consumed>",
 			/*"[Target Unit] gains the [Mode1] promotion <[1] times> <if it hasn't used other actions yet>",
 			"[Target Unit] gains the [Mode2] promotion <[1] times> <if it hasn't used other actions yet>",*/
