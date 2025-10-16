@@ -144,6 +144,13 @@ NationIcons/Vulpine
   orig: 100, 100
   offset: 0, 0
   index: -1
+PolicyBranchIcons/Subterfuge
+  rotate: false
+  xy: 1756, 904
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 PolicyIcons/Battlefield Analysis
   rotate: false
   xy: 1168, 640
@@ -161,13 +168,6 @@ PolicyIcons/Internal Security
 PolicyIcons/Shadow Election
   rotate: false
   xy: 1648, 796
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-PolicyIcons/Subterfuge
-  rotate: false
-  xy: 1756, 904
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
