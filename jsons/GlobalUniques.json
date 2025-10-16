@@ -5,6 +5,7 @@
         "When defeating a [Military] unit, earn [0] Gold and recruit it <for units with [Pureblood]>",
         "[-1 Happiness] <for every [[{Foxes} {Friendly}] Tiles]> <for [non-[Vulpine]] Civilizations>",
         "[+2 Gold] <for every [[{Foxes} {Enemy}] Tiles]> <for [Vulpine] Civilizations>",
+        /*"[{Military} {non-[Air]} {non-[Cowardly Bunch]}] units gain the [Cowardly Bunch] promotion <after adopting [Self-preservation]>",*/
     ],
     "unitUniques": [
         /*"Can move immediately once bought <after adopting [Oligarchy]> <for [The Kindred] Civilizations>",*/
@@ -26,6 +27,9 @@
 		"Can build [Auto] improvements on tiles <after adopting [Automation]> <for [Worker] units>",
 		"[-10]% production cost <for [Obitos] Civilizations>",
 		"Cannot attack <for [non-[Ares's Game]] units> <vs [Ares's Game] units>",
-		"Cannot attack <for [Ares's Game] units> <vs [non-[Ares's Game]] units>"
+		"Cannot attack <for [Ares's Game] units> <vs [non-[Ares's Game]] units>",
+		"Cannot attack <for [Melee] units> <vs [High] units>",
+		"May enter foreign tiles without open borders <after adopting [Subversive Mobility]> "
+		/*"[This Unit] gains the [Cowardly Bunch] promotion <for [{Military} {non-[Air]}] units> <for units without [Cowardly Bunch]> <after adopting [Self-preservation]>",*/
     ]
 }

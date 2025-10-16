@@ -29,7 +29,7 @@
 		]
 	},
 	{
-		"name": "The Kindred",
+		"name": "The King of Ten Thousand Kings",
 		"preferredVictoryType": "Domination",
 		"culture": 10,
 		"faith": 10,
@@ -47,8 +47,37 @@
 		"expansion": 10,
 		"priorities": {
 			"Autocracy": 100,
-			"Tradition": 90,
-			"Liberty": 80,
+			"Liberty": 90,
+			"Tradition": 80,
+			"Piety": 70,
+			"Honor": 60
+		},
+		
+		"civilopediaText": [
+			{"text": "怎么调试都愚蠢至极的机器人"}
+		]
+	},
+	{
+		"name": "Cassius Knox",
+		"preferredVictoryType": "Domination",
+		"culture": 10,
+		"faith": 10,
+		"food": 10,
+		"gold": 10,
+		"happiness": 10,
+		"production": 10,
+		"science": 10,
+		"military": 10,
+		"aggressive": 10,
+		"declareWar": 10,
+		"commerce": 10,
+		"diplomacy": 10,
+		"loyal": 0,
+		"expansion": 10,
+		"priorities": {
+			"Autocracy": 100,
+			"Liberty": 90,
+			"Subterfuge": 80,
 			"Piety": 70,
 			"Commerce": 60
 		},

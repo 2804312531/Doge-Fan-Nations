@@ -17,7 +17,7 @@
 			"[+1] Sight",
 			"[-100]% weight to this choice for AI decisions"
 		],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
         "column": 27,
         "row": 2
 	},
@@ -25,7 +25,7 @@
 		"name": "*Scouting III",
 		"prerequisites": ["*Scouting II"],
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
         "column": 27,
         "row": 3
 	},
@@ -33,7 +33,7 @@
 		"name": "*Survivalism I",
 		"prerequisites": ["Fox"],
 		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
         "column": 28,
         "row": 1
 	},
@@ -41,7 +41,7 @@
 		"name": "*Survivalism II",
 		"prerequisites": ["*Survivalism I"],
 		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
         "column": 28,
         "row": 2
 	},
@@ -49,7 +49,7 @@
 		"name": "*Survivalism III",
 		"prerequisites": ["*Survivalism II"],
 		"uniques": ["Unit will heal every turn, even if it performs an action", "Withdraws before melee combat <with [75]% chance>"], // This number is not based on any source
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
         "column": 28,
         "row": 3
 	},
@@ -327,6 +327,30 @@
 		]
 	},
 /*	{
+        "name": "Information-Security",
+	    "uniques": [
+			"Invisible to non-adjacent units <in [Friendly Land] tiles>"
+		]
+	},
+	{
+        "name": "Shadow-Recruits",
+	    "uniques": [
+			"May enter foreign tiles without open borders"
+		]
+	},
+	{
+        "name": "Double-Agents",
+	    "uniques": [
+			"Can see invisible [Information-Security] units"
+		]
+	},
+	{
+        "name": "Invisible",
+	    "uniques": [
+			"Invisible to non-adjacent units"
+		]
+	}
+	{
         "name": "Can Spread Religion",
 	    "uniques": [
 			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",

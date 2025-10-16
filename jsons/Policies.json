@@ -72,6 +72,77 @@
         ]
     },
     {
+        "name": "Subterfuge",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "Gain an extra spy",
+            "Free [Scout] appears"
+        ],
+        "policies": [
+            {
+                "name": "Shadow Election",
+                "uniques": [
+                    "[+25]% [Science] <in [Puppeted] cities>",
+                    "[+25]% [Culture] <in [Puppeted] cities>",
+                    "May buy items in puppet cities"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Battlefield Analysis",
+                "uniques": [
+                    "[+1] Sight",
+                    "Earn [50]% of killed [Military] unit's [Strength] as [Science]",
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Internal Security",
+                "uniques": [
+                    "Gain a free [Constabulary] [in all cities]",
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Tributary System",
+                "uniques": [
+                    "[+1 Happiness] [in puppeted cities]",
+                    "[+2 Gold] per [1] population [in this city] <in [Puppeted] cities>",
+                ],
+                "requires": ["Shadow Election"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Subversive Mobility",
+                "uniques": [
+                    "Comment [May enter foreign tiles without open borders]",
+                    "[+10] HP when healing <in [Enemy Land] tiles>"
+                ],
+                "requires": ["Battlefield Analysis"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Subterfuge Complete",
+                "uniques": [
+                    "[-25]% enemy spy effectiveness [in all cities]",
+                    "[+1 Happiness] from every [Constabulary]"
+                ]
+            }
+        ]
+    },
+    {
         "name": "Beyond",
         "era": "Ancient era",
         "priorities": {
