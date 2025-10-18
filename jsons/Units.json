@@ -188,13 +188,12 @@
             "Can upgrade to [Great War Bomber]",
 			"[Target Unit] gains the [Flustered] status for [1] turn(s) <upon damaging a [Military] unit>",
 			/*"Gain [+1] [Gold] <upon damaging a [All] unit>",*/
-			"Can move after attacking",
 			"No defensive terrain bonus",
+			"Can move after attacking",
 			"All tiles cost 1 movement",
-			/*"Ignores Zone of Control",
-			"Can pass through impassable tiles",*/
 			"Unable to capture cities"
 		],
+		"replacementTextForUniques": "Can upgrade to all kind of the cheapest [{Military} {non-[Missile]}]\n[Target Unit] gains the [Flustered] status for [1] turn(s) upon damaging a [Military] unit\nCan move after attacking\nNo defensive terrain bonus\nAll tiles cost 1 movement\nUnable to capture cities"
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -279,4 +278,23 @@
             "Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
+	{
+		"name": "Jawbreaker",
+		"unitType": "Bomber",
+		"uniqueTo": "Icarus",
+		"replaces": "Catapult",
+		"uniques": [
+            "[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+            "Comment [None dare meet the gaze of that steely jaw and hollow eyes.]"
+        ],
+		"movement": 1,
+		"strength": 12,
+		"rangedStrength": 12,
+		"range": 4,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"upgradesTo": "Great War Bomber",
+		"obsoleteTech": "Flight",
+		"attackSound": "nonmetalhit"
+	}
 ]

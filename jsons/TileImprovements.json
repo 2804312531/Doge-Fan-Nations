@@ -9,6 +9,23 @@
 		"shortcutKey": "M"
 	},*/
 	{
+		"name": "Tree Planting",
+		"terrainsCanBeBuiltOn": [
+			"Tundra",
+			"Plains",
+			"Grassland",
+			"Hill"
+		],
+		"turnsToBuild": 11,
+		"uniques": [
+			"Turn this tile into a [Forest] tile",
+			"Can be built outside your borders",
+			"Only available <after adopting [Afforestation]>",
+			"Unpillagable"
+		],
+		"shortcutKey": "T"
+	},
+	{
 		"name": "Auto",
 		"terrainsCanBeBuiltOn": [
 			"Land"
@@ -139,7 +156,7 @@
 		"uniqueTo": "Obitos",
 		"terrainsCanBeBuiltOn": [
 			"Land",
-/*			"Water"*/
+			"Water"
 		],
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",

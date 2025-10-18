@@ -1,6 +1,6 @@
 [
 	{
-		"name": "*Scouting I",
+		"name": "~Scouting I",
 		"prerequisites": ["Fox"],
 		"uniques": [
 			"[+1] Sight",
@@ -11,8 +11,8 @@
         "row": 1
 	},
 	{
-		"name": "*Scouting II",
-		"prerequisites": ["*Scouting I"],
+		"name": "~Scouting II",
+		"prerequisites": ["~Scouting I"],
 		"uniques": [
 			"[+1] Sight",
 			"[-100]% weight to this choice for AI decisions"
@@ -22,15 +22,15 @@
         "row": 2
 	},
 	{
-		"name": "*Scouting III",
-		"prerequisites": ["*Scouting II"],
+		"name": "~Scouting III",
+		"prerequisites": ["~Scouting II"],
 		"uniques": ["[+1] Movement"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
         "column": 27,
         "row": 3
 	},
 	{
-		"name": "*Survivalism I",
+		"name": "~Survivalism I",
 		"prerequisites": ["Fox"],
 		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
@@ -38,16 +38,16 @@
         "row": 1
 	},
 	{
-		"name": "*Survivalism II",
-		"prerequisites": ["*Survivalism I"],
+		"name": "~Survivalism II",
+		"prerequisites": ["~Survivalism I"],
 		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
         "column": 28,
         "row": 2
 	},
 	{
-		"name": "*Survivalism III",
-		"prerequisites": ["*Survivalism II"],
+		"name": "~Survivalism III",
+		"prerequisites": ["~Survivalism II"],
 		"uniques": ["Unit will heal every turn, even if it performs an action", "Withdraws before melee combat <with [75]% chance>"], // This number is not based on any source
 		"unitTypes": ["Sword","Gunpowder","Mounted","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
         "column": 28,
@@ -56,7 +56,7 @@
 	{
 		"name": "Fox",
 		"uniques": [
-			"[This Unit] gains [5] XP <for [0] movement> <[1] times>",
+			/*"[This Unit] gains [5] XP <for [0] movement> <[1] times>",*/
 			"Ignores terrain cost",
 			"Transfer Movement to [All]"
 		]
@@ -324,6 +324,121 @@
 			"[This Unit] gains the [Medic] promotion",
 			"[This Unit] gains the [Medic II] promotion",
 			"Can Spread Religion <for [4] movement> <[1] times>"
+		]
+	},
+	{
+        "name": "Waxen Wings",
+	    "uniques": [
+			"[Target Unit] gains the [Aerial Superiority] promotion <for [0] movement> <for units without [Aerial Superiority]>",
+			"[Target Unit] loses the [Aerial Superiority] promotion <for [0] movement> <for units with [Aerial Superiority]>",
+			"Comment [Eagles cleaved the sky.]"
+/*			"[This Unit] gains the [Daedalus Guidance] status for [1] turn(s)",
+			"[This Unit] takes [25] damage <upon ending a turn in a [Water] tile> <for units with [Coasting the Waves]>",
+			"[This Unit] takes [25] damage <upon ending a turn in a [All] tile> <for units with [Thin Air]>",
+			"[This Unit] takes [50] damage <upon ending a turn in a [All] tile> <for units with [Solar Embrace]>",
+			
+			"[This Unit] gains the [Aerial Superiority] promotion <for units with [Daedalian Path]> <upon ending a turn in a [{non-[Hill]} {non-[Mountain]}] tile>",
+			"[This Unit] loses the [Aerial Superiority] promotion <for units with [Daedalian Path]> <upon ending a turn in a [Hill] tile>",
+			"[This Unit] loses the [Aerial Superiority] promotion <for units with [Daedalian Path]> <upon ending a turn in a [Mountain] tile>",
+			
+			"[This Unit] gains the [Aerial Superiority] promotion <for units with [Thin Air]> <upon ending a turn in a [non-[Mountain]] tile>",
+			"[This Unit] loses the [Aerial Superiority] promotion <for units with [Thin Air]> <upon ending a turn in a [Mountain] tile>",
+			
+			"[This Unit] gains the [Aerial Superiority] promotion <for units with [Solar Embrace]> <upon ending a turn in a [All] tile>",
+
+			
+			"[Target Unit] gains the [Take Off] promotion <for [0] movement> <for units without [Take Off]>",
+			"[Target Unit] loses the [Take Off] promotion <for [0] movement> <for units with [Take Off]>",
+			
+			
+			"[This Unit] loses the [Daedalian Path] promotion <for units with [Daedalian Path]> <for units without [Take Off]> <upon ending a turn in a [non-[Hill]] tile>",
+			"[This Unit] gains the [Coasting the Waves] promotion <for units with [Daedalian Path]> <for units without [Take Off]> <upon ending a turn in a [{non-[Hill]} {non-[Mountain]}] tile>",
+			"[This Unit] gains the [Thin Air] promotion <for units with [Daedalian Path]> <for units without [Take Off]> <upon ending a turn in a [Mountain] tile>",
+			
+			"[This Unit] loses the [Thin Air] promotion <for units with [Thin Air]> <for units without [Take Off]> <upon ending a turn in a [non-[Mountain]] tile>",
+			"[This Unit] gains the [Daedalian Path] promotion <for units with [Thin Air]> <for units without [Take Off]> <upon ending a turn in a [non-[Mountain]] tile>",
+			
+			"[This Unit] loses the [Solar Embrace] promotion <for units with [Solar Embrace]> <for units without [Take Off]> <upon ending a turn in a [All] tile>",
+			"[This Unit] gains the [Thin Air] promotion <for units with [Solar Embrace]> <for units without [Take Off]> <upon ending a turn in a [All] tile>",*/
+		]
+	},
+/*	{
+        "name": "Daedalus Guidance",
+	    "uniques": [
+			"[This Unit] gains the [Daedalian Path] promotion <upon ending a turn in a [Water] tile>"
+		]
+	},
+	{
+        "name": "Take Off",
+	    "uniques": [
+			"[This Unit] loses the [Coasting the Waves] promotion <for units with [Coasting the Waves]> <upon ending a turn in a [All] tile>",
+			"[This Unit] gains the [Daedalian Path] promotion <for units with [Coasting the Waves]> <upon ending a turn in a [non-[Mountain]] tile>",
+			"[This Unit] gains the [Thin Air] promotion <for units with [Coasting the Waves]> <upon ending a turn in a [Mountain] tile>",
+			
+			"[This Unit] loses the [Daedalian Path] promotion <for units with [Daedalian Path]> <upon ending a turn in a [All] tile>",
+			"[This Unit] gains the [Thin Air] promotion <for units with [Daedalian Path]> <upon ending a turn in a [All] tile>",
+			
+			"[This Unit] loses the [Thin Air] promotion <for units with [Thin Air]> <upon ending a turn in a [All] tile>",
+			"[This Unit] gains the [Solar Embrace] promotion <for units with [Thin Air]> <upon ending a turn in a [All] tile>"
+		]
+	},*/
+/*	{
+        "name": "Height 0",
+	    "uniques": [
+			"Comment [Coasting the Waves - "Where the sea's damp grasp threatens to clog the wings."]"
+		]
+	},
+	{
+        "name": "Height I",
+	    "uniques": [
+			"Comment [Daedalian Path - "The wise path, as the great artificer intended."]"
+		]
+	},
+	{
+        "name": "Height II",
+	    "uniques": [
+			"Comment [Thin Air - "The air grows cold and thin, a realm of both freedom and peril."]"
+		]
+	},
+	{
+        "name": "Height III",
+	    "uniques": [
+			"Comment []"
+		]
+	},*/
+/*	{
+        "name": "Coasting the Waves",
+	    "uniques": [
+			"Comment [Where the sea's damp grasp threatens to clog the wings.]"
+		]
+	},
+	{
+        "name": "Daedalian Path",
+	    "uniques": [
+			"Comment [The wise path, as the great artificer intended.]"
+		]
+	},
+	{
+        "name": "Thin Air",
+	    "uniques": [
+			"Comment [The air grows cold and thin, a realm of both freedom and peril.]"
+		]
+	},
+	{
+        "name": "Solar Embrace",
+	    "uniques": [
+			"Comment [A glorious, fatal warmth; the wax groans and softens.]"
+		]
+	},*/
+	{
+        "name": "Aerial Superiority",
+	    "uniques": [
+			"No defensive terrain bonus",
+			"All tiles cost 1 movement",
+			"Ignores Zone of Control",
+			"Cannot attack",
+			"Can pass through impassable tiles",
+			"May travel on Water tiles without embarking"
 		]
 	},
 /*	{

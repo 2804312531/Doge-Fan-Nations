@@ -99,6 +99,7 @@
             {
                 "name": "Battlefield Analysis",
                 "uniques": [
+                    "[+5]% Strength",
                     "[+1] Sight",
                     "Earn [50]% of killed [Military] unit's [Strength] as [Science]",
                 ],
@@ -108,7 +109,10 @@
             {
                 "name": "Internal Security",
                 "uniques": [
-                    "Gain a free [Constabulary] [in all cities]",
+                    /*"Gain a free [Constabulary] [in all cities]",*/
+                    "[+1 Happiness] from every [Constabulary]",
+                    "[+100]% Production when constructing [Constabulary] buildings [in all cities]",
+                    "[-10]% Unhappiness from [Population] [in all cities] <with a garrison>"
                 ],
                 "row": 1,
                 "column": 5
@@ -126,8 +130,9 @@
             {
                 "name": "Subversive Mobility",
                 "uniques": [
+                    "[-33]% maintenance costs <in [Enemy Land] tiles>",
                     "Comment [May enter foreign tiles without open borders]",
-                    "[+10] HP when healing <in [Enemy Land] tiles>"
+                    "[+10] HP when healing <in [Enemy Land] tiles>",
                 ],
                 "requires": ["Battlefield Analysis"],
                 "row": 2,
@@ -137,13 +142,15 @@
                 "name": "Subterfuge Complete",
                 "uniques": [
                     "[-25]% enemy spy effectiveness [in all cities]",
-                    "[+1 Happiness] from every [Constabulary]"
+                    "[+25]% growth [in all cities] <when between [-10] and [-1] [Happiness]>",
+                    "[+17]% [Production] [in all cities] <when below [-10] [Happiness]>",
+                    "[+11]% Strength <for [All] units> <when below [-10] [Happiness]>",
                 ]
             }
         ]
     },
     {
-        "name": "Beyond",
+        "name": "Nature (Experimental Draft)",
         "era": "Ancient era",
         "priorities": {
             "Neutral": 5,
@@ -153,7 +160,80 @@
             "Scientific": 5
         },
         "uniques": [
-            "Free Social Policy"
+            "[+1 Food] [in all cities]",
+            "Unavailable <when [Domination] Victory is enabled>"
+        ],
+        "policies": [
+            {
+                "name": "Animism",
+                "uniques": [
+                    "[+1 Faith] from [Bonus resource] tiles [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Afforestation",
+                "uniques": [
+                    "Comment [[Tree Planting] can be build with [Worker]]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Perilous March",
+                "uniques": [
+                    "Land units may cross [Mountain] tiles after the first [Settler] is earned",
+                    "Comment [Units ending their turn on [Mountain] tiles take [50] damage] <for [non-[Carthage]] Civilizations>",
+                    "Comment [Double movement in [Marsh]]",
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Wilderness Tenacity",
+                "uniques": [
+                    "Comment [Invisible to non-adjacent units in [Vegetation] tiles]"
+                    "[+10] HP when healing <in [{non-[Friendly Land]} {non-[Enemy Land]}] tiles>",
+                ],
+                "requires": ["Afforestation"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Gaia Breath",
+                "uniques": [
+                    "[+1 Culture] from [non-[Improvement]] tiles [in all cities]"
+                ],
+                "requires": [
+                    "Wilderness Tenacity",
+                    "Animism",
+                    "Perilous March"
+                ],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Nature (Experimental Draft) Complete",
+                "uniques": [
+                    "Gain a free [Pantheon] belief"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Beyond (Experimental Draft)",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "Free Social Policy",
+            "Unavailable <when [Domination] Victory is enabled>"
         ],
         "policies": [
             {
@@ -201,7 +281,7 @@
                 "column": 4
             },
             {
-                "name": "Beyond Complete",
+                "name": "Beyond (Experimental Draft) Complete",
                 "uniques": [
                     "Comment [[Bable Tower] can build]"
                 ]

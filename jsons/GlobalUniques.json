@@ -8,6 +8,11 @@
         /*"[{Military} {non-[Air]} {non-[Cowardly Bunch]}] units gain the [Cowardly Bunch] promotion <after adopting [Self-preservation]>",*/
     ],
     "unitUniques": [
+        "[This Unit] takes [50] damage <upon ending a turn in a [Mountain] tile> <for [non-[Carthage]] Civilizations>",
+        "[This Unit] takes [25] damage <upon ending a turn in a [Mountain] tile> <for [Carthage] Civilizations>",
+        "Invisible to non-adjacent units <in [Vegetation] tiles> <after adopting [Wilderness Tenacity]>",
+        "Double movement in [Mountain] <for [Carthage] Civilizations>",
+        "Double movement in [Marsh] <after adopting [Perilous March]>",
         /*"Can move immediately once bought <after adopting [Oligarchy]> <for [The Kindred] Civilizations>",*/
         "[Target Unit] loses the [Trapped] promotion <for [2] movement> <for units with [Trapped]>",
         "[Target Unit] gains the [[Agony] ability] promotion <for [0] movement> <for units without [[Agony] ability]> <when above [0] [Essence of Agony]>",

@@ -1,5 +1,35 @@
 [
 	{
+		"name": "Carthage",
+		"leaderName": "Dido",
+		"adjective": ["Carthaginian"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		"personality": "Dido",
+
+        "startIntroPart1": "Greetings to you, revered Queen Dido, ruler of the legendary kingdom of Carthage. The great poet Virgil related your great history, how your husband Acerbas was murdered by your own brother, King Pygmalion of Tyre, to steal the treasures of your family that were rightfully yours. But you endured his pressure until you and your compatriots decided to flee and sail for new lands. The gods led you to the shores of North Africa, and with cunning diplomacy, you expanded the territory of your new home, and laid the basis for the future kingdom of Carthage.",
+        "startIntroPart2": "Clever and proud Dido, the storm is coming and your people look for a shelter under your wise and powerful protection. Can you create a new and radiant Carthage able to cleave the darkness? Will your new empire shine through the ages of history?",
+
+        "declaringWar": "Tell me, do you all know how numerous my armies, elephants and the gdadons are? No? Today, you shall find out!",
+		"attacked": "Fate is against you. You earned the animosity of Carthage in your exploration. Your days are numbered.",
+		"defeated": "The fates became to hate me. This is it? You wouldn't destroy us so without their help.",
+		"denounced": "You aren't meeting my expectations. You can do so much better.",
+		"introduction": "The Phoenicians welcome you to this most pleasant kingdom. I am Dido, the queen of Carthage and all that belongs to it.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What is it now?",
+		"tradeRequest": "I just had the marvelous idea, and I think you'll appreciate it too.",
+		"outerColor": [205, 205, 205],
+		"innerColor": [81, 0, 137],
+		"favoredReligion": "Islam",
+		"uniqueName": "Phoenician Heritage",
+		"uniques": ["Gain a free [Harbor] [in all coastal cities]","Land units may cross [Mountain] tiles after the first [Great General] is earned","Comment [Units ending their turn on [Mountain] tiles take [25] damage]","Comment [Double movement in [Mountain]]"],
+		"cities": ["Carthage","Utique","Hippo Regius","Gades","Saguntum","Carthago Nova","Panormus","Lilybaeum","Hadrumetum","Zama Regia",
+			"Karalis","Malaca","Leptis Magna","Hippo Diarrhytus","Motya","Sulci","Leptis Parva","Tharros","Soluntum","Lixus",
+			"Oea","Theveste","Ibossim","Thapsus","Aleria","Tingis","Abyla","Sabratha","Rusadir","Baecula",
+			"Saldae"],
+        "spyNames": ["Hamilcar", "Mago", "Baalhaan", "Sophoniba", "Yzebel", "Similce", "Kandaulo", "Zinnridi", "Gisgo", "Fierelus"]
+    },
+	{
 		"name": "Vulpine",
 		"leaderName": "Buddy",
 		"startBias": ["Forest"],
@@ -18,7 +48,7 @@
 		],
 		"uniqueName": "Your Old Buddy",
 		"uniques": [
-			"[non-[Air]] units gain the [Fox] promotion",
+			"[Land] units gain the [Fox] promotion",
 			"Comment [Unlock [Scout] promotion]"
 		],
 		"cities": [
@@ -212,7 +242,8 @@
 		"uniques": [
 			"[non-[Missile]] units gain the [Kitling] promotion",
 			"[+1]% [Production] <for every [10] [Karma]>",
-			"Triggers a [Praise the Sun] event <every [10] turns> <upon turn end> <if [Palace] is constructed>"
+			"Triggers a [Praise the Sun] event <every [10] turns> <upon turn end> <if [Palace] is constructed>",
+			"Comment [Praise the Sun: [+1 Faith] per 1 population in all cities for 2 turns]"
 		],
 		"cities": [
 			"Catnip Grove",
@@ -247,9 +278,9 @@
 			"May buy items in puppet cities",
 			"May not annex cities",
 			"[+1 Happiness] from [Luxury resource] tiles [in all cities]",
-			"[200]% of excess happiness converted to [Gold]",
+			"[100]% of excess happiness converted to [Gold]",
 			"Enables conversion of city production to [Gold]",
-			"Production to [Gold] conversion in cities changed by [1500]%"
+			"Production to [Gold] conversion in cities changed by [1100]%"
 			/*"Free [Blooded Marshal] appears <after adopting [Aristocracy]>",
 			"Gain a free [Courthouse] [in all cities] <after adopting [Aristocracy]>",
 			"[Gold] cost of purchasing [Ranged] units [-33]% <after adopting [Oligarchy]>",
@@ -507,6 +538,40 @@
 			"[Melee] units gain the [Ares Warrior] promotion",
 			"[+15]% Strength <for [Military] units> <when stacked with a [Great General] unit>"
 		],
+		"cities": [
+			"Mars"
+		]
+	},
+	{
+		"name": "Icarus",
+		"leaderName": "Daedalus",
+		"startBias": [
+			"Coast"
+		],
+		"preferredVictoryType": "Domination",
+		"personality": "入机",
+		"outerColor": [
+			26,
+			109,
+			188
+		],
+		"innerColor": [
+			255,
+			255,
+			255
+		],
+		"uniqueName": "Flight of the Waxen Wings",
+		"uniques": [
+			"[{Sword} {non-[Helicopter]}] units gain the [Waxen Wings] promotion",
+			"[{Gunpowder} {non-[Helicopter]}] units gain the [Waxen Wings] promotion",
+			"[{Archery} {non-[Helicopter]}] units gain the [Waxen Wings] promotion",
+			"[{Ranged Gunpowder} {non-[Helicopter]}] units gain the [Waxen Wings] promotion",
+			"[{Scout} {non-[Helicopter]}] units gain the [Waxen Wings] promotion",
+			"[{Civilian} {non-[Helicopter]}] units gain the [Waxen Wings] promotion",
+			"[+1] Sight <for [Air] units>",
+			"[+1] Range <for [Air] units>",
+		],
+		"uniqueText": "[Foot] units gain the [Waxen Wings] promotion\n[+1] Sight for [Air] units\n[+1] Range for [Air] units"
 		"cities": [
 			"Mars"
 		]
