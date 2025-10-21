@@ -576,6 +576,21 @@
 			"Mars"
 		]
 	},
+	{
+		"name": "Chaos",
+		"leaderName": "Jreg",
+		"adjective": ["Chaos"],
+		"preferredVictoryType": "Domination",
+		"personality": "Jreg",
+		"outerColor": [127,127,127],
+		"innerColor": [255,97,255],
+		"uniqueName": "Chaosism",
+		"uniques": [
+		"Comment [Ignores all policy branch prerequisites and conflicts]",
+		/*"[+10]% Culture cost of adopting new Policies <for every [Adopted [Branch] Policies]>"*/
+		],
+		"cities": ["Chaos"]
+	}
 /*	{
 		"name": "半人马",
 		"leaderName": "待定",

@@ -104,11 +104,40 @@
 		"loyal": 0,
 		"expansion": 10,
 		"priorities": {
-			"Order": 100,
+			"Autocracy": 100,
 			"Liberty": 90,
 			"Piety": 80,
 			"Honor": 70,
 			"Commerce": 60
+		},
+		
+		"civilopediaText": [
+			{"text": "怎么调试都愚蠢至极的机器人"}
+		]
+	},
+	{
+		"name": "Jreg",
+		"preferredVictoryType": "Domination",
+		"culture": 10,
+		"faith": 10,
+		"food": 10,
+		"gold": 10,
+		"happiness": 10,
+		"production": 10,
+		"science": 10,
+		"military": 10,
+		"aggressive": 10,
+		"declareWar": 10,
+		"commerce": 10,
+		"diplomacy": 10,
+		"loyal": 0,
+		"expansion": 10,
+		"priorities": {
+			"Liberty": 1000,
+			"Order": 900,
+			"Autocracy": 800,
+			"Freedom": 700,
+			"Honor": 600
 		},
 		
 		"civilopediaText": [

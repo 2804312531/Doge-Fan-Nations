@@ -424,7 +424,7 @@
 			"Only available <after adopting [Beyond (Experimental Draft) Complete]>"
 		]
 		"requiredTech": "Future Tech",
-		"quote": "'Stop building!.' - God"
+		"quote": "来吧，我们要建造一座城，和一座塔，塔顶通天，为要传扬我们的名，免得我们分散在全地上。”由于语言的相通，大家意见一致齐心协力，建成的巴比伦城美丽又繁华，塔顶直插云霄。 —— 《圣经·旧约·创世记》第11章"
 	},
 	{
 		"name": "Temple of Ares",
@@ -467,5 +467,21 @@
 			"science": 10
 		},
 		"requiredTech": "Metal Casting"
+	},
+	{
+		"name": "Town Square",
+        "replaces": "Monument",
+		"uniqueTo": "Chaos",
+		"culture": 2,
+		"greatPersonPoints": {"Great Artist":1},
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": [
+            "[+33]% production cost <for every [Adopted [Branch] Policies]>",
+            "[+1 Culture] <for every [Adopted [Branch] Policies]>",
+            "Destroyed when the city is captured"
+		],
+		/*"replacementTextForUniques":"Destroyed when the city is captured\n[+1 Culture] from every policy branch"*/
 	}
 ]
