@@ -413,7 +413,7 @@
 		"requiredTech": "Mining"
 	},
 	{
-		"name": "Babel Tower",
+		"name": "Tower of Babel",
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {
@@ -478,7 +478,7 @@
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": [
-            "[+33]% production cost <for every [Adopted [Branch] Policies]>",
+            "[+50]% production cost <for every [Adopted [Branch] Policies]>",
             "[+1 Culture] <for every [Adopted [Branch] Policies]>",
             "Destroyed when the city is captured"
 		],
