@@ -11,7 +11,7 @@ BuildingIcons/Arms Forge
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Bable Tower
+BuildingIcons/Tower of Babel
   rotate: false
   xy: 4, 748
   size: 256, 256
