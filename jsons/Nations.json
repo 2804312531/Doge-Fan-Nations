@@ -539,7 +539,33 @@
 			"[+15]% Strength <for [Military] units> <when stacked with a [Great General] unit>"
 		],
 		"cities": [
-			"Mars"
+			"Aresia",
+			"Martius",
+			"Sparta",
+			"Warspire",
+			"Iron Harvest",
+			"Bloodmark",
+			"Spearpoint",
+			"Warground",
+			"Victor's Rest",
+			"Forgehearth",
+			"Ares'Grasp",
+			"Marchfoot",
+			"Battlemeal",
+			"Rustfield",
+			"The Bastion",
+			"Hoplon",
+			"Palladium",
+			"Phalanx",
+			"Musterfield",
+			"Gorytos",
+			"War Shrine",
+			"Campus Martius",
+			"Sacrifice",
+			"Bloody Wheat",
+			"Harvest War",
+			"Bronze Edge",
+			"Field of Mars"
 		]
 	},
 	{
@@ -573,7 +599,26 @@
 		],
 		"uniqueText": "[Foot] units gain the [Waxen Wings] promotion\n[+1] Sight for [Air] units\n[+1] Range for [Air] units"
 		"cities": [
-			"Mars"
+			"Knossos",
+			"Icarus",
+			"Daedalia",
+			"Waxwing",
+			"Solaris",
+			"Aetheria",
+			"Skyfall",
+			"Crete's Lament",
+			"Featherfall",
+			"Sunscorch",
+			"Ceraunus",
+			"Meltemia",
+			"Skyhold",
+			"Thermal",
+			"Daedalus' Reach",
+			"Waxen Spire",
+			"Icarion",
+			"Fallen Pride",
+			"Solar Embrace",
+			"Heaven's Ascent"
 		]
 	},
 	{
@@ -589,8 +634,57 @@
 		"Comment [Ignores all policy branch prerequisites and conflicts]",
 		/*"[+10]% Culture cost of adopting new Policies <for every [Adopted [Branch] Policies]>"*/
 		],
-		"cities": ["Chaos"]
-	}
+		"cities": [
+			"Centrist",
+			"Grey Center",
+			"Radical Center",
+			"The Regime",
+			"The Apparatus",
+			"The Abstract",
+			"Policy Violence",
+			"The Nail",
+			"The Screw",
+			"The State",
+			"Post Irony",
+			"The Hole",
+			"The Box",
+			"The Bag",
+			"The Zone",
+			"Nation State"
+		]
+	},
+/*	{
+		"name": "Ender",
+		"leaderName": "Enderdragon",
+		"adjective": ["Ender"],
+		"preferredVictoryType": "Domination",
+		"personality": "入机",
+		"outerColor": [127,127,127],
+		"innerColor": [255,97,255],
+		"uniqueName": "Ender",
+		"uniques": [
+		"Comment [Ignores all policy branch prerequisites and conflicts]",*/
+		/*"[+10]% Culture cost of adopting new Policies <for every [Adopted [Branch] Policies]>"*/
+/*		],
+		"cities": [
+			"Centrist",
+			"Grey Center",
+			"Radical Center",
+			"The Regime",
+			"The Apparatus",
+			"The Abstract",
+			"Policy Violence",
+			"The Nail",
+			"The Screw",
+			"The State",
+			"Post Irony",
+			"The Hole",
+			"The Box",
+			"The Bag",
+			"The Zone",
+			"Nation State"
+		]
+	}*/
 /*	{
 		"name": "半人马",
 		"leaderName": "待定",

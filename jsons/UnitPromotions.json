@@ -113,8 +113,8 @@
         "name": "Kitling",
 	    "uniques": [
 			"Ignores Zone of Control",
-			"[Target Unit] gains the [Warrior of Sunlight] status for [10] turn(s) <for [0] movement> <for [Melee] units> <for units without [Warrior of Sunlight]> <when above [9] [Catnip]>",
-			"[This Unit] gains the [Warrior of Sunlight] status for [10] turn(s) <for [0] movement> <for [Melee] units> <for units without [Warrior of Sunlight]> <when above [9] [Catnip]> <when at war> <upon turn end> <for [AI player] Civilizations> <hidden from users>",
+			"[Target Unit] gains the [Warrior of Sunlight] status for [10] turn(s) <for [0] movement> <for [Melee] units> <for units without [Warrior of Sunlight]> <when above [4] [Catnip]>",
+			"[This Unit] gains the [Warrior of Sunlight] status for [10] turn(s) <for [0] movement> <for [Melee] units> <for units without [Warrior of Sunlight]> <when above [4] [Catnip]> <when at war> <upon turn end> <for [AI player] Civilizations> <hidden from users>",
 			"Instantly provides [1] [Karma] <upon being defeated>"
 		]
 	},
@@ -122,8 +122,8 @@
         "name": "Warrior of Sunlight",
 	    "uniques": [
 			"[+100]% to Flank Attack bonuses",
-			"Consumes [1] [Catnip]",
-			"Only available <when above [0] [Catnip]>"
+			"Consumes [5] [Catnip]",
+			"Only available <when above [4] [Catnip]>"
 		]
 	},
 	{

@@ -480,7 +480,8 @@
 		"uniques": [
             "[+50]% production cost <for every [Adopted [Branch] Policies]>",
             "[+1 Culture] <for every [Adopted [Branch] Policies]>",
-            "Destroyed when the city is captured"
+            "Destroyed when the city is captured",
+            "[+100]% weight to this choice for AI decisions"
 		],
 		/*"replacementTextForUniques":"Destroyed when the city is captured\n[+1 Culture] from every policy branch"*/
 	}
