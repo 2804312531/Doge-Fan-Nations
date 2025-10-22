@@ -11,13 +11,6 @@ BuildingIcons/Arms Forge
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Tower of Babel
-  rotate: false
-  xy: 4, 748
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
 BuildingIcons/Daedalus Workshop
   rotate: false
   xy: 1432, 796
@@ -34,14 +27,14 @@ BuildingIcons/Deep Slate Mine
   index: -1
 BuildingIcons/Enable the Embrace
   rotate: false
-  xy: 532, 484
+  xy: 268, 220
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 ResourceIcons/Enable the Embrace
   rotate: false
-  xy: 532, 484
+  xy: 268, 220
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
@@ -72,6 +65,13 @@ BuildingIcons/Temple of Ares
   xy: 544, 4
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Tower of Babel
+  rotate: false
+  xy: 1060, 484
+  size: 256, 256
+  orig: 256, 256
   offset: 0, 0
   index: -1
 BuildingPortraits/Town Square
@@ -153,7 +153,7 @@ NationIcons/Icarus
   index: -1
 NationIcons/Kittens
   rotate: false
-  xy: 532, 220
+  xy: 796, 748
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
@@ -223,14 +223,14 @@ PolicyIcons/Tributary System
   index: -1
 ResourceIcons/Catnip
   rotate: false
-  xy: 268, 484
+  xy: 4, 220
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 ImprovementIcons/Catnip Field
   rotate: false
-  xy: 268, 484
+  xy: 4, 220
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
@@ -251,49 +251,49 @@ ResourceIcons/Turn
   index: -1
 TileSets/AbsoluteUnits/Units/Bat
   rotate: false
-  xy: 4, 484
+  xy: 4, 748
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitIcons/Bat
   rotate: false
-  xy: 4, 484
+  xy: 4, 748
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Cettle
   rotate: false
-  xy: 268, 220
+  xy: 532, 748
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitIcons/Cettle
   rotate: false
-  xy: 268, 220
+  xy: 532, 748
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Granite Colossus
   rotate: false
-  xy: 796, 748
+  xy: 532, 484
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitIcons/Granite Colossus
   rotate: false
-  xy: 796, 748
+  xy: 532, 484
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Progenitor
   rotate: false
-  xy: 796, 484
+  xy: 532, 220
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
@@ -363,14 +363,14 @@ TileSets/HexaRealm/Tiles/The Eyrie
   index: -1
 UnitIcons/Blooded Marshal
   rotate: false
-  xy: 268, 748
+  xy: 4, 484
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitIcons/Ceremonial Chariot
   rotate: false
-  xy: 532, 748
+  xy: 268, 484
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
@@ -412,21 +412,21 @@ UnitIcons/Jawbreaker
   index: -1
 UnitIcons/Progenitor
   rotate: false
-  xy: 1060, 748
+  xy: 796, 484
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitIcons/Sponger
   rotate: false
-  xy: 796, 220
+  xy: 1060, 748
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitIcons/The Kindred and The Herd
   rotate: false
-  xy: 1060, 484
+  xy: 796, 220
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
@@ -475,7 +475,7 @@ NationIcons/Wanpasha
   index: -1
 UnitPromotionIcons/Bloodline
   rotate: false
-  xy: 4, 220
+  xy: 268, 748
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
